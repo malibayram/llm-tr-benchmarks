@@ -1,0 +1,347 @@
+{
+    "Sorular": [
+        {
+            "soruSirasi": 1,
+            "soru": "Bir denetleme şirketi, F, G, H, J, K, L ve M olarak adlandırılan yedi binayı denetleyecektir. Şirket, bu iş için toplam iki denetçi görevlendirecektir ve her denetçi bir grup binayı inceleyecektir. Binalar aşağıdaki koşullara göre grup 1 ve grup 2 olarak iki gruba ayrılacaktır: Her grup en az üç bina içermelidir. Hiçbir bina her iki grupta da olamaz. F, M ile aynı grupta olmalıdır. Eğer H grup 1'de ise, L grup 1'de olmalıdır. Eğer J grup 2'de ise, G grup 1'de olmalıdır. Eğer G ve L grup 2'de iseler, aşağıdakilerden hangileri aynı grupta olmalıdır?",
+            "secenekler": {
+                "A": "F ve H",
+                "B": "F ve K",
+                "C": "H ve J",
+                "D": "H ve K",
+                "E": "J ve M"
+            },
+            "çözüm": "L grup 2'de olduğu için H grup 1'de değildir, grup 2'dedir. G grup 2'de olduğu için J grup 2'de değildir, grup 1'dedir. G, L ve H grup 2'de olduğundan ve her grubun en az üç bina içermesi ve F ve M'nin aynı grupta olma koşullarından dolayı, F ve M grup 1'de olmalıdır. Bu durumda F, M ve J grup 1'dedir.",
+            "cevap": "E"
+        },
+        {
+            "soruSirasi": 2,
+            "soru": "Bir denetleme şirketi, F, G, H, J, K, L ve M olarak adlandırılan yedi binayı denetleyecektir. Şirket, bu iş için toplam iki denetçi görevlendirecektir ve her denetçi bir grup binayı inceleyecektir. Binalar aşağıdaki koşullara göre grup 1 ve grup 2 olarak iki gruba ayrılacaktır: Her grup en az üç bina içermelidir. Hiçbir bina her iki grupta da olamaz. F, M ile aynı grupta olmalıdır. Eğer H grup 1'de ise, L grup 1'de olmalıdır. Eğer J grup 2'de ise, G grup 1'de olmalıdır. Aşağıdakilerden hangisi doğru olamaz?",
+            "secenekler": {
+                "A": "F ve H grup 2'dedir.",
+                "B": "G ve J grup 1'dedir.",
+                "C": "L ve M grup 1'dedir.",
+                "D": "F, K ve L grup 1'dedir.",
+                "E": "J, K ve H grup 2'dedir."
+            },
+            "çözüm": "D şıkkına göre F grup 1'de ise M de grup 1'de olmalıdır. Bu durumda her grupta en az üç bina olma koşulundan dolayı H, G ve J grup 2'de olmalıdır. Fakat bu gruplama, J grup 2'de ise G grup 1'de olmalıdır koşulu ile çelişir.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 3,
+            "soru": "Bir laboratuvarda gerçekleştirilmek üzere H, J, K, L, M, O, P ve S olarak adlandırılan sekiz basamaktan oluşan bir deney tasarlanmıştır. Deneyin yapılması için üç gün ayrılmıştır. Her bir basamak ya öğleden önce 9:00-12:00 arası, ya da öğleden sonra 13:00-16:00 arası gerçekleştirilecek ve her bir basamağın tamamlanması tam 3 saat sürecektir. Herhangi bir öğleden önce en fazla 2 basamak gerçekleştirilebilir. Aynı şekilde, herhangi bir öğleden sonra en fazla 2 basamak gerçekleştirilebilir. Ek olarak aşağıdaki kısıtlara uyulmalıdır: J deneyin 2. Gününde gerçekleştirilmelidir. P öğleden önce gerçekleştirilmelidir. K ve M aynı zaman diliminde gerçekleştirilmelidir. J basamağı, M tamamlandıktan sonraki ve O tamamlandıktan sonraki bir zaman diliminde gerçekleştirilmelidir. O basamağı, P başlamadan önceki ve S başlamadan önceki bir zaman diliminde tamamlanmalıdır. P en erken hangi zaman diliminde gerçekleştirilebilir?",
+            "secenekler": {
+                "A": "1. Gün öğleden önce",
+                "B": "1. Gün öğleden sonra",
+                "C": "2. Gün öğleden önce",
+                "D": "2. Gün öğleden sonra",
+                "E": "3. Gün öğleden önce"
+            },
+            "çözüm": "P'nin öğleden önce gerçekleştirilmesi ve O basamağının, P başlamadan önceki bir zaman diliminde tamamlanması gerektiğinden, P en erken 2. Gün öğleden önce gerçekleştirilebilir.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 4,
+            "soru": "Bir laboratuvarda gerçekleştirilmek üzere H, J, K, L, M, O, P ve S olarak adlandırılan sekiz basamaktan oluşan bir deney tasarlanmıştır. Deneyin yapılması için üç gün ayrılmıştır. Her bir basamak ya öğleden önce 9:00-12:00 arası, ya da öğleden sonra 13:00-16:00 arası gerçekleştirilecek ve her bir basamağın tamamlanması tam 3 saat sürecektir. Herhangi bir öğleden önce en fazla 2 basamak gerçekleştirilebilir. Aynı şekilde, herhangi bir öğleden sonra en fazla 2 basamak gerçekleştirilebilir. Ek olarak aşağıdaki kısıtlara uyulmalıdır: J deneyin 2. Gününde gerçekleştirilmelidir. P öğleden önce gerçekleştirilmelidir. K ve M aynı zaman diliminde gerçekleştirilmelidir. J basamağı, M tamamlandıktan sonraki ve O tamamlandıktan sonraki bir zaman diliminde gerçekleştirilmelidir. O basamağı, P başlamadan önceki ve S başlamadan önceki bir zaman diliminde tamamlanmalıdır. Eğer J öğleden önce gerçekleştirildiyse, aşağıdakilerden hangisi 1. Günde gerçekleştirilmiş olmalıdır?",
+            "secenekler": {
+                "A": "H",
+                "B": "K",
+                "C": "L",
+                "D": "P",
+                "E": "S"
+            },
+            "çözüm": "J'nin 2. Gün öğleden önce gerçekleştirildiyse, M ve O 1. Gün tamamlanmış olmalıdır. K ve M'nin aynı zaman diliminde gerçekleştirilmesi gerektiğinden, K da 1. Gün tamamlanmış olmalıdır.",
+            "cevap": "B"
+        },
+        {
+            "soruSirasi": 5,
+            "soru": "Bir laboratuvarda gerçekleştirilmek üzere H, J, K, L, M, O, P ve S olarak adlandırılan sekiz basamaktan oluşan bir deney tasarlanmıştır. Deneyin yapılması için üç gün ayrılmıştır. Her bir basamak ya öğleden önce 9:00-12:00 arası, ya da öğleden sonra 13:00-16:00 arası gerçekleştirilecek ve her bir basamağın tamamlanması tam 3 saat sürecektir. Herhangi bir öğleden önce en fazla 2 basamak gerçekleştirilebilir. Aynı şekilde, herhangi bir öğleden sonra en fazla 2 basamak gerçekleştirilebilir. Ek olarak aşağıdaki kısıtlara uyulmalıdır: J deneyin 2. Gününde gerçekleştirilmelidir. P öğleden önce gerçekleştirilmelidir. K ve M aynı zaman diliminde gerçekleştirilmelidir. J basamağı, M tamamlandıktan sonraki ve O tamamlandıktan sonraki bir zaman diliminde gerçekleştirilmelidir. O basamağı, P başlamadan önceki ve S başlamadan önceki bir zaman diliminde tamamlanmalıdır. Eğer H ve L basamaklarının her ikisi de 1. Günde gerçekleştirildiyse, aşağıdakilerden hangisi 3. Günde gerçekleştirilmiş olmalıdır?",
+            "secenekler": {
+                "A": "K",
+                "B": "M",
+                "C": "O",
+                "D": "P",
+                "E": "S"
+            },
+            "çözüm": "H ve L, 1. Günde gerçekleştirildiyse, J'nin 2. Günde gerçekleşme koşulunu ve J’den önce M, K, ve O'nun tamamlanma koşullarını sağlamak için iki seçenek olabilir: (i) K ve M, 1. Günde, O ise 2. Gün öğleden önce (ii) O, 1. Günde, K ve M ise 2. Gün öğleden önce gerçekleştirilmelidir. Her iki durumda da J, 2. Gün öğleden sonra yapılacaktır. S de J ile birlikte 2. Gün öğleden sonra yapılabilir. P'nin, O tamamlandıktan sonra ve bir öğleden önce gerçekleştirilmesi gerektiğinden, P ancak 3. Gün öğleden önce gerçekleştirilebilir. Bu durumda cevap D şıkkıdır.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 6,
+            "soru": "Bir zamanlar, Gizemli Adalar Ülkesinde birbirine gizli tünellerle bağlı bir dizi ada vardı. Bu tüneller, adalar arasında seyahat etmeyi sağlıyordu, öyle ki tünelleri kullanarak herhangi bir adadan başka herhangi bir adaya ulaşılabilmekteydi. Ancak zamanla, bazı tüneller unutulmuş veya zarar görmüştü. Ülkenin mühendisleri bu tünellerden bir kısmını seçip yenileyerek bir tünel ağı oluşturmak için yeni bir plan yaptılar. Bu plana göre aşağıdaki adımlar gerçekleştirildi: 1. Tüm tünelleri içeren bir liste oluşturuldu ve listedeki tüneller risk derecelerine göre artan sırada sıralandı. (Tünelin risk derecesi bir tamsayı ile gösterilmekteydi.) Bu listeye L dendi. 2. Y yenilenecek tünelleri ifade eden başlangıçta boş bir tünel kümesi olarak tanımlandı. 3. Başlangıçta, her ada kendi başına bir bölge olarak kabul edildi. 4. Sıralı tüneller listesi L'deki her bir tünel t için (sırayla): a. Eğer t, farklı bölgelerdeki iki adayı birbirine bağlıyorsa: i. t yenilenecek tüneller kümesi Y'ye eklendi. ii. t'nin bağladığı iki adanın (bu adaları a ve b olarak adlandıralım) içinde bulundukları bölgeler birleştirilip tek bir bölge sayıldı. (Bu, a'nın içinde bulunduğu bölgedeki tüm adalar ile b'nin içinde bulunduğu bölgedeki tüm adaların artık aynı tek bölge içinde sayılması anlamına gelmekteydi). b. Eğer t, zaten aynı bölge içinde olan iki adayı birbirine bağlıyorsa, bu tünel göz ardı edildi. 5. Tüm adalar tek bir bölge oluşturduğunda işlem tamamlandı. Yukarıdaki algoritma, aşağıda verilen 10 ada ve aralarında bulunan 16 tünel için çalıştırılırsa algoritma sonlandığında Y kümesindeki tünellerin risk derecelerinin toplamı ne olur? Tünel gösterimi, (ada1, ada2, r) şeklindedir ve bu tünelin ada1 ile ada2 arasında olduğunu ve r risk derecesine sahip olduğunu belirtir. Adalar-Kümesi = {A, B, C, D, E, F, G, H, I, J} Tüneller-Kümesi = {(C, G,1), (A,B,2), (E,J,2), (H,I,2), (I,J,3), (B,C,3), (B,G,4), (E,I,4), (A,G,5), (D,I,5), (G,H,6), (D,E,7), (F,G,8), (A,F,8), (C,H,9), (C,D,10) }",
+            "secenekler": {
+                "A": "29",
+                "B": "32",
+                "C": "33",
+                "D": "36",
+                "E": "37"
+            },
+            "çözüm": "Verilen algoritma Kruskal'ın en küçük kapsayan ağaç algoritmasıdır. Adaların düğümlerle, tünellerin kenarlarla modellendiği bir çizgede bu algoritma çalıştırıldığında en küçük kapsayan ağacın içerdiği kenarların ağırlıkları toplamı 32 olarak bulunur. Cevap B'dir.",
+            "cevap": "B"
+        },
+        {
+            "soruSirasi": 7,
+            "soru": "Bir zamanlar, Gizemli Adalar Ülkesinde birbirine gizli tünellerle bağlı bir dizi ada vardı. Bu tüneller, adalar arasında seyahat etmeyi sağlıyordu, öyle ki tünelleri kullanarak herhangi bir adadan başka herhangi bir adaya ulaşılabilmekteydi. Ancak zamanla, bazı tüneller unutulmuş veya zarar görmüştü. Ülkenin mühendisleri bu tünellerden bir kısmını seçip yenileyerek bir tünel ağı oluşturmak için yeni bir plan yaptılar. Bu plana göre aşağıdaki adımlar gerçekleştirildi: 1. Tüm tünelleri içeren bir liste oluşturuldu ve listedeki tüneller risk derecelerine göre artan sırada sıralandı. (Tünelin risk derecesi bir tamsayı ile gösterilmekteydi.) Bu listeye L dendi. 2. Y yenilenecek tünelleri ifade eden başlangıçta boş bir tünel kümesi olarak tanımlandı. 3. Başlangıçta, her ada kendi başına bir bölge olarak kabul edildi. 4. Sıralı tüneller listesi L'deki her bir tünel t için (sırayla): a. Eğer t, farklı bölgelerdeki iki adayı birbirine bağlıyorsa: i. t yenilenecek tüneller kümesi Y'ye eklendi. ii. t'nin bağladığı iki adanın (bu adaları a ve b olarak adlandıralım) içinde bulundukları bölgeler birleştirilip tek bir bölge sayıldı. (Bu, a'nın içinde bulunduğu bölgedeki tüm adalar ile b'nin içinde bulunduğu bölgedeki tüm adaların artık aynı tek bölge içinde sayılması anlamına gelmekteydi). b. Eğer t, zaten aynı bölge içinde olan iki adayı birbirine bağlıyorsa, bu tünel göz ardı edildi. 5. Tüm adalar tek bir bölge oluşturduğunda işlem tamamlandı. Adalar kümesinin {A_2k| 0 ≤ k ≤ 1000} olarak gösterildiği 1001 adadan oluşan bir başka adalar ülkesi düşünelim. Bu ülkede her bir adadan diğer bütün adalara birer tünel olduğunu varsayalım. (Tüneller farklı derinliklerde olsun ve birbiriyle kesişmesin.) A_i ve A_j adaları arasındaki tünelin risk derecesi (i+j)/2 ise yukarıda verilen algoritma bu ülkedeki adalar ve tüneller için çalıştırıldığında algoritma sonunda Y kümesindeki tünellerin risk derecelerinin toplamı ne olur?",
+            "secenekler": {
+                "A": "125250",
+                "B": "250500",
+                "C": "499500",
+                "D": "500000",
+                "E": "500500"
+            },
+            "çözüm": "Verilen algoritma Kruskal'ın en küçük kapsayan ağaç algoritmasıdır. Adaların düğümlerle, tünellerin kenarlarla modellendiği bu tam çizgede verilen algoritma çalıştırıldığında en küçük kapsayan ağacın içerdiği kenarların ağırlıkları toplamı 500500 olarak bulunur. Cevap E'dir.",
+            "cevap": "E"
+        },
+        {
+            "soruSirasi": 8,
+            "soru": "İstanbul ve Ankara'da birer ofisi olan bir işletmeniz var. Her hafta, İstanbul ofisinde mi yoksa Ankara ofisinde mi çalışmak istediğinize karar vermeniz gerekiyor. Haftaya bağlı olarak, işletmeniz sizin bir ofiste veya diğerinde olmanızla daha fazla kar elde ediyor. Ek kısıt olarak, sürece İstanbul'da başlamalı ve İstanbul'da bitirmelisiniz, ancak arada istediğiniz kadar kez gidip gelebilirsiniz. (1. Hafta Ankara'da çalışacaksanız, önce İstanbul'dan Ankara'ya uçmanız gerekiyor, aynı şekilde, son hafta Ankara'da çalışacaksanız, işiniz bitince Ankara'dan İstanbul'a uçmanız gerekiyor.) Daha fazla kar elde edeceğiniz konumda çalışmayı tercih edersiniz, ancak bir ofisten diğerine uçmak 1000 TL tutuyor. (Bu harcamayı kardan düşmeniz gerekiyor.) Konumunuza bağlı olarak haftalık kar tablosu size veriliyor. TABLO: (İSTANBUL İÇİN): 1.hafta=200 2.hafta=300 3.hafta=2000 4.hafta=1000. (ANKARA İÇİN): 1.hafta=1000 2.hafta=1600 3.hafta=700 4.hafta=500.Tabloyu temsil etmek üzere size n uzunluğunda iki 
+             dizi veriliyor, IS[1..n] ve AN[1..n], burada IS[i], i.haftayı İstanbul'da geçirmekten elde edilen kardır ve AN[i], i. haftayı Ankara'da geçirmekten elde edilen kardır. Örneğin yukardaki tablo için, n=4, IS: {200, 300, 2000, 1000}, ve AN: {1000, 1600, 700, 500} olacaktır. Verilen bu iki diziye göre n. hafta sonunda yapabileceğiniz maksimum toplam karı belirlemek istiyorsunuz. Bunun için aşağıdaki özyineli denklemleri kullanıyorsunuz.denklemlerde, 0 ≤ i ≤ n için, TIS (i)’nin i. hafta dahil olmak üzere ilk i haftanın planlaması için elde edilen maksimum karı ifade ettiğini ve burada i. haftanın İstanbul'da geçirildiğini varsayalım. Aynı şekilde TAN (i)'nin de i. hafta dahil olmak üzere ilk i haftanın planlaması için elde edilen maksimum karı ifade ettiğini ve burada i. haftanın Ankara'da geçirildiğini varsayalım. TIS (0) = 0
+TAN (0) = -1000
+TIS(i) = IS[i] + max(TIS(i−1), TAN(i−1) - 1000), 1 ≤ i ≤ n
+TAN(i) = AN[i] + max(TAN(i−1), TIS(i−1) - 1000), 1 ≤ i ≤ n
+Bu durumda, TIS(n) değeri n hafta sonunda elde edilebilecek maksimum toplam karı verir. (İstanbul'da bitirmek istiyoruz).
+n=5, IS: {400, 100, 200, 50, 1100}, ve AN: {210, 900, 100, 1500, 20} ise elde edilebilecek maksimum toplam kar olur?",
+            "secenekler": {
+                "A": "2900",
+                "B": "2810",
+                "C": "2000",
+                "D": "1920",
+                "E": "1850"
+            },
+            "çözüm": "Sırasıyla hesaplanırsa TIS(1)=400, TAN(1)=-790, TIS(2)=500, TAN(2)=300, TIS(3)=700, TAN(3)=400, TIS(4)=750, TAN(4)=1900, TIS(5)=2000 olur.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 9,
+            "soru": " İstanbul ve Ankara'da birer ofisi olan bir işletmeniz var. Her hafta, İstanbul ofisinde mi yoksa Ankara ofisinde mi çalışmak istediğinize karar vermeniz gerekiyor. Haftaya bağlı olarak, işletmeniz sizin bir ofiste veya diğerinde olmanızla daha fazla kar elde ediyor. Ek kısıt olarak, sürece İstanbul'da başlamalı ve İstanbul'da bitirmelisiniz, ancak arada istediğiniz kadar kez gidip gelebilirsiniz. (1. Hafta Ankara'da çalışacaksanız, önce İstanbul'dan Ankara'ya uçmanız gerekiyor, aynı şekilde, son hafta Ankara'da çalışacaksanız, işiniz bitince Ankara'dan İstanbul'a uçmanız gerekiyor.) Daha fazla kar elde edeceğiniz konumda çalışmayı tercih edersiniz, ancak bir ofisten diğerine uçmak 1000 TL tutuyor. (Bu harcamayı kardan düşmeniz gerekiyor.) Konumunuza bağlı olarak haftalık kar tablosu size veriliyor. TABLO: (İSTANBUL İÇİN): 1.hafta=200 2.hafta=300 3.hafta=2000 4.hafta=1000. (ANKARA İÇİN): 1.hafta=1000 2.hafta=1600 3.hafta=700 4.hafta=500.Tabloyu temsil etmek üzere size n uzunluğunda iki 
+             dizi veriliyor, IS[1..n] ve AN[1..n], burada IS[i], i.haftayı İstanbul'da geçirmekten elde edilen kardır ve AN[i], i. haftayı Ankara'da geçirmekten elde edilen kardır. Örneğin yukardaki tablo için, n=4, IS: {200, 300, 2000, 1000}, ve AN: {1000, 1600, 700, 500} olacaktır. Verilen bu iki diziye göre n. hafta sonunda yapabileceğiniz maksimum toplam karı belirlemek istiyorsunuz. Bunun için aşağıdaki özyineli denklemleri kullanıyorsunuz.denklemlerde, 0 ≤ i ≤ n için, TIS (i)’nin i. hafta dahil olmak üzere ilk i haftanın planlaması için elde edilen maksimum karı ifade ettiğini ve burada i. haftanın İstanbul'da geçirildiğini varsayalım. Aynı şekilde TAN (i)'nin de i. hafta dahil olmak üzere ilk i haftanın planlaması için elde edilen maksimum karı ifade ettiğini ve burada i. haftanın Ankara'da geçirildiğini varsayalım. TIS (0) = 0
+TAN (0) = -1000
+TIS(i) = IS[i] + max(TIS(i−1), TAN(i−1) - 1000), 1 ≤ i ≤ n
+TAN(i) = AN[i] + max(TAN(i−1), TIS(i−1) - 1000), 1 ≤ i ≤ n
+Bu durumda, TIS(n) değeri n hafta sonunda elde edilebilecek maksimum toplam karı verir. (İstanbul'da bitirmek istiyoruz).
+n=7, IS: {200, 500, 1600, 800, 1800, 1200, 400}, ve AN: {1300, 1800, 400, 1500, 200, 1500, 500} ise TAN (7) ne olur?",
+            "secenekler": {
+                "A": "5800",
+                "B": "6300",
+                "C": "6400",
+                "D": "6500",
+                "E": "6900"
+            },
+            "çözüm": "Sırasıyla hesaplanırsa TIS (1)=200, TAN(1)=300, TIS(2)=700, TAN(2)=2100, TIS(3)=2700, TAN(3)=2500, TIS(4)=3500, TAN(4)=4000, TIS(5)=5300, TAN(5)=4200, TIS(6)=6500, TAN(6)=5800, ve TAN(7)=6300 olur.",
+            "cevap": "B"
+        },
+        {
+            "soruSirasi": 10,
+            "soru": "Büyük bir bilgisayar sistemini izlemeye yardımcı olan bir grup güvenlik danışmanı ile çalışıyorsunuz. 'Yüksek öncelikli' olarak belirlenmiş süreçlerin (iş) izlenmesine özellikle dikkat ediliyor. Her bir bu tür süreç, önceden planlanmış bir başlangıç ve bitiş zamanına sahip. Danışmanlar, gün boyunca çalışacak olan 1'den n'ye kadar numaralandırılmış n tane 'yüksek öncelikli' sürecin başlangıç ve bitiş zamanlarını biliyorlar. Buna göre, j. yüksek öncelikli sürecin başlangıç ve bitiş zamanları s_j ve f_j ile ifade edilsin ve bu süreç [s_j, f_j] zaman aralığında sürekli çalışsın. A[1..n] dizisi indisleri 1'den başlayan ve n elemanlı bir dizi olsun, ve bu dizinin j. elemanı j. yüksek öncelikli sürecin çalıştığı zaman aralığını göstersin. Danışmanlar ilk olarak, çalıştırıldığında çok çok kısa bir süre (anlık) çalışan ve o anda sistemde çalışan her yüksek öncelikli sürecin çeşitli bilgilerini kaydeden 'Kontrol' adında bir program yazıyorlar. Kontrol programının her çalıştırılmasını, çok kısa 
+sürdüğü için bir 'an' (zaman aralığı DEĞİL) olarak modelliyorlar. T[1..m] dizisi indisleri 1'den başlayan, ve m tane 'an' içeren bir dizi olsun. Kontrol programı yalnızca T[1..m] dizisinde verilen anlarda çalıştırılabiliyor. Danışmanlar Kontrol programının gün boyunca her yüksek öncelikli sürecin zaman aralığı sırasında en az bir kez çalıştırıldığından emin olmak ve aynı zamanda Kontrol programının toplam çalıştırılma sayısını minimize etmek (en aza indirmek) istiyorlar. Bunu sağlamak için şu stratejiyi düşünüyorlar: Başlangıçta tüm yüksek öncelikli süreçler 'işaretlenmemiş' olarak kabul edilir. En fazla işaretlenmemiş yüksek öncelikli süreç aralığı tarafından içerilen T[i] anında Kontrol programı çalıştırılır ve sonra bu anı içeren süreçler işaretlenir. İşaretlenmemiş süreç kalmayana kadar bu işlem tekrarlanır. Bu stratejinin her zaman Kontrol programının çalıştırılma sayısını minimize etmeyeceğini aşağıdaki A ve T dizilerinden hangi çifti örnek göstererek ispat edebiliriz?",
+            "secenekler": {
+                "A": "A: {[0,5], [6,10], [2,8], [6,12]}, T: {3,4,7,9}",
+                "B": "A: {[0,6], [4,10], [4,10], [4,10], [8,14]}, T: {2,5,7,9,12}",
+                "C": "A: {[0,6], [3,9], [3,9], [3,9], [7,13], [7,13], [7,13], [11,15]}, T: {2,5,8,12,14}",
+                "D": "A: {[0,7], [3,7], [5,9], [7,12], [10,15]}, T: {4,6,8,11,13}",
+                "E": "Hiçbiri"
+            },
+            "çözüm": "Soruda verilen stratejiye göre C şıkkında verilen örnekte Kontrol programı 3 kere çalıştırılır. İlk olarak altı farklı aralık tarafından içerilen 8 anı seçilir, bu seçimden sonra sadece ilk ve son aralıklar işaretlenmemiş olarak kalır. Kalan anlardan (2, 5, 12, 14) her biri birer işaretlenmemiş aralık tarafından içerildiği için bunlardan biri rastgele seçilir. Örneğin 2 anı seçilsin. Bunun sonucunda işaretlenmemiş olarak sadece son aralık kalır, bu aralığın içerdiği 12 veya 14 anlarından biri seçilir. Kontrol programının çalıştırılması için toplam 3 an seçilmiş olur. Fakat sadece 5 ve 12 anları seçilerek hem bütün aralıklarda en az bir kez çalıştırılma koşulu sağlanıp hem de Kontrol'ün 2 defa çalıştırılması ile problem çözülebilir. Bu durumda 3'ten daha az çalıştırılma ile çözüm mümkün olduğu için C şıkkında verilen A ve T dizileri önerilen stratejinin optimal olmadığını ispatlar. Diğer şıklarda soruda önerilen strateji optimal çözümle aynı sonucu verdiğinden karşı örnek olarak kullanılamazlar.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 11,
+            "soru": "n tane düğümü ve e tane kenarı olan yönsüz bir çizge G çizgesini göz önüne alın. G’yi temsil etmek için kullanılan komşuluk matrisindeki 1'lerin toplam sayısı aşağıdakilerden hangisidir? (G'nin basit olduğunu yani G'deki herhangi iki düğüm arasında en fazla bir tane kenar olduğunu varsayınız.)",
+            "secenekler": {
+                "A": "n",
+                "B": "2n",
+                "C": "e",
+                "D": "2e",
+                "E": "n+e"
+            },
+            "çözüm": "Yönsüz bir çizgenin komşuluk matrisinde, 'i' düğümü ile 'j' düğümü arasında bir kenar varsa, matristeki (i, j) ve (j, i) konumundaki elemanların her ikisi de 1 olarak işaretlenir. Bu nedenle, her kenar komşuluk matrisinde iki tane 1 ile gösterilir. Dolayısıyla, komşuluk matrisindeki tüm 1'lerin toplam sayısı 2e olacaktır.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 12,
+            "soru": "AKSARAY kelimesindeki harfleri yer değiştirerek anlamlı ya da anlamsız 7 harfli kaç kelime oluşturulabilir?",
+            "secenekler": {
+                "A": "840",
+                "B": "1260",
+                "C": "1680",
+                "D": "2520",
+                "E": "5040"
+            },
+            "çözüm": "7 harf toplam 7! şekilde sıralanabilir. AKSARAY kelimesinde A harfi 3 defa geçmektedir. Bu harfler kendi aralarında 3! şekilde sıralanabilirler. Dolayısıyla cevap 7! / 3! = 840'dır.",
+            "cevap": "A"
+        },
+        {
+            "soruSirasi": 13,
+            "soru": "8x8'lik bir dama tahtasında toplam kaç adet kare vardır?",
+            "secenekler": {
+                "A": "65",
+                "B": "204",
+                "C": "256",
+                "D": "1296",
+                "E": "4096"
+            },
+            "çözüm": "1x1'lik kare sayısı 8x8 = 64’tür. 2x2'lik kare sayısı 7x7 = 49'dur. Genel olarak 1≤i≤8 olmak üzere ixi'lik kare sayısı (9 – i)^2'dir. Bu yüzden cevap ∑(i=1 to 8) i^2 = (8x9x17)/6 = 204'tür.",
+            "cevap": "B"
+        },
+        {
+            "soruSirasi": 14,
+            "soru": "A kümesi 6'ya bölünebilen 3 basamaklı pozitif tamsayıların kümesidir. B kümesi ise 4'e bölünüp 8'e bölünemeyen 3 basamaklı pozitif tamsayıların kümesidir. AUB kümesi kaç elemanlıdır?",
+            "secenekler": {
+                "A": "224",
+                "B": "225",
+                "C": "263",
+                "D": "265",
+                "E": "300"
+            },
+            "çözüm": "A kümesinin en küçük elemanı 6x17 = 102, en büyük elemanı ise 6x166 = 996'dır. A kümesinin elemanları altışar altışar artmaktadır. Yani A = {102, 108, ..., 996}'dır. A kümesi (996-102)/6 + 1 = 150 elemandan oluşmaktadır. B kümesinin en küçük elemanı 4x25 = 100, en büyük elemanı ise 4x249 = 996'dır. B kümesinin elemanları sekizer sekizer artmaktadır. Yani B = {100, 108, ..., 996}'dır. B kümesi (996-100)/8 + 1 = 113 elemandan oluşmaktadır. A∩B kümesinin en küçük elemanı yukarıdan görülebileceği gibi 108'dir. Bu kümenin elemanları 24'er 24 'er artmaktadır. Bunun sebebi 6 ile 8'in en küçük ortak katının 24 olmasıdır. Yani A ∩ B = {108, 132, ..., 996}'dır. A∩B kümesi (996-108)/24 + 1 = 38 elemandan oluşmaktadır. Öyleyse, AUB kümesinin eleman sayısı 150 + 113 – 38 = 225'dir.",
+            "cevap": "B"
+        },
+        {
+            "soruSirasi": 15,
+            "soru": "Yönlü ve döngüsüz bir çizgede, bir u düğümünden v düğümüne giden her yönlü kenar için u'nun v'den önce gelecek şekilde sıralanması işlemine ne denir?",
+            "secenekler": {
+                "A": "Derinlik öncelikli arama ile sıralama",
+                "B": "Genişlik öncelikli arama ile sıralama",
+                "C": "İlk sıra gezisi (preorder traversal) ile sıralama",
+                "D": "Son sıra gezisi (postorder traversal) ile sıralama",
+                "E": "Topolojik sıralama"
+            },
+            "çözüm": "Bu işlemin literatürde topolojik sıralama olarak bilinir.",
+            "cevap": "E"
+        },
+        {
+            "soruSirasi": 16,
+            "soru": "n öğrenciden oluşan bir sınıfta, her öğrencinin kendine özgü 1 ve n arasında bir öğrenci numarası vardır. Sınıfta her biri 1 ve n arasında farklı bir sayı ile numaralandırılmış n tane sandalye vardır. Öğrenciler sandalyelere sandalyelerin numaralarına dikkat etmeden oturmuşlardır. Hangi öğrencinin hangi sandalyeye oturduğunu n uzunluklu bir dizi ile gösterebiliriz. Örneğin [2, 4, 5, 1, 3] dizisi 2 numaralı öğrencinin 1 numaralı sandalyeye, 4 numaralı öğrencinin 2 numaralı sandalyeye, 5 numaralı öğrencinin 3 numaralı sandalyeye, 1 numaralı öğrencinin 4 numaralı sandalyeye, 3 numaralı öğrencinin ise 5 numaralı sandalyeye oturduğu durumu göstermektedir. Öğretmen sınıfa girdiğinde öğrencilerin yanlış sandalyelere oturduklarını fark etmiş ve her öğrencinin numarası kendi öğrenci numarası ile aynı olan sandalyeye oturmasını istemiştir. Ancak bu işlem gerçekleştirilirken her adımda sadece bir öğrenci ikilisinin sandalyelerini değiştirmelerine izin vermiştir.
+            Örnek: Başlangıç durumu [2, 4, 5, 1, 3] olsun. 1 ve 2 numaralı öğrenciler sandalyelerini değiştirirlerse, mevcut durum [1, 4, 5, 2, 3] dizisiyle gösterilebilir. Daha sonra 2 ve 4 numaralı öğrenciler sandalyelerini değiştirirlerse, mevcut durum [1, 2, 5, 4, 3] dizisiyle gösterilebilir. Daha sonra 3 ve 5 numaralı öğrenciler sandalyelerini değiştirirlerse, mevcut durum [1, 2, 3, 4, 5] dizisiyle gösterilebilir. Böylece toplam 3 adımda bütün öğrenciler doğru yere oturmuş oldular. Bu örnekte daha az adımda bütün öğrencilerin doğru yere oturamayacağına dikkat ediniz.
+            n = 10 ve başlangıç durumu [4, 9, 2, 5, 7, 6, 1, 3, 10, 8] olsun. Bütün öğrencilerin doğru sandalyeye oturması için en az kaç adım gerekir?",
+            "secenekler": {
+                "A": "2",
+                "B": "4",
+                "C": "5",
+                "D": "7",
+                "E": "8"
+            },
+            "çözüm": "n = 10 düğümü olan bir çizge oluşturalım. Bu çizgenin her düğümü bir öğrenciye karşılık gelsin. i numaralı öğrenci j numaralı sandalyeye oturuyorsa çizgemize (i, j) yönlü kenarını ekleyelim. Çizgedeki her düğümden tam olarak bir kenar çıkmaktadır ve dolayısıyla toplam n tane kenar vardır. Eğer bir i numaralı öğrenci i numaralı sandalyeye oturuyorsa çizgede i numaralı düğümden çıkan kenarın i numaralı düğüme girdiğine dikkat ediniz. Oluşturulan çizgeye permütasyon çizgesi denmektedir ve döngülerden oluşmaktadır. k düğümden oluşan bir döngüdeki öğrencilerin kendi yerlerine oturabilmeleri için k - 1 adım gerekmektedir. Bu soruda verilen oturma düzeni için oluşturulacak çizge 3 adet döngüden oluşmaktadır. 1. döngü 4, 1, 7, 5 numaralı düğümlerden oluşmakta olup, ilgili öğrenciler 3 adımda yerlerine oturabilir. 2. döngü 2, 3, 8, 10, 9 numaralı düğümlerden oluşmakta olup, ilgili öğrenciler 4 adımda yerlerine oturabilir. 3. döngü sadece 6 numaralı düğümden oluşmaktadır, ilgili öğrenci zaten doğru yerdedir. Bütün öğrencilerin doğru yerlerine gelmeleri için gerekli adım sayısı 3 + 4 = 7'dir.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 17,
+            "soru": "n öğrenciden oluşan bir sınıfta, her öğrencinin kendine özgü 1 ve n arasında bir öğrenci numarası vardır. Sınıfta her biri 1 ve n arasında farklı bir sayı ile numaralandırılmış n tane sandalye vardır. Öğrenciler sandalyelere sandalyelerin numaralarına dikkat etmeden oturmuşlardır. Hangi öğrencinin hangi sandalyeye oturduğunu n uzunluklu bir dizi ile gösterebiliriz. Örneğin [2, 4, 5, 1, 3] dizisi 2 numaralı öğrencinin 1 numaralı sandalyeye, 4 numaralı öğrencinin 2 numaralı sandalyeye, 5 numaralı öğrencinin 3 numaralı sandalyeye, 1 numaralı öğrencinin 4 numaralı sandalyeye, 3 numaralı öğrencinin ise 5 numaralı sandalyeye oturduğu durumu göstermektedir. Öğretmen sınıfa girdiğinde öğrencilerin yanlış sandalyelere oturduklarını fark etmiş ve her öğrencinin numarası kendi öğrenci numarası ile aynı olan sandalyeye oturmasını istemiştir. Ancak bu işlem gerçekleştirilirken her adımda sadece bir öğrenci ikilisinin sandalyelerini değiştirmelerine izin vermiştir.
+            Örnek: Başlangıç durumu [2, 4, 5, 1, 3] olsun. 1 ve 2 numaralı öğrenciler sandalyelerini değiştirirlerse, mevcut durum [1, 4, 5, 2, 3] dizisiyle gösterilebilir. Daha sonra 2 ve 4 numaralı öğrenciler sandalyelerini değiştirirlerse, mevcut durum [1, 2, 5, 4, 3] dizisiyle gösterilebilir. Daha sonra 3 ve 5 numaralı öğrenciler sandalyelerini değiştirirlerse, mevcut durum [1, 2, 3, 4, 5] dizisiyle gösterilebilir. Böylece toplam 3 adımda bütün öğrenciler doğru yere oturmuş oldular. Bu örnekte daha az adımda bütün öğrencilerin doğru yere oturamayacağına dikkat ediniz.
+             n = 100 öğrencili bir sınıfta bütün öğrencilerin doğru sandalyeye oturması için en fazla kaç adım gerekebilir?",
+            "secenekler": {
+                "A": "50",
+                "B": "99",
+                "C": "100",
+                "D": "198",
+                "E": "199"
+            },
+            "çözüm": "Gerekli adım sayısı permütasyon çizgesindeki düğüm sayısından güçlü bağlı bileşen (strongly connected component) sayısı çıkarılarak elde edilir. Düğüm sayısı bu soruda bellidir: n = 100. En fazla adım gerekmesi için güçlü bağlı bileşen sayısının mümkün olan en küçük sayı olan 1 olması gerekmektedir. Bu durumda 99 adım gerekir.",
+            "cevap": "B"
+        },
+        {
+            "soruSirasi": 18,
+            "soru": "n öğrenciden oluşan bir sınıfta, her öğrencinin kendine özgü 1 ve n arasında bir öğrenci numarası vardır. Sınıfta her biri 1 ve n arasında farklı bir sayı ile numaralandırılmış n tane sandalye vardır. Öğrenciler sandalyelere sandalyelerin numaralarına dikkat etmeden oturmuşlardır. Hangi öğrencinin hangi sandalyeye oturduğunu n uzunluklu bir dizi ile gösterebiliriz. Örneğin [2, 4, 5, 1, 3] dizisi 2 numaralı öğrencinin 1 numaralı sandalyeye, 4 numaralı öğrencinin 2 numaralı sandalyeye, 5 numaralı öğrencinin 3 numaralı sandalyeye, 1 numaralı öğrencinin 4 numaralı sandalyeye, 3 numaralı öğrencinin ise 5 numaralı sandalyeye oturduğu durumu göstermektedir. Öğretmen sınıfa girdiğinde öğrencilerin yanlış sandalyelere oturduklarını fark etmiş ve her öğrencinin numarası kendi öğrenci numarası ile aynı olan sandalyeye oturmasını istemiştir. Ancak bu işlem gerçekleştirilirken her adımda sadece bir öğrenci ikilisinin sandalyelerini değiştirmelerine izin vermiştir.
+            Örnek: Başlangıç durumu [2, 4, 5, 1, 3] olsun. 1 ve 2 numaralı öğrenciler sandalyelerini değiştirirlerse, mevcut durum [1, 4, 5, 2, 3] dizisiyle gösterilebilir. Daha sonra 2 ve 4 numaralı öğrenciler sandalyelerini değiştirirlerse, mevcut durum [1, 2, 5, 4, 3] dizisiyle gösterilebilir. Daha sonra 3 ve 5 numaralı öğrenciler sandalyelerini değiştirirlerse, mevcut durum [1, 2, 3, 4, 5] dizisiyle gösterilebilir. Böylece toplam 3 adımda bütün öğrenciler doğru yere oturmuş oldular. Bu örnekte daha az adımda bütün öğrencilerin doğru yere oturamayacağına dikkat ediniz.
+            n = 20 ve başlangıç durumu [4, 8, 12, 15, 20, 3, 6, 1, 17, 9, 2, 19, 5, 18, 7, 16, 10, 13, 11, 14] olsun. Bütün öğrencilerin doğru sandalyeye oturması için en az kaç adım gerekir?",
+            "secenekler": {
+                "A": "4",
+                "B": "8",
+                "C": "16",
+                "D": "20",
+                "E": "24"
+            },
+            "çözüm": "Verilen diziye karşılık gelen 20 düğümlü permütasyon çizgesini oluşturalım. Bu çizge her biri bir döngü olan 4 güçlü bağlı bileşenden (strongly connected component) oluşmaktadır. Her döngü için o döngüdeki düğüm sayısının 1 eksiği kadar adım gerekmektedir. 1. döngü 4, 1, 8, 2, 11, 19, 12, 3, 6, 7, 15 numaralı düğümlerden oluşmakta olup, ilgili öğrenciler 10 adımda yerlerine oturabilir. 2. döngü 2, 3, 8, 10, 9 numaralı düğümlerden oluşmakta olup, ilgili öğrenciler 4 adımda yerlerine oturabilir. 3. döngü 9, 10, 17 numaralı düğümlerden oluşmaktadır, ilgili öğrenciler 2 adımda yerlerine oturabilir. 4. döngü sadece 16 numaralı düğümden oluşmaktadır, ilgili öğrenci zaten doğru yerdedir. Bütün öğrencilerin doğru yerlerine gelmeleri için gerekli adım sayısı 10 + 4 + 2 = 16'dır.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 19,
+            "soru": "Bilgisayar programlama yaz kampına katılan Ahmet, Banu, Cemil, Dilara, Ersin ve Fahriye isimli 6 öğrenciden 4 tanesinin bilgisayar programı yazmaları gereken saatte iskambil oynadıkları tespit edilmiştir. İskambil oynayanları bulmak için kamp sorumlusu Mahmut bey öğrencilere sorular sormuş ve aşağıdaki cevapları almıştır. Ahmet, “Banu ve Dilara iskambil oynayanlar arasında idi” demiş,
+● Banu, “Ahmet ve Cemil iskambil oynayanlar arasında idi” demiş,
+● Cemil, “Banu ve Fahriye iskambil oynayanlar arasında idi” demiş,
+● Dilara, “Ahmet ve Ersin iskambil oynayanlar arasında idi” demiş,
+● Ersin, “Ahmet ve Banu iskambil oynayanlar arasında idi” demiş,
+● Fahriye, “Dilara ve Ersin iskambil oynayanlar arasında idi” demiş.Sorulara cevap veren 6 öğrenciden 4 tanesi iskambil oynayan öğrencilerden birinin adını doğru vermiş, öbürünün
+adını yanlış vermiştir. 1 öğrenci ise her iki adı da doğru vermiştir. 1 öğrenci ise her iki adı da yanlış vermiştir.İskambil oynamayan öğrenciler hangileridir?",
+            "secenekler": {
+                "A": "Ersin ve Fahriye",
+                "B": "Cemil ve Dilara",
+                "C": "Ahmet ve Banu",
+                "D": "Verilen bilgiler çelişkilidir",
+                "E": "Verilen bilgiler hangi öğrencilerin iskambil oynadığını kesin olarak tespit etmek için yetersizdir."
+            },
+            "çözüm": " Öğrencilerin adlarını baş harfleri olan 𝑎, 𝑏, 𝑐, 𝑑, 𝑒 ve 𝑓 ikili (binary) değişkenleri ile simgeleyelim. Değişkenin 1 değerini alması ilgili öğrencinin iskambil oynadığını, 0 değerini alması ise oynamadığını göstersin. Çocuklardan 4 tanesi iskambil oynadığına göre 𝑎 + 𝑏 + 𝑐 + 𝑑 + 𝑒 + 𝑓 = 4’dir. Dört öğrenci bir adı doğru verdiğine, bir öğrenci her iki adı da doğru verdiğine ve bir öğrenci her iki adı yanlış verdiğine göre:
+             (𝑏 + 𝑑) + (𝑎 + 𝑐) + (𝑏 + 𝑓) + (𝑎 + 𝑒) + (𝑎 + 𝑏) + (𝑑 + 𝑒) = 3𝑎 + 3𝑏 + 𝑐 + 2𝑑 + 2𝑒 + 𝑓 = 6’dır. Bu eşitlikten lk elde ettiğimiz eşitliği çıkartırsak 2𝑎 + 2𝑏 + 𝑑 + 𝑒 = 2’dir. 𝑎 = 1 ise 𝑏 = 0, 𝑑 = 0 ve 𝑒 = 0 olmak zorundadır. Ancak bu durumda hem Ahmet hem de Fahriye 2 ismi de yanlış vermiş olur. 2 ismi de yanlış veren sadece 1 kişi olduğu için 𝑎 = 0 olmak zorundadır. 𝑏 = 1 ise 𝑎 = 0, 𝑑 = 0 ve 𝑒 = 0 olmak zorundadır. Ancak bu durumda hem Dilara hem de Fahriye 2 ismi de yanlış vermiş olur. 2 ismi de yanlış veren sadece 1 kişi olduğu için 𝑏 = 0 olmak zorundadır.
+             Öyleyse, 𝑎 = 𝑏 = 0 olmalıdır. 2𝑎 + 2𝑏 + 𝑑 + 𝑒 = 2 eşitliğinin sağlanması için 𝑑 = 𝑒 = 1 olmalıdır. 𝑎 + 𝑏 + 𝑐 + 𝑑 + 𝑒 + 𝑓 = 4 eşitliğinin sağlanması için de 𝑐 = 𝑓 = 1 olmalıdır. Bu durumda iskambil oynayanlar Cemil, Dilara, Ersin ve Fahriye’dir. Cevap Ahmet ve Banu’dur..",
+            "cevap": "c"
+        },
+        {
+            "soruSirasi": 20,
+            "soru": "Ahmet Adanalı, Banu Balıkesirli, Çiğdem Çanakkaleli, Dilara Diyarbakırlı ve Ersin Edirnelidir. Bu 5 arkadaş önümüzdeki Kurban Bayramı için kendilerine şu kuralları koymuşlardır: Herkes Kurban Bayramı'nı yukarıda adı geçen 5 şehirden bir tanesinde geçirecektir. Her bir şehirde sadece bir kişi bulunacaktır. Kimse Kurban Bayramı'nı kendi memleketinde geçirmeyecektir. Bu kurallara uygun kaç farklı bayram tatili planı yapılabilir?",
+            "secenekler": {
+                "A": "36",
+                "B": "38",
+                "C": "40",
+                "D": "42",
+                "E": "44"
+            },
+            "çözüm": "Bize n tane birbirinden farklı nesne sıralı bir şekilde verilmiş olsun. Hiçbir nesnenin orijinal konumunda kalmadığı permütasyona verilen sıralı listenin bir düzensizliği denir. n elemanlı bir kümenin düzensizlik sayısı D(n) = n! (1 - 1/1! + 1/2! - ... + (-1)^n/n!) eşitliğine göre hesaplanabilir. Bu soruda bize D(5)'in değeri sorulmaktadır. D(5) = 5! (1 - 1 + 1/2 - 1/6 + 1/24 - 1/120) = 44'tür.",
+            "cevap": "E"
+        },
+        {
+            "soruSirasi": 21,
+            "soru": "1 müdür, 1 müdür yardımcısı ve 8 öğretmen yuvarlak bir masa etrafına oturacaklardır. Müdürün bir yanına müdür yardımcısının diğer yanına ise öğretmenlerden birinin oturması gerekmektedir. Bu 10 kişi bu şartlara uygun olarak kaç farklı şekilde oturabilir?",
+            "secenekler": {
+                "A": "2x7!",
+                "B": "8!",
+                "C": "2x8!",
+                "D": "9!",
+                "E": "2x9!"
+            },
+            "çözüm": "Müdür ve müdür yardımcısı yan yana oturmak zorunda oldukları için onları bir kişi olarak düşünebiliriz. Bu durumda oluşan 9 kişi yuvarlak masa etrafına 8! şekilde oturabilir. Müdür ve müdür yardımcısı kendi aralarında 2 farklı şekilde yer değiştirebilirler. Bu yüzden cevap 2x8!'dir.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 22,
+            "soru": "Bir bakteri kültürü kabı içerisinde n adet bakteri bulunmaktadır. i bakterisinin büyüklüğü a_i > 0 tamsayısı olsun. K > 0 tamsayısı ise bakteri dünyasında önemli kabul edilen bir sabit olsun. i bakterisinin j bakterisini yiyebilmesi için a_i > a_j ve a_i ≤ a_j + K şartlarının sağlanması gerekmektedir. i bakterisi j bakterisini yerse j bakterisi kaybolmaktadır ancak i bakterisinin büyüklüğü değişmemektedir. Bakteri yeme süreci adım adım gerçekleşmektedir ve adımda bir bakteri yenmektedir. Bir bakteri süreç içerisinde birden çok sayıda bakteriyi yiyebilir. Örnek: 𝑎 = [101, 53, 42, 102, 101, 55, 54] dizisi başlangıç durumunda kültür kabında bulunan bakterilerin büyüklüklerini göstersin. 𝐾 = 1 olsun. Muhtemel bir yeme sıralaması aşağıda gösterilmektedir. Verilen dizilerde koyu renkle gösterilen sayı o adımda yenen bakterinin büyüklüğünü göstermektedir. [101, 53, 42, 102, 101, 55, 54] → [101, 53, 42, 102, 55, 54] → [101, 42, 102, 55, 54] → [42, 102, 55, 54] → [42, 102,...
+            Bu yeme süreci sonucunda 3 bakteri kalmıştır. Bu örnekte bakteriler hangi sırayla yenirse yensin son durumda daha az sayıda bakterinin kalamayacağına dikkat ediniz.
+              a = [36, 31, 25, 17, 11, 22, 8, 14, 20, 34, 28] dizisi başlangıç durumunda kültür kabında bulunan bakterilerin büyüklüklerini göstersin. K = 3 olsun. Yeme süreci sonucunda bakteri kültürü kabında en az kaç bakteri kalabilir?",
+            "secenekler": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4",
+                "E": "5"
+            },
+            "çözüm": "Bakterileri büyükten küçüğe sıralayalım. Sıralı dizi a = [36, 34, 31, 28, 25, 22, 20, 17, 14, 11, 8]. Bu dizide sondan başa doğru giderken her bakterinin kendinden bir önceki bakteri tarafından yenilebileceği görülür. Bu yeme sırasında en sonra 36 büyüklüğünde bakteri kalır. Bu yüzden cevap 1'dir.",
+            "cevap": "A"
+        },
+        {
+            "soruSirasi": 23,
+            "soru": " Bir bakteri kültürü kabı içerisinde n adet bakteri bulunmaktadır. i bakterisinin büyüklüğü a_i > 0 tamsayısı olsun. K > 0 tamsayısı ise bakteri dünyasında önemli kabul edilen bir sabit olsun. i bakterisinin j bakterisini yiyebilmesi için a_i > a_j ve a_i ≤ a_j + K şartlarının sağlanması gerekmektedir. i bakterisi j bakterisini yerse j bakterisi kaybolmaktadır ancak i bakterisinin büyüklüğü değişmemektedir. Bakteri yeme süreci adım adım gerçekleşmektedir ve adımda bir bakteri yenmektedir. Bir bakteri süreç içerisinde birden çok sayıda bakteriyi yiyebilir. Örnek: 𝑎 = [101, 53, 42, 102, 101, 55, 54] dizisi başlangıç durumunda kültür kabında bulunan bakterilerin büyüklüklerini göstersin. 𝐾 = 1 olsun. Muhtemel bir yeme sıralaması aşağıda gösterilmektedir. Verilen dizilerde koyu renkle gösterilen sayı o adımda yenen bakterinin büyüklüğünü göstermektedir. [101, 53, 42, 102, 101, 55, 54] → [101, 53, 42, 102, 55, 54] → [101, 42, 102, 55, 54] → [42, 102, 55, 54] → [42, 102,...
+            Bu yeme süreci sonucunda 3 bakteri kalmıştır. Bu örnekte bakteriler hangi sırayla yenirse yensin son durumda daha az sayıda bakterinin kalamayacağına dikkat ediniz.
+            [87, 58, 15, 75, 46, 7, 33, 100, 69, 24, 96, 44, 71, 13, 91, 54, 38, 82, 20, 31, 51, 63, 78] dizisi başlangıç durumunda kültür kabında bulunan bakterilerin büyüklüklerini göstersin. Yeme süreci sonucunda bakteri kültüründe 5 adet bakteri kaldığına göre K en az kaç olabilir?",
+            "secenekler": {
+                "A": "2",
+                "B": "3",
+                "C": "4",
+                "D": "5",
+                "E": "6"
+            },
+            "çözüm": "Bakterileri büyükten küçüğe sıralayalım. Sıralı dizi aşağıdaki şekildedir. K = 5 için yenmesi mümkün olmayan bakteriler koyu renkle gösterilmiştir. [100, 96, 91, 87, 82, 78, 75, 71, 69, 63, 58, 54, 51, 46, 44, 38, 33, 31, 24, 20, 15, 13, 7]. Sıralı dizi üzerinde sondan başa doğru giderek her bakterinin bir büyük bakteri tarafından yenme koşulunu kontrol ettiğimizde büyüklüğü koyu renkle gösterilmeyen bütün bakterilerin yenebileceğini görürüz. Bu yüzden K = 5 olabilir. Aşağıda aynı sıralı dizi gösterilmektedir. Ancak bu sefer K = 4 için yenmesi mümkün olmayan bakterilerin büyüklükleri koyu renkle gösterilmiştir. [100, 96, 91, 87, 82, 78, 75, 71, 69, 63, 58, 54, 51, 46, 44, 38, 33, 31, 24, 20, 15, 13, 7]. K = 4 için son durumda en az 11 bakteri kalmak zorundadır. Bu yüzden K = 4 olamaz. Cevap 5'dir.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 24,
+            "soru": "5 kırmızı top ve 5 mavi top içeren bir torbadan 4 adet top bir kerede rastgele olarak seçilecektir. Seçilen 4 toptan 2 tanesinin kırmızı, 2 tanesinin ise mavi olma olasılığı kaçtır?",
+            "secenekler": {
+                "A": "5/21",
+                "B": "1/2",
+                "C": "4/10",
+                "D": "3/4",
+                "E": "10/21"
+            },
+            "çözüm": "Doğru cevap 5 kırmızı toptan 2 tanesinin kaç farklı şekilde seçilebileceğinin 5 mavi toptan 2 tanesinin kaç farklı şekilde seçilebileceği ile çarpımının 10 toptan 4 topun kaç farklı şekilde seçilebileceğine bölünmesi ile bulunabilir. Yani cevap (5 2)(5 2)/(10 4) = 10x10/210 = 10/21'dir.",
+            "cevap": "E"
+        }
+    ]
+}

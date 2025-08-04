@@ -1,0 +1,344 @@
+{
+    "Sorular": [
+        {
+            "soruSirasi": 1,
+            "soru": "Bir öğrenci yurdunda adları Ali, Buğra, Can, Demir, Enes ve Faruk olan 6 öğrenci kalmaktadır. Yurt müdürü öğrencilerden iki tanesinin Galatasaray-Fenerbahçe maçını izlemek için yurttan kaçtığını tespit etmiştir ancak hangi iki tanesinin kaçtığını bilmemektedir. Kaçan öğrencileri bulmak için öğrencilere sorular sormuştur. Öğrenciler ise aşağıdaki cevapları vermiştir. Can, “Ali ve Buğra kaçtılar” demiş, Buğra, “Demir ve Enes kaçtılar” demiş, Enes, “Buğra ve Faruk kaçtılar” demiş, Ali, “Buğra ve Can kaçtılar” demiş, Demir, “Enes ve Faruk kaçtılar” demiş, Faruk ise cevap vermemiş. Sorulara cevap veren beş öğrenciden dört tanesi kaçan öğrencilerden birinin adını doğru vermiş, öbürünün adını yanlış vermiştir. Bir öğrenci ise her iki adı da yanlış vermiştir. Maç izlemek için yurttan kaçan öğrenciler kimlerdir?",
+            "secenekler": {
+                "A": "Buğra ve Enes",
+                "B": "Buğra ve Demir",
+                "C": "Enes ve Faruk",
+                "D": "Verilen bilgiler çelişkilidir.",
+                "E": "Verilen bilgiler hangi öğrencilerin kaçtığını kesin olarak tespit etmek için yetersizdir."
+            },
+            "çözüm": "Çocukların adlarını baş harfleri olan a, b, c, d, e ve f ikili (binary) değişkenleri ile simgeleyelim. Değişkenin 1 değerini alması ilgili öğrencinin kaçtığını, O değerini alması ise kaçmadığını göstersin. Çocuklardan iki tanesi kaçtığına göre a + b + c + d + e + f = 2'dir. Dört öğrenci bir adı doğru verdiğine ve bir öğrenci her iki adı yanlış verdiğine göre: (a + b) + (d + e) + (b + f) + (b + c) + (e + f) = a + 3b + c + d + 2e + 2f = 4'tür. Bu eşitlikten ilk elde ettiğimiz eşitliği çıkartırsak 2b + e + f = 2'dir. b = 0 ise e = 1 ve f = 1 olmak zorundadır ancak bu durumda Demir kaçan iki öğrencinin de adını doğru vermiş olur. Öyleyse, b = 1, e = 0 ve f = O'dır. Bu durumda Can'ın söylediklerinden a = 0 olmalı, Ali'nin söylediklerinden de c = 0'dır. Değişkenlerin toplamı 2 olduğundan d = 1 olmalıdır. Öyleyse kaçan öğrenciler Buğra ve Demir'dir.",
+            "cevap": "B"
+        },
+        {
+            "soruSirasi": 2,
+            "soru": " F(n) ile n uzunluğunda olan ve sadece 0 ve 1 karakterlerinden oluşan ve içerisinde üç tane ardışık 1 bulunmayan dizilerin sayısını ifade edelim. Örnek vermek gerekirse, üç uzunluğundaki 8 diziden sadece \"111\" dizisinde üç tane ardışık 1 olduğu için F(3) = 7'dir. Dört uzunluğundaki 16 diziden sadece “1110”, “1111” ve “0111\" dizilerinde üç tane ardışık 1 olduğu için F(4) = 13'tür. SORU 2: F(8) kaçtır?",
+            "secenekler": {
+                "A": "81",
+                "B": "100",
+                "C": "121",
+                "D": "144",
+                "E": "149"
+            },
+            "çözüm": "Bir kısmı açıklamada verilen örneklerden F(1) = 2, F(2) = 4, F(3) = 7 ve F(4) = 13 olduğunu biliyoruz. n ≥ 4 olmak üzere, n uzunluğundaki bir diziyi ele alalım. Dizinin ilk karakterinin 0 olması durumunda sonraki n - 1 karakterin içerisinde üç tane ardışık 1 olmaması halinde dizide üç tane ardışık 1 yoktur. Öyleyse, ilk karakteri 0 olan içerisinde ardışık üç tane 1 bulunmayan n uzunluğundaki dizilerin sayısı F(n - 1)'dir. Dizinin ilk karakterinin 1 olması durumunda dizinin ikinci karakterini de dikkate almamız gerekmektedir. Dizinin ilk iki karakteri 10 ise sonraki n - 2 karakterin içerisinde üç tane ardışık 1 olmaması halinde dizide üç tane ardışık 1 yoktur. Öyleyse, ilk iki karakteri 10 olan içerisinde ardışık üç tane 1 bulunmayan n uzunluğundaki dizilerin sayısı F(n − 2)'dir. Dizinin ilk iki karakteri 11 ise dizinin üçüncü karakterini de dikkate almamız gerekmektedir. Dizinin üçüncü karakteri de 1 ise dizinin içerisinde üç tane ardışık 1 vardır. Dizinin ilk üç karakteri 110 ise sonraki n - 3 karakterin içerisinde üç tane ardışık 1 olmaması halinde dizide üç tane ardışık 1 yoktur. Öyleyse, ilk üç karakteri 110 olan içerisinde ardışık üç tane 1 bulunmayan n uzunluğundaki dizilerin sayısı F(n − 3)'dir. Öyleyse, n ≥ 4 için F(n) = F(n − 1) + F(n − 2) + F(n − 3) eşitliği sağlanır. Soru bu özyinelemeli ifade kullanılarak çözülebilir. F(5) = 13 + 7 + 4 = 24’tür. F(6) = 24 + 13 + 7 = 44’tür. F(7) = 44 + 24 + 13 = 81'dir. F(8) = 81 + 44 + 24 = 149'dur.",
+            "cevap": "E"
+        },
+        {
+            "soruSirasi": 3,
+            "soru": " F(n) ile n uzunluğunda olan ve sadece 0 ve 1 karakterlerinden oluşan ve içerisinde üç tane ardışık 1 bulunmayan dizilerin sayısını ifade edelim. Örnek vermek gerekirse, üç uzunluğundaki 8 diziden sadece \"111\" dizisinde üç tane ardışık 1 olduğu için F(3) = 7'dir. Dört uzunluğundaki 16 diziden sadece “1110”, “1111” ve “0111\" dizilerinde üç tane ardışık 1 olduğu için F(4) = 13'tür. SORU 3: F(12) kaçtır?",
+            "secenekler": {
+                "A": "1705",
+                "B": "1947",
+                "C": "2034",
+                "D": "2368",
+                "E": "2672"
+            },
+            "çözüm": "Yukarıdaki sorunun çözümünden devam ile F(9) = 149 + 81 + 44 = 274’tür. F(10) = 274 + 149 + 81 = 504'tür. F(11) = 504 + 274 + 149 = 927′dir. F(12) = 927 + 504 + 274 = 1705'tir.",
+            "cevap": "A"
+        },
+        {
+            "soruSirasi": 4,
+            "soru": "Ali, Buğra, Can ve Demir'den oluşan dört öğrencilik bir sınıfı sıraya dizmeniz istenmektedir. Ali en önde olmak istememektedir. Buğra önden ikinci sırada olmak istememektedir. Can önden üçüncü sırada olmak istememektedir. Demir ise en arkada olmak istememektedir. Öğrencileri isteklerine uygun olarak kaç farklı şekilde sıralayabilirsiniz?",
+            "secenekler": {
+                "A": "6",
+                "B": "7",
+                "C": "8",
+                "D": "9",
+                "E": "10"
+            },
+            "çözüm": "Bu soru muhtemel bütün permütasyonları kontrol ederek çözülebilir. Öğrencileri isimlerinin baş harfleriyle simgelersek şartları sağlayan permütasyonlar BADC, BCDA, BDAC, CADB, CDAB, CDBA, DABC, DCAB ve DCBA'dır. Bu yüzden doğru cevap 9'dur.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 5,
+            "soru": "Ali, Buğra, Can, Demir, Enes ve Faruk'tan oluşan altı öğrencilik bir sınıfı sıraya dizmeniz istenmektedir. Ali en önde olmak istememektedir. Buğra önden ikinci sırada olmak istememektedir. Can önden üçüncü sırada olmak istememektedir. Demir önden dördüncü sırada olmak istememektedir. Enes önden beşinci sırada olmak istememektedir. Faruk ise en arkada olmak istememektedir. Öğrencileri isteklerine uygun olarak kaç farklı şekilde sıralayabilirsiniz?",
+            "secenekler": {
+                "A": "255",
+                "B": "260",
+                "C": "265",
+                "D": "270",
+                "E": "275"
+            },
+            "çözüm": "Bize n tane birbirinden farklı nesne sıralı bir şekilde verilmiş olsun. Hiçbir nesnenin orijinal konumunda kalmadığı permütasyona verilen sıralı listenin bir düzensizliği denir. n elemanlı bir kümenin düzensizlik sayısı D(n) = n! (1 - 1/1! + 1/2! - 1/3! + ... + (-1)^n / n!) eşitliğine göre hesaplanabilir. Bu soruda bize D(6)’nın değeri sorulmaktadır. D(6) = 6! (1 − 1 + 1/2 - 1/6 + 1/24 - 1/120 + 1/720) = 265'tir.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 6,
+            "soru": " n uzunluğunda bir tamsayı dizisi verilmiş olsun: A: {A1, A2, A3, ..., An}. Verilen dizideki ardışık olmak zorunda olmayan en uzun artan alt diziyi bulmak istiyoruz. Örnek vermek gerekirse A dizisi eğer {-3,12,10,1,4,7,7,0} olarak verilmişse en uzun artan dizi 4 uzunluğundaki {-3,1,4,7} dizisidir. Hedefimiz verilen bir dizi için en uzun artan alt dizinin uzunluğunu belirlemektir. Bu problemin çözümü için aşağıdaki özyineli denklemler kullanılabilir. Dizinin i. elemanında biten en uzun artan alt dizinin uzunluğunu U(i) olarak gösterecek olursak: U(1) = 1, U(i) = max (U(j) + 1), ∀j ∈ [1..i-1] ve Aj < Ai, ya da bu koşulu sağlayan bir j yok ise U(i) = 1. En son U(n) hesaplandıktan sonra max(U(i)), Vi ∈ [1..n] değeri verilen A dizisi için en uzun artan alt dizinin uzunluğunu doğru bir şekilde gösterir. SORU 6: A: {-7, 14, 10, 2, 3, 8, 8, 5, 8, 11, 15} olduğunda U(3) değeri ne olur?",
+            "secenekler": {
+                "A": "0",
+                "B": "1",
+                "C": "2",
+                "D": "7",
+                "E": "10"
+            },
+            "çözüm": "U(3) için en Vj ∈ [1..i-1] ve Aj < Ai koşulunu sadece U(1) sağlar ve U(3) de bu nedenle 1+1 = 2 olur. Doğru cevap C şıkkıdır.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 7,
+            "soru": " n uzunluğunda bir tamsayı dizisi verilmiş olsun: A: {A1, A2, A3, ..., An}. Verilen dizideki ardışık olmak zorunda olmayan en uzun artan alt diziyi bulmak istiyoruz. Örnek vermek gerekirse A dizisi eğer {-3,12,10,1,4,7,7,0} olarak verilmişse en uzun artan dizi 4 uzunluğundaki {-3,1,4,7} dizisidir. Hedefimiz verilen bir dizi için en uzun artan alt dizinin uzunluğunu belirlemektir. Bu problemin çözümü için aşağıdaki özyineli denklemler kullanılabilir. Dizinin i. elemanında biten en uzun artan alt dizinin uzunluğunu U(i) olarak gösterecek olursak: U(1) = 1, U(i) = max (U(j) + 1), ∀j ∈ [1..i-1] ve Aj < Ai, ya da bu koşulu sağlayan bir j yok ise U(i) = 1. En son U(n) hesaplandıktan sonra max(U(i)), Vi ∈ [1..n] değeri verilen A dizisi için en uzun artan alt dizinin uzunluğunu doğru bir şekilde gösterir. SORU 7: A: {-7, 14, 10, 2, 3, 8, 8, 5, 8, 11, 15} olduğunda en uzun artan dizinin uzunluğu ne olur?",
+            "secenekler": {
+                "A": "4",
+                "B": "5",
+                "C": "6",
+                "D": "7",
+                "E": "8"
+            },
+            "çözüm": "En uzun artan alt dizi {-7, 2, 3, 5, 8, 11, 15} dizisidir ve uzunluğu 7'dir. Doğru cevap D şıkkıdır.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 8,
+            "soru": "n uzunluğunda bir tamsayı dizisi verilmiş olsun: A: {A1, A2, A3, ..., An}. Verilen dizideki ardışık olmak zorunda olmayan en uzun artan alt diziyi bulmak istiyoruz. Örnek vermek gerekirse A dizisi eğer {-3,12,10,1,4,7,7,0} olarak verilmişse en uzun artan dizi 4 uzunluğundaki {-3,1,4,7} dizisidir. Hedefimiz verilen bir dizi için en uzun artan alt dizinin uzunluğunu belirlemektir. Bu problemin çözümü için aşağıdaki özyineli denklemler kullanılabilir. Dizinin i. elemanında biten en uzun artan alt dizinin uzunluğunu U(i) olarak gösterecek olursak: U(1) = 1, U(i) = max (U(j) + 1), ∀j ∈ [1..i-1] ve Aj < Ai, ya da bu koşulu sağlayan bir j yok ise U(i) = 1. En son U(n) hesaplandıktan sonra max(U(i)), Vi ∈ [1..n] değeri verilen A dizisi için en uzun artan alt dizinin uzunluğunu doğru bir şekilde gösterir. SORU 8: Problemin çözümü için hesaplanan U(i) değerleri için aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "U(i) değerleri her zaman sıfırdan büyüktür",
+                "B": "Vi∈ [1..n-1] için U(i+1) ≥ U(i)",
+                "C": "Elemanları birbirinden farklı küçükten büyüğe sıralı bir dizi için en yüksek değere sahip olan U(i) değeri n'dir",
+                "D": "Elemanları birbirinden farklı büyükten küçüğe sıralı bir dizi için en yüksek değere sahip olan U(i) değeri birdir",
+                "E": "Bütün elemanları birbirine eşit olan bir dizi için en yüksek değere sahip olan U(i) değeri birdir"
+            },
+            "çözüm": "Yanlış ifade B şıkkındaki ifadedir çünkü dizideki en küçük değer dizinin ortalarında bir yerde ise ve dizinin başlarında bir artan dizi var ise dizinin en küçük değerinin indeksindeki U değeri 1 olacaktır ve kendisinden önceki değerden küçük olabilir.",
+            "cevap": "B"
+        },
+        {
+            "soruSirasi": 9,
+            "soru": " n uzunluğunda bir tamsayı dizisi verilmiş olsun: A: {A1, A2, A3, ..., An}. Verilen dizideki ardışık olmak zorunda olmayan en uzun artan alt diziyi bulmak istiyoruz. Örnek vermek gerekirse A dizisi eğer {-3,12,10,1,4,7,7,0} olarak verilmişse en uzun artan dizi 4 uzunluğundaki {-3,1,4,7} dizisidir. Hedefimiz verilen bir dizi için en uzun artan alt dizinin uzunluğunu belirlemektir. Bu problemin çözümü için aşağıdaki özyineli denklemler kullanılabilir. Dizinin i. elemanında biten en uzun artan alt dizinin uzunluğunu U(i) olarak gösterecek olursak: U(1) = 1, U(i) = max (U(j) + 1), ∀j ∈ [1..i-1] ve Aj < Ai, ya da bu koşulu sağlayan bir j yok ise U(i) = 1. En son U(n) hesaplandıktan sonra max(U(i)), Vi ∈ [1..n] değeri verilen A dizisi için en uzun artan alt dizinin uzunluğunu doğru bir şekilde gösterir. SORU 9: A: {-15, -2, -2, 11, 6, -7, -8, 12, 13, 8, -8, -6, -14, -4, -8} olduğunda en uzun artan dizinin uzunluğu ne olur?",
+            "secenekler": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4",
+                "E": "5"
+            },
+            "çözüm": "En uzun artan alt dizilerden birisi {-15, -2, 11, 12, 13} dizisidir ve uzunluğu 5'dir. Doğru cevap E şıkkıdır.",
+            "cevap": "E"
+        },
+        {
+            "soruSirasi": 10,
+            "soru": "n uzunluğunda bir tamsayı dizisi verilmiş olsun: A: {A1, A2, A3, ..., An}. Verilen dizideki ardışık olmak zorunda olmayan en uzun artan alt diziyi bulmak istiyoruz. Örnek vermek gerekirse A dizisi eğer {-3,12,10,1,4,7,7,0} olarak verilmişse en uzun artan dizi 4 uzunluğundaki {-3,1,4,7} dizisidir. Hedefimiz verilen bir dizi için en uzun artan alt dizinin uzunluğunu belirlemektir. Bu problemin çözümü için aşağıdaki özyineli denklemler kullanılabilir. Dizinin i. elemanında biten en uzun artan alt dizinin uzunluğunu U(i) olarak gösterecek olursak: U(1) = 1, U(i) = max (U(j) + 1), ∀j ∈ [1..i-1] ve Aj < Ai, ya da bu koşulu sağlayan bir j yok ise U(i) = 1. En son U(n) hesaplandıktan sonra max(U(i)), Vi ∈ [1..n] değeri verilen A dizisi için en uzun artan alt dizinin uzunluğunu doğru bir şekilde gösterir. SORU 10: A: {-10, -5, -8, 0, 10, 2, 0, -7, 9, 12} olduğunda en uzun artan dizinin uzunluğu ne olur?",
+            "secenekler": {
+                "A": "4",
+                "B": "5",
+                "C": "6",
+                "D": "7",
+                "E": "8"
+            },
+            "çözüm": "En uzun artan alt dizi {-10, -5, 0, 2, 9, 12} dizisidir ve uzunluğu 6'dır. Doğru cevap C şıkkıdır.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 11,
+            "soru": " Bir törende Ahmet, Beyza, Canan, Demet, Elif, Furkan ve Gürkan belirli bir sıra ile birer şiir okuyacaktır. Belirlenecek sırada aşağıdaki kısıtlar göz önüne alınmalıdır. Elif birinci ya da ikinci sırada olmamalıdır. Demet mutlaka Elif şiirini okuduktan sonraki bir sırada şiirini okumalıdır (hemen sonra olmak zorunda değil). Ne Ahmet ne de Furkan yedinci sırada şiir okuyamaz. Ya Furkan ya da Gürkan hemen Demet’ten sonra şiir okumalıdır. Canan, ya Beyza'dan hemen sonra ya da Beyza'dan hemen önce şiir okumalıdır. SORU 11: Eğer ilk şiir okuyacak kişi Canan olursa aşağıdakilerden hangisi kesinlikle doğru olmalıdır?",
+            "secenekler": {
+                "A": "Ahmet altıncı sırada şiir okur",
+                "B": "Elif üçüncü sırada şiir okur",
+                "C": "Gürkan yedinci sırada şiir okur",
+                "D": "Ahmet, Furkan'dan hemen sonra şiir okur",
+                "E": "Demet, Elif'ten hemen sonra şiir okur"
+            },
+            "çözüm": "İlk iki sıralamanın Canan ve Beyza olacağı kesindir. Kalan 5 sırada Demet, Elif'ten sonra ve Furkan ya da Gürkan da Demet'ten hemen sonra olması gerektiği kesindir. Bu 5 sıra aşağıdakilerden birisi olabilir: Ahmet, Elif, Demet, Furkan, Gürkan; Ahmet, Elif, Furkan, Demet, Gürkan; Ahmet, Furkan, Elif, Demet, Gürkan; Elif, Ahmet, Demet, Furkan, Gürkan; Elif, Ahmet, Furkan, Demet, Gürkan; Elif, Demet, Furkan, Ahmet, Gürkan; Elif, Furkan, Ahmet, Demet, Gürkan. Görüldüğü üzere Gürkan'ın yedinci olmadığı bir çözüm mümkün değildir. Diğer şıklardaki ifadelerin doğru olmadığı sıralamalar mümkündür. Cevap C şıkkıdır.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 12,
+            "soru": " Bir törende Ahmet, Beyza, Canan, Demet, Elif, Furkan ve Gürkan belirli bir sıra ile birer şiir okuyacaktır. Belirlenecek sırada aşağıdaki kısıtlar göz önüne alınmalıdır. Elif birinci ya da ikinci sırada olmamalıdır. Demet mutlaka Elif şiirini okuduktan sonraki bir sırada şiirini okumalıdır (hemen sonra olmak zorunda değil). Ne Ahmet ne de Furkan yedinci sırada şiir okuyamaz. Ya Furkan ya da Gürkan hemen Demet’ten sonra şiir okumalıdır. Canan, ya Beyza'dan hemen sonra ya da Beyza'dan hemen önce şiir okumalıdır. SORU 12: Eğer Beyza üçüncü sırada şiir okursa Furkan'ın en geç yer alabileceği sıra aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Birinci",
+                "B": "İkinci",
+                "C": "Beşinci",
+                "D": "Altıncı",
+                "E": "Yedinci"
+            },
+            "çözüm": "Furkan'ın yedinci sırada şiir okuyamayacağı verilen kısıtlardan birisidir. Ahmet, Canan, Beyza, Elif, Demet, Furkan, Gürkan sıralaması da bütün koşulları sağlayan olası bir sıralama olduğundan Furkan'ın en geç altıncı sırada şiir okuması mümkündür. Cevap D şıkkıdır.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 13,
+            "soru": "Bir futbol maçında karşılaşan A ve B takımlarından, A takımı ataklarının %70'ini sağ kanattan %30'unu da sol kanattan yapmaktadır. Sağ kanattan yapılan atakların %60'ı ceza sahasına ulaşmadan savuşturulabilmektedir ve sol kanattan yapılan atakların da %80’i savuşturulabilmektedir. A takımının yaptığı tüm atakların yüzde kaçı B takımının ceza sahasına ulaşır?",
+            "secenekler": {
+                "A": "34",
+                "B": "42",
+                "C": "60",
+                "D": "66",
+                "E": "70"
+            },
+            "çözüm": "100 atak varsa bunların 70'i sağ kanattan ve 30'u sol kanatta olur. 70 atağın %60'ı 42 atak ve 30 atağın %80'i 24 ataki yani toplam 66 atak savuşturulmaktadır. Ceza sahasına 34 atak yani %34 atak ulaşabilir.",
+            "cevap": "A"
+        },
+        {
+            "soruSirasi": 14,
+            "soru": "10 kırmızı top ve 4 mavi top içeren bir torbadan 4 adet top bir kerede rastgele olarak seçilecektir. Seçilen 4 toptan birinin mavi olma ihtimali nedir?",
+            "secenekler": {
+                "A": "3/120",
+                "B": "4/210",
+                "C": "120/1001",
+                "D": "210/1001",
+                "E": "480/1001"
+            },
+            "çözüm": "Doğru cevap 10 kırmızıdan 3 tanesinin kaç farklı şekilde seçilebileceğinin 4 maviden 1 tanesinin kaç farklı şekilde seçilebileceği ile çarpımının 14 toptan 4 topun kaç farklı şekilde seçilebileceğine bölünmesi ile bulunabilir. Yani cevap (10*3)(4*1)/(14*4) = 120*4/1001 olur. Cevap E şıkkıdır.",
+            "cevap": "E"
+        },
+        {
+            "soruSirasi": 15,
+            "soru": "Yan yana 10 sandalye olan bir odada 4 öğrenci kaç farklı şekilde oturabilir?",
+            "secenekler": {
+                "A": "24",
+                "B": "5040",
+                "C": "151200",
+                "D": "907200",
+                "E": "3628800"
+            },
+            "çözüm": "Doğru cevap 10 faktöriyelin 10-4=6 faktöriyele bölümü ile bulunur. Bu da 10*9*8*7 = 5040 yapar. Cevap B şıkkıdır.",
+            "cevap": "B"
+        },
+        {
+            "soruSirasi": 16,
+            "soru": " Ali yaşı küçük olmasına rağmen bilime çok meraklı bir çocuktur. Astronot olmak için gerekli bütün sınavlarda en yüksek notu almış ve Türkiye Uzay Ajansı tarafından aya gönderilecek ilk astronot olarak seçilmiştir. Ancak küçük bir problem vardır. Ali kedisini çok sevmektedir. Hatta öyle ki evdeki laboratuvarında kedisini klonlamayı başarmıştır. Ali'nin her birine 1 ile 20 arasında bir numara verdiği 20 adet kedisi vardır ve Ali evde bu kedileriyle beraber yaşamaktadır. Ali her nereye giderse gitsin yanında mutlaka kedilerinden en az bir tanesinin bulunması gerekmektedir. Ancak klonlama yaparken bazı ufak hesap hataları yaptığı için bazı kediler birbirlerinden hayatta oldukları müddetçe ayrılamamaktadır. Ayrılmaları durumunda galaksimiz yok olacaktır. Ali'nin elinde bu kedi ikililerinin listesi vardır ve aşağıdaki gibidir: L = {(1,2), (2,3), (1,5), (2,16), (8,5), (12,13), (12,15), (8,9), (3,17), (3,18), (19, 4), (7,4), (6,7), (7, 10), (3, 11), (14, 11), (20,14)}. Bu listenin ilk ikilisi bize 1 ve 2 numaraları kedilerin birbirinden ayrılamayacağını, ikinci ikilisi 2 ve 3 numaralı kedilerin birbirinden ayrılamayacağı söylemektedir. Listede (1,3) ikilisi olmamasına karşın hem 1 numaralı hem de 3 numaralı kediler 2 numaralı kediden ayrılamadığından, dolaylı olarak birbirlerinden ayrılamamaktadırlar. Ali bu durumu Türkiye Uzay Ajansı'na bildirmiş ve onlar da uzay mekiğinde yer sıkıntısı olduğu için Ali'nin yanında en fazla 10 tane kedi götürmesine izin vermişlerdir. SORU 16: Ali beraberinde aya en az kaç kedi götürebilir?",
+            "secenekler": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4",
+                "E": "5"
+            },
+            "çözüm": "Her bir kedinin bir düğüme ve L listesindeki her bir ikilinin bir kenara karşılık geldiği bir çizge düşünelim. Bu çizgede aynı bağlı bileşende yer alan kediler ya topluca gideceklerdir ya da topluca kalacaklardır. Bu sorunun cevabı en küçük bağlı bileşendeki düğüm sayısıdır. En küçük bağlı bileşen 12, 13 ve 15 numaralı düğümlerden oluşmaktadır. Dolayısıyla cevap C şıkkı olan 3'tür.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 17,
+            "soru": "Ali yaşı küçük olmasına rağmen bilime çok meraklı bir çocuktur. Astronot olmak için gerekli bütün sınavlarda en yüksek notu almış ve Türkiye Uzay Ajansı tarafından aya gönderilecek ilk astronot olarak seçilmiştir. Ancak küçük bir problem vardır. Ali kedisini çok sevmektedir. Hatta öyle ki evdeki laboratuvarında kedisini klonlamayı başarmıştır. Ali'nin her birine 1 ile 20 arasında bir numara verdiği 20 adet kedisi vardır ve Ali evde bu kedileriyle beraber yaşamaktadır. Ali her nereye giderse gitsin yanında mutlaka kedilerinden en az bir tanesinin bulunması gerekmektedir. Ancak klonlama yaparken bazı ufak hesap hataları yaptığı için bazı kediler birbirlerinden hayatta oldukları müddetçe ayrılamamaktadır. Ayrılmaları durumunda galaksimiz yok olacaktır. Ali'nin elinde bu kedi ikililerinin listesi vardır ve aşağıdaki gibidir: L = {(1,2), (2,3), (1,5), (2,16), (8,5), (12,13), (12,15), (8,9), (3,17), (3,18), (19, 4), (7,4), (6,7), (7, 10), (3, 11), (14, 11), (20,14)}. Bu listenin ilk ikilisi bize 1 ve 2 numaraları kedilerin birbirinden ayrılamayacağını, ikinci ikilisi 2 ve 3 numaralı kedilerin birbirinden ayrılamayacağı söylemektedir. Listede (1,3) ikilisi olmamasına karşın hem 1 numaralı hem de 3 numaralı kediler 2 numaralı kediden ayrılamadığından, dolaylı olarak birbirlerinden ayrılamamaktadırlar. Ali bu durumu Türkiye Uzay Ajansı'na bildirmiş ve onlar da uzay mekiğinde yer sıkıntısı olduğu için Ali'nin yanında en fazla 10 tane kedi götürmesine izin vermişlerdir. SORU 17: Ali beraberinde aya en fazla kaç kedi götürebilir?",
+            "secenekler": {
+                "A": "4",
+                "B": "6",
+                "C": "7",
+                "D": "8",
+                "E": "10"
+            },
+            "çözüm": "Her bir kedinin bir düğüme ve L listesindeki her bir ikilinin bir kenara karşılık geldiği çizgede üç bağlı bileşen vardır. Bu bağlı bileşenlerin düğüm sayıları 12, 5 ve 3'tür. Bu çizgede aynı bağlı bileşende yer alan kediler ya topluca gideceklerdir yada topluca kalacaklardır. Uzay ajansı en fazla 10 kedi götürmeye izin verdiği için 12 düğümlü bağlı bileşendeki kediler topluca kalmak durumundadırlar. Bu yüzden Ali ya 3, ya 5, ya da 8 kedi götürecektir. Doğru cevap D şıkkı olan 8'dir.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 18,
+            "soru": " Ali yaşı küçük olmasına rağmen bilime çok meraklı bir çocuktur. Astronot olmak için gerekli bütün sınavlarda en yüksek notu almış ve Türkiye Uzay Ajansı tarafından aya gönderilecek ilk astronot olarak seçilmiştir. Ancak küçük bir problem vardır. Ali kedisini çok sevmektedir. Hatta öyle ki evdeki laboratuvarında kedisini klonlamayı başarmıştır. Ali'nin her birine 1 ile 20 arasında bir numara verdiği 20 adet kedisi vardır ve Ali evde bu kedileriyle beraber yaşamaktadır. Ali her nereye giderse gitsin yanında mutlaka kedilerinden en az bir tanesinin bulunması gerekmektedir. Ancak klonlama yaparken bazı ufak hesap hataları yaptığı için bazı kediler birbirlerinden hayatta oldukları müddetçe ayrılamamaktadır. Ayrılmaları durumunda galaksimiz yok olacaktır. Ali'nin elinde bu kedi ikililerinin listesi vardır ve aşağıdaki gibidir: L = {(1,2), (2,3), (1,5), (2,16), (8,5), (12,13), (12,15), (8,9), (3,17), (3,18), (19, 4), (7,4), (6,7), (7, 10), (3, 11), (14, 11), (20,14)}. Bu listenin ilk ikilisi bize 1 ve 2 numaraları kedilerin birbirinden ayrılamayacağını, ikinci ikilisi 2 ve 3 numaralı kedilerin birbirinden ayrılamayacağı söylemektedir. Listede (1,3) ikilisi olmamasına karşın hem 1 numaralı hem de 3 numaralı kediler 2 numaralı kediden ayrılamadığından, dolaylı olarak birbirlerinden ayrılamamaktadırlar. Ali bu durumu Türkiye Uzay Ajansı'na bildirmiş ve onlar da uzay mekiğinde yer sıkıntısı olduğu için Ali'nin yanında en fazla 10 tane kedi götürmesine izin vermişlerdir. SORU 18: Ali'nin 5 numaralı kedisi ölmüştür. Bu durumda Ali aya en az kaç kedi götürebilir?",
+            "secenekler": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4",
+                "E": "5"
+            },
+            "çözüm": "Çizgeden 5 numaralı düğüm kaldırılmıştır. Kalan çizge 2, 9, 3 ve 5 düğümlü 4 bağlı bileşenden oluşmaktadır. Aynı bağlı bileşende yer alan kediler ya topluca gideceklerdir yada topluca kalacaklardır. Bu durumda Ali 2 kediden oluşan bağlı bileşendeki kedileri (8 ve 9) götürebilir. Doğru cevap B şıkkı olan 2'dir.",
+            "cevap": "B"
+        },
+        {
+            "soruSirasi": 19,
+            "soru": " Ali yaşı küçük olmasına rağmen bilime çok meraklı bir çocuktur. Astronot olmak için gerekli bütün sınavlarda en yüksek notu almış ve Türkiye Uzay Ajansı tarafından aya gönderilecek ilk astronot olarak seçilmiştir. Ancak küçük bir problem vardır. Ali kedisini çok sevmektedir. Hatta öyle ki evdeki laboratuvarında kedisini klonlamayı başarmıştır. Ali'nin her birine 1 ile 20 arasında bir numara verdiği 20 adet kedisi vardır ve Ali evde bu kedileriyle beraber yaşamaktadır. Ali her nereye giderse gitsin yanında mutlaka kedilerinden en az bir tanesinin bulunması gerekmektedir. Ancak klonlama yaparken bazı ufak hesap hataları yaptığı için bazı kediler birbirlerinden hayatta oldukları müddetçe ayrılamamaktadır. Ayrılmaları durumunda galaksimiz yok olacaktır. Ali'nin elinde bu kedi ikililerinin listesi vardır ve aşağıdaki gibidir: L = {(1,2), (2,3), (1,5), (2,16), (8,5), (12,13), (12,15), (8,9), (3,17), (3,18), (19, 4), (7,4), (6,7), (7, 10), (3, 11), (14, 11), (20,14)}. Bu listenin ilk ikilisi bize 1 ve 2 numaraları kedilerin birbirinden ayrılamayacağını, ikinci ikilisi 2 ve 3 numaralı kedilerin birbirinden ayrılamayacağı söylemektedir. Listede (1,3) ikilisi olmamasına karşın hem 1 numaralı hem de 3 numaralı kediler 2 numaralı kediden ayrılamadığından, dolaylı olarak birbirlerinden ayrılamamaktadırlar. Ali bu durumu Türkiye Uzay Ajansı'na bildirmiş ve onlar da uzay mekiğinde yer sıkıntısı olduğu için Ali'nin yanında en fazla 10 tane kedi götürmesine izin vermişlerdir. SORU 19: Ali'nin 5 numaralı kedisi ölmüştür. Bu durumda Ali aya en fazla kaç kedi götürebilir?",
+            "secenekler": {
+                "A": "4",
+                "B": "6",
+                "C": "7",
+                "D": "8",
+                "E": "10"
+            },
+            "çözüm": "Çizgeden 5 numaralı düğüm kaldırılmıştır. Kalan çizge 2, 9, 3 ve 5 düğümlü 4 bağlı bileşenden oluşmaktadır. Aynı bağlı bileşende yer alan kediler ya topluca gideceklerdir yada topluca kalacaklardır. Bu durumda Ali 2, 3 ve 5 düğümlü bağlı bileşenlerdeki 10 kediyi götürebilir. Doğru cevap E şıkkı olan 10'dur.",
+            "cevap": "E"
+        },
+        {
+            "soruSirasi": 20,
+            "soru": "Size verilen basit yönsüz bir çizge için aşağıdakilerden hangisi doğru olabilir?",
+            "secenekler": {
+                "A": "Çizgede 20 düğüm, 16 kenar ve 3 bağlı bileşen vardır.",
+                "B": "Çizgede 6 düğüm, 11 kenar ve en az 2 bağlı bileşen vardır.",
+                "C": "Çizgede 7 düğüm, 10 kenar ve en az 3 bağlı bileşen vardır.",
+                "D": "Çizgede 5 düğüm, 10 kenar ve 10 döngü vardır.",
+                "E": "Çizgede 8 düğüm ve 8 kenar vardır ve hiç döngü yoktur."
+            },
+            "çözüm": "20 düğümlü bir çizgede 16 kenar varsa en az 4 bağlı bileşen olmak zorundadır. Bu yüzden cevap A şıkkı olamaz. 5 düğümlü bir bağlı bileşende en fazla 10 kenar olabilir. Bu yüzden 6 düğümlü bir çizgede 11 kenar var ise çizge bağlıdır. Dolayısıyla cevap B şıkkı olamaz. 5 düğümlü bir çizgede 10 kenar var ise çizge tam (complete) çizgedir ve dolayısıyla 16 döngü olmalıdır. O yüzden cevap D şıkkı olamaz. Bir çizgede 8 düğüm ve 8 kenar var ise döngü olmak zorundadır. Bu yüzden cevap E şıkkı olamaz. 7 düğümlü bir çizgenin 2 tane izole düğümü olur ve geri kalan 5 düğümün her ikilisi arasında bir kenar olursa C şıkkında verilen şartlar sağlanmış olur. Bu yüzden cevap C şıkkıdır.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 21,
+            "soru": " Çizge boyama probleminde amaç en az sayıda renk kullanarak verilen bir çizgenin düğümlerini, komşu iki düğüm farklı renklerde olacak şekilde boyamaktır. Örneğin, 4 düğüm ve 4 kenardan oluşan ve bir kare şeklinde çizebileceğimiz bir çizgeyi boyamak için 2 renk gereklidir. Ama 4 düğüm ve 5 kenardan oluşan bir çizgeyi boyamak için 3 renk gereklidir. SORU 21: 10 düğüm ve 21 kenara sahip bir çizgeyi boyamak için en fazla kaç renk gerekebilir?",
+            "secenekler": {
+                "A": "6",
+                "B": "7",
+                "C": "8",
+                "D": "9",
+                "E": "10"
+            },
+            "çözüm": "En fazla renk gerekecek durum çizgenin 7 düğümlü bir klik ve 3 izole düğümden oluştuğunda gerçekleşir. Bu durumda 7 renk gerekmektedir.",
+            "cevap": "B"
+        },
+        {
+            "soruSirasi": 22,
+            "soru": " Çizge boyama probleminde amaç en az sayıda renk kullanarak verilen bir çizgenin düğümlerini, komşu iki düğüm farklı renklerde olacak şekilde boyamaktır. Örneğin, 4 düğüm ve 4 kenardan oluşan ve bir kare şeklinde çizebileceğimiz bir çizgeyi boyamak için 2 renk gereklidir. Ama 4 düğüm ve 5 kenardan oluşan bir çizgeyi boyamak için 3 renk gereklidir. SORU 22: 10 düğüm ve 21 kenara sahip bir çizgeyi boyamak için en az kaç renk gerekebilir?",
+            "secenekler": {
+                "A": "2",
+                "B": "3",
+                "C": "4",
+                "D": "5",
+                "E": "6"
+            },
+            "çözüm": "5 düğüm bir tarafta diğer 5 düğüm diğer tarafta olacak şekilde bir ikili (bipartite) çizge düşünün. Bu çizgeye en fazla 25 kenar yerleştirilebilir ve bize soruda kenar sayısı 21 olarak verilmiş. Her ikili çizge 2 renkle boyanabileceği için doğru cevap A şıkkıdır.",
+            "cevap": "A"
+        },
+        {
+            "soruSirasi": 23,
+            "soru": "6 kişilik bir grupta iki arkadaş yan yana oturmak istememektedir. Bu durumda 6 arkadaş 6 kişilik bir koltuğa kaç farklı şekilde oturabilir?",
+            "secenekler": {
+                "A": "120",
+                "B": "240",
+                "C": "480",
+                "D": "500",
+                "E": "720"
+            },
+            "çözüm": "Tüm durumlardan iki arkadaşın yan yana oturduğu durumların sayısını çıkartarak doğru sonuca ulaşabiliriz. Toplamda 6!=720 farklı oturma düzeni olacaktır. İki arkadaş yan yana oturduğu durumda 1 kişi olarak sayılabilir ve bu şekilde 5!=120 farklı oturma düzeni olacaktır. Ancak iki arkadaş da kendi aralarında 2!=2 şekilde oturabilir, o nedenle toplam sayı 120*2=240 farklı oturma düzeni olacaktır. Bu kümeyi toplam kümeden ayırırsak 720-240=480 farklı oturma düzeni edilmiş olacaktır.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 24,
+            "soru": "MEVS
+                     EVSİ
+                     VSİM.
+                Verilen şekle göre sol üst taraftan başlayıp sadece sağ veya aşağı yönlü bir adım atılarak MEVSİM yazısına erişmek istenmektedir. Kaç farklı şekilde MEVSİM yazılabilir?",
+            "secenekler": {
+                "A": "4",
+                "B": "6",
+                "C": "10",
+                "D": "12",
+                "E": "20"
+            },
+            "çözüm": "Sadece sağ ve aşağı yönlü hareket olduğu için 3 kere aşağı ve 2 kere sağ hareketi yapılabilir durumdadır. Bunu hangi sırayla yaparsak yapalım MEVSİM kelimesine ulaşabilecektir. O nedenle toplam sayı 5!/3!2! ifadesiyle elde edilebilir. Doğru cevap 120/(6*2)=10 olacaktır.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 25,
+            "soru": " Şartlı olasılık P(A|B) şeklinde ifade edilir ve B gerçekleştiği durumda A'nın gerçekleşme olasılığını verir. P(A|B) = P(A∩B)/P(B) olacak şekilde hesaplanır. Aynı biçimde P(B|A) = P(A∩B)/P(A) olacaktır. Tablolar: ((güneşli/dışarı çıktı:3, güneşli/dışarı çıkmadı:2)(yağmurlu/dışarı çıktı:4, yağmurlu/dışarı çıkmadı:0)(bulutlu/dışarı çıktı:2 , bulutlu/dışarı çıkmadı:3))((nemli/dışarı çıktı:3, nemli/dışarı çıkmadı:4)(normal/dışarı çıktı:6 , normal/dışarı çıkmadı:1)). Merve son 14 gün içinde hava durumuna göre kaç kere dışarı çıktığını yukarıdaki tabloda bir araya getirdi. Aşağıdaki soruları bu tabloya göre çözümleyiniz. SORU 25: Eldeki bilgilere göre Merve'nin dışarı çıktığı günlerde havanın güneşli olma ihtimali nedir?",
+            "secenekler": {
+                "A": "3/5",
+                "B": "3/9",
+                "C": "5/14",
+                "D": "3/14",
+                "E": "2/3"
+            },
+            "çözüm": "Merve'nin dışarı çıktığı gün sayısı toplam 9'dur. Bu günler içinde sadece 3 gün güneşli olduğu için ihtimal değeri 3/9 olacaktır.",
+            "cevap": "B"
+        },
+        {
+            "soruSirasi": 26,
+            "soru": "Şartlı olasılık P(A|B) şeklinde ifade edilir ve B gerçekleştiği durumda A'nın gerçekleşme olasılığını verir. P(A|B) = P(A∩B)/P(B) olacak şekilde hesaplanır. Aynı biçimde P(B|A) = P(A∩B)/P(A) olacaktır. Tablolar:((güneşli/dışarı çıktı:3, güneşli/dışarı çıkmadı:2)(yağmurlu/dışarı çıktı:4, yağmurlu/dışarı çıkmadı:0)(bulutlu/dışarı çıktı:2 , bulutlu/dışarı çıkmadı:3))((nemli/dışarı çıktı:3, nemli/dışarı çıkmadı:4)(normal/dışarı çıktı:6 , normal/dışarı çıkmadı:1)) . Merve son 14 gün içinde hava durumuna göre kaç kere dışarı çıktığını yukarıdaki tabloda bir araya getirdi. Aşağıdaki soruları bu tabloya göre çözümleyiniz. SORU 26: Eldeki bilgilere göre Merve'nin dışarı çıkma ihtimali ile havanın güneşli olma ihtimali hangi seçenekte sıralı biçimde doğru verilmiştir?",
+            "secenekler": {
+                "A": "3/9, 2/5",
+                "B": "9/14, 5/14",
+                "C": "5/14, 4/14",
+                "D": "3/5, 4/14",
+                "E": "3/9, 6/9"
+            },
+            "çözüm": "Toplam 14 gün vardır ve Merve 9 gün dışarı çıkmıştır. Bu durumda Merve'nin dışarı çıkma ihtimali 9/14 olacaktır. Bu 14 gün içinde 5 gün güneşli olduğu için havanın güneşli olma ihtimali 5/14 olacaktır.",
+            "cevap": "B"
+        },
+       

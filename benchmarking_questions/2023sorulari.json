@@ -1,0 +1,386 @@
+{
+    "Sorular": [
+        {
+            "soruSirasi": 1,
+            "soru": "K, L, M, N, P, R ve S isimlerinde toplam yedi yüzücü bir dizi yüzme yarışına katılmışlardır, ve her biri bütün yarışları tamamlamıştır. Yarışlara bu yedi kişi dışında katılan yoktur. Yarışların hiçbirinin sonucunda yüzücü sıralamalarında berabere kalma durumu oluşmamıştır. Yüzülen her yarışta, S yarışı K'den önce bitirmiştir. K yarışı L'den önce bitirmiştir. Ya M birinci ve P sonuncu olmuştur; ya da N birinci ve L ile R’den bir tanesi sonuncu olmuştur. Yarışlardan birinde N yarışı altıncı sırada, L ise beşinci sırada bitirdiyse, aşağıdakilerden hangisi doğru olabilir?",
+            "secenekler": {
+                "A": "S yarışı birinci veya dördüncü sırada bitirmiştir.",
+                "B": "M yarışı ikinci veya üçüncü sırada bitirmiştir.",
+                "C": "K yarışı ikinci sırada bitirmiştir.",
+                "D": "R yarışı üçüncü veya dördüncü sırada bitirmiştir.",
+                "E": "P yarışı dördüncü sırada bitirmiştir."
+            },
+            "çözüm": "N altıncı sırada ise birinci değildir, bu durumda M birinci ve P yedincidir. Bu durumda B şıkkı da E şıkkı da doğru olamaz. M birinci olduğu için, S birinci olamaz. S, K'den önce ve K de L'den önce bitireceğinden, ve L'nin beşinci bitirdiği verildiğinden, S dördüncü de olamaz. Bu durumda A şıkkı doğru olamaz. Birinci sırada M olduğu ve S'nin K'dan önce olması gerektiği için, K yarışı ikinci sırada bitirmiş olamaz, C şıkkı da doğru olamaz. D şıkkı ise doğru olabilir, öyle ki S ikinci, R üçüncü ve K dördüncü olursa veya S ikinci, K üçüncü ve R dördüncü olursa yukarıda verilen bilgilerle çelişen bir sıralama oluşmaz.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 2,
+            "soru": " Bir kurumda X ve Y komisyonlarına Figen, Gökhan, Hakan, Ilgaz, Jale, Kemal ve Leyla isimli yedi kişi arasından aşağıdaki koşulları sağlayacak şekilde görevlendirme yapılacaktır. Bu yedi kişiden her biri X veya Y komisyonunda görevlendirilecektir. Hiç kimse iki komisyonda birden görevlendirilemez. Figen, Gökhan veya Jale ile aynı komisyonda görevlendirilemez. Hakan, Ilgaz ile aynı komisyonda görevlendirilemez. SORU 2: X komisyonunda sadece 2 kişi görevlendirilecekse, aşağıdakilerden hangisi bu iki kişiden biri olabilir?",
+            "secenekler": {
+                "A": "Gökhan",
+                "B": "Hakan",
+                "C": "Jale",
+                "D": "Kemal",
+                "E": "Leyla"
+            },
+            "çözüm": "Gökhan ve Jale aynı komisyonda ve Figen'den farklı komisyonda olmalılar. --Gökhan X komisyonunda ise Jale de X komisyonundadır. Hakan ve Ilgaz'dan biri de mutlaka X komisyonunda olacağından sayı 3'e çıkar, dolayısıyla Gökhan X komisyonundaki iki kişiden biri olamaz. Cevap A olamaz. --Benzer argüman Jale için de geçerlidir. Cevap C olamaz. --Kemal X komisyonunda ise Ilgaz ve Hakan'dan biri, ve Figen veya (Gökhan,Jale) ikilisi X komisyonunda olmalıdır. Her durumda sayı 2ʼnin üstüne çıkar. Cevap D şıkkı olamaz. --Benzer argüman Leyla için de geçerlidir. Cevap E şıkkı da olamaz. --Hakan X komisyonunda olursa diğer komisyon üyesi Figen olabilir, ve geri kalanların hepsi Y komisyonunda olabilirler. Bu durumda cevap B şıkkıdır.",
+            "cevap": "B"
+        },
+        {
+            "soruSirasi": 3,
+            "soru": " Bir kurumda X ve Y komisyonlarına Figen, Gökhan, Hakan, Ilgaz, Jale, Kemal ve Leyla isimli yedi kişi arasından aşağıdaki koşulları sağlayacak şekilde görevlendirme yapılacaktır... SORU 3: Yukarıda verilen koşullara ilave olarak aşağıdakilerden hangi koşul eklenirse, kişilerin komisyonlara dağılımı sadece tek bir şekilde yapılabilir?",
+            "secenekler": {
+                "A": "Figen ve Leyla X komisyonunda, Hakan ise Y komisyonunda görevlendirilmelidir.",
+                "B": "Jale X komisyonunda, Kemal ve Leyla Y komisyonunda görevlendirilmelidir.",
+                "C": "Gökhan ve Leyla X komisyonunda görevlendirilmelidir.",
+                "D": "Hakan ve dört kişi daha X komisyonunda görevlendirilmelidir.",
+                "E": "Ilgaz ve üç kişi daha Y komisyonunda görevlendirilmelidir"
+            },
+            "çözüm": "A şıkkına bakıldığında: Gökhan ve Jale aynı komisyonda ve Figen'den farklı komisyonda olmalılar. Figen ve Leyla X'de ise Gökhan ve Jale Y'dedir. Hakan Y'de ise Ilgaz X'tedir. Kemal ise X'te de Y'de de olabilir, dolayısıyla seçenek tek değildir. B şıkkına bakıldığında: Jale X’teyse, Gökhan da X’tedir, Figen ise Y'dedir. Şıkta verilen koşula göre Kemal ve Leyla Y'de olmalıdır. Bu durumda Hakan X'te, Ilgaz Y'de, veya tam tersi olabilir. Dolayısıyla seçenek tek değildir. C şıkkına bakıldığında: Gökhan ve Leyla X'te ise Jale de X'tedir, Figen ise Y'dedir. Kemal her iki komisyonda da olabilir. Hakan X'te, Ilgaz Y'de, veya tam tersi olabilir. Dolayısıyla seçenek tek değildir. D şıkkına bakıldığında: Hakan ve 4 kişi daha X’te olmalıdır. Ilgaz X’te olamaz. Figen ve (Jale,Gökhan) ikilisinin farklı komisyonlarda olma şartından dolayı iki durum vardır: (i) Figen X'te olursa Jale ve Gökhan Y’de olmak zorunda olduğundan, Kemal ve Leyla X'te görevlendirilse bile, Hakan dışında sadece 3 kişi olur. Bu seçenek ek koşulu sağlamamaktadır. (ii) (Jale, Gökhan) ikilisi X'te olursa Kemal ve Leyla da X'te görevlendirilerek 4 kişi koşulu sağlanır. Bu görevlendirme bütün koşulları sağlayabilen tek seçenektir. Cevap D şıkkıdır.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 4,
+            "soru": "12 düğüm ve 3 bağlı bileşeni olan bir basit yönsüz çizgede en fazla kaç kenar olabilir?",
+            "secenekler": {
+                "A": "18",
+                "B": "24",
+                "C": "45",
+                "D": "55",
+                "E": "66"
+            },
+            "çözüm": "En fazla kenar içeren durum çizge 10 düğümlü bir klik ve 2 izole düğümden oluştuğunda gerçekleşir. Bu durumda çizgede 45 kenar vardır.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 5,
+            "soru": "Aynı liseden mezun olmak üzere olan 9 kişilik bir arkadaş grubu, bağlantılarını sürdürmek için mezuniyet sonrasında da ayda bir akşam yemeği için buluşmaya karar vermişlerdir. Bu arkadaş grubunun her zaman gittikleri favori bir restoranları vardır ve gelecekteki akşam yemeklerini de bu restoranda bir yuvarlak masa etrafında yiyeceklerdir. Herkese birbiriyle daha fazla sohbet imkanı vermek amacıyla yemeklerdeki oturma düzeni ile ilgili şöyle bir karar alırlar: her bir kişinin yanında (sağında ve solunda) her akşam yemeği buluşmasında farklı iki kişi oturacaktır. Örneğin ilk yemekte A'nın bir yanında B, diğer yanında C oturduysa, sonraki yemeklerde A'nın yanında B ve C'den farklı kişiler oturmalıdır. Bu oturma düzeni kuralı en fazla kaç ay sürdürülebilir?",
+            "secenekler": {
+                "A": "8!",
+                "B": "8! / 2",
+                "C": "2",
+                "D": "3",
+                "E": "4"
+            },
+            "çözüm": "Her düğümün arkadaş grubunun bir üyesine karşılık geldiği bir çizge düşünelim. Bu çizgedeki bir (u, v) kenarı, u ve v'nin karşılık geldiği kişilerin yan yana oturma olasılığı olduğu anlamına gelsin. Her kişinin kendisi dışındaki her kişi ile yan yana oturma olasılığı olduğu için oluşan 9 düğümlü bir tam çizgedir. Her oturma düzeni ise bu çizgedeki bir Hamilton döngüsüne karşılık gelir. (Hamilton döngüsü her düğüm üzerinden tam bir defa geçerek bütün düğümleri dolaşan ve başlangıç düğümüne geri dönen yoldur.) Bu soruda istenen ise birbirinden tamamen farklı kenarları içeren Hamilton döngülerinin sayısıdır. N düğümlü bir tam çizgede bu sayı (N-1)/2 olup, 9 düğümlü çizgemizde birbirinden tamamen farklı kenarlar içeren 4 Hamilton döngüsü vardır. Bu soru şu şekilde de çözülebilir: Bir kişinin yanında en fazla 4 farklı ikili oturabileceğinden ilk olarak sorunun cevabının üst limitinin 4 olduğu görülebilir. Sonrasında muhtemel permütasyonları kontrol ederek üst limite ulaşılabileceği görülebilir.",
+            "cevap": "E"
+        },
+        {
+            "soruSirasi": 6,
+            "soru": "Aşağıda sözde kod olarak verilen algoritma girdi olarak bir n tam sayısı almaktadır. Bu algoritma ilk olarak indisleri 1'den başlayan, n uzunluğunda ve başlangıçta bütün elemanları 0 (sıfır) olan bir A dizisi oluşturmaktadır. Daha sonra bu dizi üzerinde aşağıda belirtilen işlemleri yapmaktadır. Sözde Kod: 1. A[1..n], indisleri 1'den başlayan, n uzunluğunda ve başlangıçta bütün elemanları 0 olan bir dizi olsun. 2. A[1]'e 1 değerini ata. 3. p = 2 olsun. 4. p'nin n'ye eşit veya n’den küçük her bir tam katı (k × p, k > 1) için 4.1. A[k × p]'ye 1 değerini ata. 5. Dizide içinde 0 değeri bulunan ve p'den büyük en küçük indise sahip elemanı bul. Böyle bir eleman yoksa algoritmayı sonlandır. Varsa p'ye bu elemanın indisini ata ve algoritmayı 4. basamaktan itibaren tekrarla. Yukarıda verilen algoritma, n = 100 için çalıştırılırsa algoritma sonlandığında A dizisinin kaç elemanının değeri 0 olur?",
+            "secenekler": {
+                "A": "15",
+                "B": "16",
+                "C": "18",
+                "D": "25",
+                "E": "30"
+            },
+            "çözüm": "Verilen algoritmada p ilk olarak 2 değerini almakta ve 2'nin kendinden farklı ve 100'den küçük katları olan 4, 6, 8,.. indislerindeki elemanlara 1 değerini atamaktadır. Bir sonraki p değeri 3 olur. (içinde 0 değeri bulunan ve 2'den büyük en küçük indis). 4. Basamak p=3 için tekrarlandığında 3'ün katları olan 6, 9, 12,.. indislerindeki elemanlara 1 atanır. Bu aşamaya kadar 2'nin ve 3'ün katları olan indislerdeki elemanlar 1 olarak atandığı için, bir sonraki p değeri 3'ten sonraki ilk asal sayı olan 5 olur. Algoritma bu şekilde devam ederek sonlandığında dizide değeri 0 olarak kalan elemanlar indisleri asal sayı olan elemanlardır. 1 ve 100 indisleri arasında, toplam 25 asal sayı olan indis olduğundan cevap D'dir.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 7,
+            "soru": "Ali her birinin üzerinde bir tam sayı yazılı olan kartlarla bir oyun oynuyor. Başlangıçta, n adet kart bir masanın üzerinde yanyana dizili ve açık olarak duruyor ve Ali'nin skoru 0. Ali bir dizi hamle yaparak skorunu artırabilir. Her defasında olası iki hamle arasında seçim yapabiliyor: a) En soldaki kartı masadan alıp, skorunu sabit bırakmak, veya b) En soldaki iki kartın üzerindeki sayıların toplamını skoruna ekledikten sonra en soldaki üç kartı masadan almak. (Eğer masada 1 veya 2 kart kaldıysa, Ali (a) hamlesini seçmek zorunda.) Masada hiç kart kalmadığında oyun bitiyor. Ali'nin amacı oyun sonundaki skorunu maksimize etmek. Ali skorunu maksimize etmek için aşağıdaki özyineli denklemleri kullanıyor. A[1..n] dizisi masada soldan sağa dizilmiş n kartı temsil etsin. Örneğin A: {7, 3, -2, 1} dizisi toplam n=4 kart ve soldan sağa kartların üzerlerinde 7, 3, -2 ve 1 sayılarının olduğu anlamına geliyor. Oyuna dizinin j. elemanından sonuncu elemanına kadar olan kartlar ile başlanırsa oyun sonunda elde edilebilecek maksimum skoru F(j) ile gösterirsek: F(n) = 0, F(n-1) = 0, F(n-2) = max (0, A[n-1] + A[n-2]), F(j) = max(F(j+1), A[j] + A[j+1] + F(j+3)), 1 ≤ j ≤ n-3. Bu durumda F(1) oyuna A[1..n] dizisindeki bütün kartlarla başlandığında elde edilebilecek maksimum skoru gösterir. Örneğin A:{2,5,7,3,10,10,1} olduğunda elde edilebilecek maksimum skor F(1) = 5+7+10+10 = 32'dir. A: {12, -7, 9, -1, 1, 8, 2, 0, 6, -3} olduğunda elde edilebilecek maksimum skor ne olur?",
+            "secenekler": {
+                "A": "10",
+                "B": "15",
+                "C": "18",
+                "D": "19",
+                "E": "20"
+            },
+            "çözüm": "A dizisi n=10 elemanlıdır. Sırasıyla hesaplanırsa F(10)= F(9) = 0, F(8) = max (0, 0+6) = 6, F(7) = max(F(8), A[7]+A[8]+F(10)) = max(6, 2) = 6, F(6) = max(F(7), A[6]+A[7]+F(9)) = max(6,10) = 10, ve benzer şekilde hesaplamaya devam edilirse F(5) = 15, F(4)=15, F(3)= 18, F(2) = 18, F(1) = 20 olur.",
+            "cevap": "E"
+        },
+        {
+            "soruSirasi": 8,
+            "soru": "Uzak bir gezegende her biri n mühendis uzaylıdan oluşan iki grup bir uzay gemisi tasarımında çalışacaklardır. Grupları A ve B olarak isimlendirelim. A grubundan bir uzaylı ile B grubundan bir uzaylı eşleştirilerek n adet ikili grup oluşturulacaktır. Bu eşleştirme yapılırken uzaylıların zeka seviyelerine (IQ) göre bir yol izlenecektir. A grubu içinde bulunan uzaylıların her biri birbirinden farklı IQ'ya sahiptir. Aynı şekilde B grubundaki uzaylıların da her biri birbirlerinden farklı IQ'ya sahiptir. Her uzaylının diğer grupta kendisine eşit IQ'ya sahip olan bir dengi vardır, buna uzaylının partneri diyelim. Amaç her uzaylıyı diğer gruptaki partneri ile eşleştirmektir. Uzaylılar kendi IQ'larını sayısal bir değer olarak bilmemektedirler, fakat şöyle bir karşılaştırma işlemi kullanabilmektedirler: iki uzaylı, a ve b, karşılıklı durup birbirlerine bakarlarsa, (i) eğer a ve b'nin IQ'ları eşit ise ikisinin de gözleri yanıp sönmektedir. (ii) eğer a ve b’nin IQ’ları eşit değilse, sadece IQ’su daha yüksek olan uzaylının gözleri yanıp sönmektedir. Bu karşılaştırma yöntemi kullanılarak her uzaylının partneri aşağıdaki özyinelemeli Eşleştir algoritması ile bulunabilir. Eşleştir(A, B): 1. A ve B gruplarında sadece birer uzaylı varsa bunlar birbirinin partneridir, ve algoritma sonlandırılır. Aksi takdirde A grubundakiler tek sıra halinde yan yana dizilir. B grubundakiler de tek sıra halinde yan yana dizilir. A grubundan rastgele bir uzaylı seçilir, buna a diyelim. Bu uzaylı sırayla B grubundaki her bir uzaylının karşısına geçip gözlerine bakar ve partnerini bulur. Partnerine b diyelim. Bu basamakta a ve b partnerlerini bulmuştur. 2. A grubundaki her bir uzaylı u, a'nın karşısına geçerek gözlerine bakar... n = 15 ise verilen algoritma kullanıldığında bütün uzaylıların partnerleri en kötü ihtimalle (en fazla) kaç karşılaştırma işlemi sonucunda belirlenir?",
+            "secenekler": {
+                "A": "329",
+                "B": "305",
+                "C": "285",
+                "D": "279",
+                "E": "267"
+            },
+            "çözüm": "En fazla sayıda karşılaştırma 1. basamakta rastgele seçilen uzaylı a'nın (algoritmanın her çağrılışında) A grubundaki en düşük veya en yüksek IQ'ya sahip uzaylı olması durumunda gerçekleşir. Seçilen a'nın grubundaki en yüksek IQ’lu uzaylı olduğu durumu ele alalım. Bu durumda (A ve B gruplarındaki eleman sayısı n ise) 2. ve 3. basamaklarda a'nın (ve b'nin) solunda oluşan grup (n-1) ve sağında oluşan grup 0 (sıfır) uzaylı içerecektir. Algoritma ilk olarak n = 15 için çalıştırılır: 1. basamakta en fazla 15, 2. ve 3. basamaklarda 14’er karşılaştırma işlemi yapar. Oluşan A1, B1 grupları n-1 = 14'er uzaylı içerir. A2, B2 grupları ise boştur. Bu durumda 6. basamakta algoritma sadece boş olmayan (A1, B1) için çalıştırılır. n = 14 için: 1. basamakta en fazla 14, 2. ve 3. basamaklarda 13'er karşılaştırma işlemi yapar... Algoritmanın bütününe bakarsak 1. basamaklarda toplam 15+14+...+2 = 119 karşılaştırma işlemi, 2. ve 3. basamaklarda toplam 2x(14+13+...+1) = 210 karşılaştırma işlemi yapılır. Cevap 210+119 = 329 olup A şıkkında verilmiştir.",
+            "cevap": "A"
+        },
+        {
+            "soruSirasi": 9,
+            "soru": "Hızlı Taşımacılık Şirketi'nde çalışan işçilerin büyük mobilya parçalarını taşımaları gerekiyor. Bir ev taşıma işini koordine eden şirket amiri, büyük mobilyaları birlikte taşıyabilmeleri için işçileri ikili gruplar halinde eşleştirmek istiyor. Her işçinin verimliliği, bir saatte taşıyabileceği toplam ağırlık ile ölçülsün. İki işçiden oluşan bir grubun verimliliği ise iki işçi arasında verimliği daha az olan işçinin verimliliğine eşit olsun. Örneğin, verimliliği 500 olan bir işçi, verimliliği 300 olan başka bir işçiyle eşleştirilirse, gruplarının verimliliği 300 olur. Toplam verimlilik, tüm grupların verimliliklerinin toplamı olsun. Bu taşıma işinde çalışan n işçi olduğunu ve n sayısının bir çift sayı olduğunu varsayalım. Amire n işçinin verimliliklerini gösteren, indisleri 1'den başlayan ve n elemanlı V[1..n] dizisi veriliyor, bu dizinin i. elemanı i. işçinin verimliliğini göstermekte. Amirin amacı işçileri toplam verimliliği maksimize edecek şekilde eşleştirmek. Amir, işçileri eşleştirmek için şu stratejiyi düşünüyor: Aralarındaki verimlilik farkı en küçük olan iki işçiyi bulup onları eşleştirin. Tüm işçiler eşleştirilene kadar bu işlemi tekrarlayın. Bu stratejinin her zaman verimliliği maksimize etmeyeceğini aşağıdaki V dizilerinden hangisini örnek göstererek ispat edebiliriz?",
+            "secenekler": {
+                "A": "V: {13, 3, 8, 12, 9, 6}",
+                "B": "V: {1, 1, 2, 2, 3, 3}",
+                "C": "V: {12, 5, 9, 24, 20, 18}",
+                "D": "V: {25, 3,4, 22, 10, 15}",
+                "E": "Hiçbiri"
+            },
+            "çözüm": "Soruda verilen stratejiye göre toplam verimlilik min(18,20)+min(9,12)+min(5,24) = 32 olur. Fakat eğer işçiler küçükten büyüğe verimlilik sırasına göre sıralanıp, sonra bu sıralamada en küçükten başlayarak ardışık her iki işçiyi eşleştirilecek şekilde bir strateji uygulanırsa (ki bu optimali veren stratejidir) verimlilik min(5,9) + min(12,18) + min(20,24) = 37 olur. Bu durumda 32'den daha iyi bir eşleştirme mümkün olduğu için C şıkkındaki örnek önerilen stratejinin optimal olmadığını ispatlar. Diğer şıklarda soruda önerilen strateji optimal çözümle aynı sonucu verdiğinden karşı örnek olarak kullanılamazlar.",
+            "cevap": "C"
+        },
+        
+        {
+            "soruSirasi": 10,
+            "soru": "Bir kutuda üzerlerine 1 ile 20 arasında farklı sayılar yazılmış toplam 20 tane top vardır (farklı iki top üzerinde aynı sayı bulunmaz). 4 tane top yerine konulmadan rastgele bu kutudan seçildiğinde bu topların büyükten küçüğe sıralı olarak seçilme ihtimali kaçtır?",
+            "secenekler": {
+                "A": "1/4",
+                "B": "1/5",
+                "C": "1/20",
+                "D": "1/24",
+                "E": "Hiçbiri"
+            },
+            "çözüm": "Kutudan rastgele yerine koymadan 4 top seçelim. Bu toplar kendi aralarında 4! farklı sıraya seçilebilir. Bunlardan ise sadece 1 tanesinde istenen şekilde sıralanmışlardır. Bu nedenle kutudan seçilebilecek herhangi 4 top için için 4! = 24 farklı sıralamadan sadece 1 tanesi şartı sağlar. Yani istenen ihtimal 1/24.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 11,
+            "soru": "Bir mezuniyet partisine gelen herkes kendisi dışında partiye katılan herkesin elini sıkmıştır. Bu partide toplam 171 kere el sıkışılmış ise partideki kişi sayısı kaçtır?",
+            "secenekler": {
+                "A": "18",
+                "B": "19",
+                "C": "20",
+                "D": "21",
+                "E": "22"
+            },
+            "çözüm": "Partide n kişi olsun. İlk kişi n-1 tane el sıkmıştır, ikinci kişi ilk kişi ile sıktığı el dışında n-2 tane farklı el sıkmıştır. Bu şekilde toplamda (n-1)+(n-2)+...+1 = n(n-1)/2 = 171'den n=19 olur.",
+            "cevap": "B"
+        },
+        {
+            "soruSirasi": 12,
+            "soru": "ANKARA kelimesindeki harfler kaç farklı şekilde dizilebilir?",
+            "secenekler": {
+                "A": "120",
+                "B": "520",
+                "C": "24",
+                "D": "6",
+                "E": "Hiçbiri"
+            },
+            "çözüm": "ANKARA kelimesinde 3 tane A, 1 tane N, 1 tane K ve 1 tane R harfi vardır. Bu nedenle, 6!/(3!*1!*1!*1!) = 6 x 5 x 4 = 120.",
+            "cevap": "A"
+        },
+        {
+            "soruSirasi": 13,
+            "soru": "3 boyutlu uzayda bir pozisyondan diğerine gitmek için her adımda X, Y, Z koordinatlarından sadece birini 1 birim arttırdığımızı ve diğer ikisini değiştirmediğimizi varsayalım. Buna göre (0,0,0) noktasından (1,2,4) noktasına giden kaç farklı yol vardır?",
+            "secenekler": {
+                "A": "8",
+                "B": "21",
+                "C": "105",
+                "D": "420",
+                "E": "Hiçbiri"
+            },
+            "çözüm": "Tüm bu yolların kümesi ile 1 tane X, 2 tane Y ve 4 tane Z içeren küme arasında bir ilişki. Burada, X, Y, ve Z sırasıyla birinci, ikinci ve üçüncü koordinatı bir birim artıran bir adıma karşılık gelir. Buna göre, 7!/(4! x 2! x 1!) = 105",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 14,
+            "soru": "Bir kutudaki topların yarısı bir biri ile tamamen aynı, geri kalanların her biri diğer toplardan tamamen farklı olsun. Kutuda 2A tane top olduğuna göre bu kutudan A tanesi kaç farklı şekilde seçilebilir?",
+            "secenekler": {
+                "A": "2A",
+                "B": "A^2",
+                "C": "A²",
+                "D": "2^A",
+                "E": "2^A"
+            },
+            "çözüm": "İlk olarak, farklı topları kaç şekilde seçeceğimizi bulalım. Sonra, toplamı A'ya getirmek için ne kadar çok özdeş topa ihtiyacımız varsa onları alalım. İlk adım, 2^A şekilde yapılabilir ve ikincisi sadece 1 şekilde yapılabilir. Bu nedenle, istenen şekilde A tane topu seçmenin 2^A yolu vardır.",
+            "cevap": "E"
+        },
+        {
+            "soruSirasi": 15,
+            "soru": "1,2,3,4,5,6,7 rakamları kullanılarak içinde mutlaka 1 rakamı bulunan 4 haneli sayılar oluşturulacaktır. Aynı rakamın tekrar kullanımına izin verilmediği durumda bu şekilde kaç tane sayı oluşturulabilir?",
+            "secenekler": {
+                "A": "24",
+                "B": "120",
+                "C": "256",
+                "D": "480",
+                "E": "Hiçbiri"
+            },
+            "çözüm": "1 sayının binler basamağında olduğunda toplamda 1 x 6 x 5 x 4 = 120 tane sayı oluşturulabilir (aynı rakamın tekrar kullanımına izin verilmediği için). 1 sayının yüzler, onlar ya da birler basamağında da olabilir. Bu durumda, toplamda 4 x 120 = 480 tane istenen şekilde sayı elde edilir.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 16,
+            "soru": "Hilesiz bir madeni para 20 kere havaya atılıyor. Bu şekilde Yazı ve Tura serileri elde ediliyor. İçinde en fazla 2 tane Yazı olan kaç farklı seri vardır?",
+            "secenekler": {
+                "A": "2",
+                "B": "18",
+                "C": "190",
+                "D": "210",
+                "E": "211"
+            },
+            "çözüm": "C(20, 0) + C(20, 1) + C(20, 2) = 1 + 20 + 190 = 211",
+            "cevap": "E"
+        },
+        
+        {
+            "soruSirasi": 17,
+            "soru": " K, Y ve M karakterlerini kullanarak (bu harfler sırasıyla Kırmızı, Yeşil ve Mavi renklerini gösterir) renkli bir üçgeni temsil eden bir program yazıyoruz. Üçgen oluşturma kuralları şöyledir: İlk satırdaki karakterler girdi olarak verilir. İkinci satırdan itibaren her satır bir önceki satırdan bir tane daha az karakter içerir. Bir satırdaki ardışık iki karakter incelenerek sonraki satırdaki karakter bulunur. Bir satırda aynı rengi temsil eden iki karakter yan yana ise sonraki satıra bu karakter konur. Bir satırda farklı iki rengi temsil eden iki karakter varsa sonraki satıra olmayan rengin karakteri konur. En son satırda tek bir karakter kalana kadar bu kurallar uygulanır.  9 karakterli kaç tane farklı satır 8 karakterli KKYMKYMM satırını oluşturabilir?",
+            "secenekler": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4",
+                "E": "5"
+            },
+            "çözüm": "Şu 3 satır istenen satırı oluşturabilir. KKKMMYYKY, YMYYKKMMM, ΜΥΜΚΥΜKΥΚ",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 18,
+            "soru": "K, Y ve M karakterlerini kullanarak (bu harfler sırasıyla Kırmızı, Yeşil ve Mavi renklerini gösterir) renkli bir üçgeni temsil eden bir program yazıyoruz. Üçgen oluşturma kuralları şöyledir: İlk satırdaki karakterler girdi olarak verilir. İkinci satırdan itibaren her satır bir önceki satırdan bir tane daha az karakter içerir. Bir satırdaki ardışık iki karakter incelenerek sonraki satırdaki karakter bulunur. Bir satırda aynı rengi temsil eden iki karakter yan yana ise sonraki satıra bu karakter konur. Bir satırda farklı iki rengi temsil eden iki karakter varsa sonraki satıra olmayan rengin karakteri konur. En son satırda tek bir karakter kalana kadar bu kurallar uygulanır. Bir satırda yalnızca tek bir karenin renginin bildiğimizi varsayalım. Bu satırdaki bilinmeyen karakterler kurallar dahilinde kaç farklı şekilde renklendirilebilir?",
+            "secenekler": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4",
+                "E": "İlgili olması gereken karakter sayısına göre değişir."
+            },
+            "çözüm": "Bir satırdaki karakterler biliniyorsa ve sonraki satırda bir karakter biliniyorsa, o satırın tamamlanmasının tek bir yolu vardır. Bunu tüme varım ile ispatlayabiliriz: Bunun için en alt satırdan (yani tek renk içeren satırdan) başlayarak üste doğru gidelim. En küçük satır tamamen biliniyor. Üstündeki satırdaki tek bir karakter bilinirse o zaman o satır tek bir yol ile tamamlanabilir. Bu şekilde istenen ifade elde edilir.",
+            "cevap": "A"
+        },
+        {
+            "soruSirasi": 19,
+            "soru": "K, Y ve M karakterlerini kullanarak (bu harfler sırasıyla Kırmızı, Yeşil ve Mavi renklerini gösterir) renkli bir üçgeni temsil eden bir program yazıyoruz. Üçgen oluşturma kuralları şöyledir: İlk satırdaki karakterler girdi olarak verilir. İkinci satırdan itibaren her satır bir önceki satırdan bir tane daha az karakter içerir. Bir satırdaki ardışık iki karakter incelenerek sonraki satırdaki karakter bulunur. Bir satırda aynı rengi temsil eden iki karakter yan yana ise sonraki satıra bu karakter konur. Bir satırda farklı iki rengi temsil eden iki karakter varsa sonraki satıra olmayan rengin karakteri konur. En son satırda tek bir karakter kalana kadar bu kurallar uygulanır. Bazı satırlarda sadece en soldaki ve en sağdaki karakterler en son satırdaki karakterin ne olduğunu belirler. Örnek olarak bir satırın en solunda K, en sağında M olsun. Son satır, diğer karakterlerden bağımsız olarak G karakterini içerir. Aşağıdakilerden hangisi bu tür bir satırdaki karakter sayısını verir?",
+            "secenekler": {
+                "A": "3",
+                "B": "4",
+                "C": "5",
+                "D": "6",
+                "E": "7"
+            },
+            "çözüm": "Bu özellik 4 tane karakterli satırlar için geçerlidir. (Daha uzun bazı satırlar için de bu özellik vardır). Bu özelliğin 4 karakterli satırlar için geçerli olduğu denenerek görülebilir. Genel olarak karakter sayısı 3^k+1 olan satırlar için (yani, 10, 28, 82, vs.) bu özellik bulunur.",
+            "cevap": "B"
+        },
+        {
+            "soruSirasi": 20,
+            "soru": " A ve B kümesinde A'dan B'ye ikili ilişki (A'dan B'ye bir bağıntı), A kartezyen B'nin (A x B'nin) bir altkümesidir. A kümesinde bir ilişki A'dan A’ya ilişkiye karşılık gelir. Örnek: A = {1, 2, 3, 4} kümesi için R = {(a, b)| a, b'yi böler} ilişkisinin içinde yer alan sıralı çiftler (1,1), (1,2), (1,3), (1,4), (2,2), (2,4), (3,3) ve (4,4)'dür. A kümesinde bir R bağıntısı eğer her a∈A için (a, a)∈R şartını sağlıyorsa R bağıntısı yansıyan olarak adlandırılır. A kümesinden alınan her a, b için, (a, b)∈R olduğunda (b, a)’da R’nin elemanı ise R bağıntısı simetrik olarak adlandırılır. A elemanları birbirinden farklı 8 elemanlı bir küme olsun. A kümesinde kaç farklı simetrik ve yansıyan bağıntı tanımlanabilir?",
+            "secenekler": {
+                "A": "2^8",
+                "B": "2^16",
+                "C": "2^28",
+                "D": "2^36",
+                "E": "2^63"
+            },
+            "çözüm": "A kümesinin eleman sayısını n ile gösterelim. A kümesinde n^2 tane sıralı ikili tanımlanabilir. Bunlardan n tanesi her yansıyan bağıntıda bulunmak zorundadır. Geri kalan n(n - 1) tane ikili ikişerli n(n-1)/2 tane grup olarak düşünülebilir. Şartları sağlayan bir bağıntıda bir grup ya bulunacaktır ya bulunmayacaktır. Bu seçme işlemi 2^(n(n-1)/2) = 2^28 şekilde yapılabilir. Dolayısıyla cevap C şıkkıdır.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 21,
+            "soru": "A ve B kümesinde A'dan B'ye ikili ilişki (A'dan B'ye bir bağıntı), A kartezyen B'nin (A x B'nin) bir altkümesidir. A kümesinde bir ilişki A'dan A’ya ilişkiye karşılık gelir. Örnek: A = {1, 2, 3, 4} kümesi için R = {(a, b)| a, b'yi böler} ilişkisinin içinde yer alan sıralı çiftler (1,1), (1,2), (1,3), (1,4), (2,2), (2,4), (3,3) ve (4,4)'dür. A kümesinde bir R bağıntısı eğer her a∈A için (a, a)∈R şartını sağlıyorsa R bağıntısı yansıyan olarak adlandırılır. A kümesinden alınan her a, b için, (a, b)∈R olduğunda (b, a)’da R’nin elemanı ise R bağıntısı simetrik olarak adlandırılır. A elemanları birbirinden farklı 8 elemanlı bir küme olsun. A kümesinde kaç farklı simetrik bağıntı tanımlanabilir?",
+            "secenekler": {
+                "A": "2^8",
+                "B": "2^16",
+                "C": "2^28",
+                "D": "2^36",
+                "E": "2^63"
+            },
+            "çözüm": "A kümesinin eleman sayısını n ile gösterelim. A kümesinde n^2 tane sıralı ikili tanımlanabilir. Bunlardan n tanesinde bir eleman kendisiyle ilişkilidir. Bu n ikilinin her biri bir grup olarak düşünülebilir. Geri kalan n(n - 1) tane ikili ikişerli n(n-1)/2 tane grup olarak düşünülebilir. Toplamda n(n+1)/2 grup vardır. Simetrik bir bağıntıda her bir grup ya bulunacaktır ya da bulunmayacaktır. Bu seçme işlemi 2^(n(n+1)/2) = 2^36 şekilde yapılabilir. Dolayısıyla cevap D şıkkıdır.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 22,
+            "soru": "A ve B kümesinde A'dan B'ye ikili ilişki (A'dan B'ye bir bağıntı), A kartezyen B'nin (A x B'nin) bir altkümesidir. A kümesinde bir ilişki A'dan A’ya ilişkiye karşılık gelir. Örnek: A = {1, 2, 3, 4} kümesi için R = {(a, b)| a, b'yi böler} ilişkisinin içinde yer alan sıralı çiftler (1,1), (1,2), (1,3), (1,4), (2,2), (2,4), (3,3) ve (4,4)'dür. A kümesinde bir R bağıntısı eğer her a∈A için (a, a)∈R şartını sağlıyorsa R bağıntısı yansıyan olarak adlandırılır. A kümesinden alınan her a, b için, (a, b)∈R olduğunda (b, a)’da R’nin elemanı ise R bağıntısı simetrik olarak adlandırılır. A elemanları birbirinden farklı 8 elemanlı bir küme olsun. R ise A'dan A'ya tanımlı ve rastgele seçilmiş bir bağıntı olsun. R bağıntısının yansıyan olma olasılığı nedir?",
+            "secenekler": {
+                "A": "1/32",
+                "B": "1/36",
+                "C": "1/64",
+                "D": "1/128",
+                "E": "1/256"
+            },
+            "çözüm": "A kümesinin eleman sayısını n ile gösterelim. A kümesinde n^2 tane sıralı ikili tanımlanabilir. Bunlardan n tanesinde bir eleman kendisiyle ilişkilidir. Bir bağıntının yansıyan olması için bu n ikilinin tamamını içermesi gerekir. Rastgele seçilmiş bir R bağıntısı bu ikililerin her birini 1/2 olasılıkla içerir. Hepsini birden içerme olasılığı 1/2^n'dir. Bize n = 8 olarak verildiği için doğru cevap E şıkkıdır.",
+            "cevap": "E"
+        },
+        {
+            "soruSirasi": 23,
+            "soru": " 1'den n'ye kadar olan sayıların bütün sıralamalarını göz önünde bulunduralım. Ardışık iki sayıdan küçük olanın büyük olandan hemen önce gelmediği sıralamaları iyi sıralamalar olarak adlandıralım. Yani iyi bir sıralamada, herhangi bir i sayısı p konumunda bulunuyorsa, i + 1 sayısı p + 1 konumunda bulunmamaktadır. Örnek verecek olursak, n = 3 için, iyi sıralamalar aşağıdaki üç sıralamadır: (1,3,2), (2,1,3) (3,2,1). n = 4 için kaç tane iyi sıralama vardır?",
+            "secenekler": {
+                "A": "8",
+                "B": "9",
+                "C": "11",
+                "D": "13",
+                "E": "10"
+            },
+            "çözüm": "P(n), n sayının iyi sıralama sayısını göstersin. P(n)'deki sıralamaların nasıl oluştuğunu inceleyelim. Burada iki durum mevcuttur: n'nin iyi bir sıralamaya ya da kötü bir sıralamaya eklenmesidir. İlk durum: (n - 1)×P(n - 1) olacaktır. İkinci durum: (n − 2)×P(n – 2) olacaktır. Dolayısıyla P(n) = (n − 1)×P(n − 1) + (n − 2)×P(n – 2)'dir. P(1) ve P(2) değerleri 1 olacaktır. Sorunun cevabı içinse n yerine 4 koyduğumuzda cevap 11 olacaktır.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 24,
+            "soru": "1'den n'ye kadar olan sayıların bütün sıralamalarını göz önünde bulunduralım. Ardışık iki sayıdan küçük olanın büyük olandan hemen önce gelmediği sıralamaları iyi sıralamalar olarak adlandıralım. Yani iyi bir sıralamada, herhangi bir i sayısı p konumunda bulunuyorsa, i + 1 sayısı p + 1 konumunda bulunmamaktadır. Örnek verecek olursak, n = 3 için, iyi sıralamalar aşağıdaki üç sıralamadır: (1,3,2), (2,1,3) (3,2,1). n = 6 için kaç tane iyi sıralama vardır?",
+            "secenekler": {
+                "A": "298",
+                "B": "309",
+                "C": "256",
+                "D": "301",
+                "E": "362"
+            },
+            "çözüm": "Üstteki soruda elde edilen formülde değerleri yerine koyduğumuzda P(4) = 11, P(5) = 53 ve P(6) = 309 olacaktır.",
+            "cevap": "B"
+        },
+        {
+            "soruSirasi": 25,
+            "soru": " Ali çiçek süsleyerek geçimini sağlamaktadır ve 𝑛 gün çalıştıktan sonra emekliye ayrılacaktır. Ali'nin süslediği çiçekleri satabilmesi piyasadaki süslenmiş çiçek talebine de bağlıdır. 𝑥1, 𝑥2, …, 𝑥𝑛 dizisi Ali'nin çiçeklerine önümüzdeki 𝑛 gündeki talebi göstermektedir. Yani 𝑥𝑖 Ali'nin 𝑖. gün sonra satabileceği (dolayısıyla süsleyebileceği) azami çiçek sayısını göstermektedir. Çiçekler süslendiği gün satılmak zorundadır. Ali artık yaşlandığı için dinlenmeden çalıştığı her gün bir önceki güne göre daha az çiçek süsleyebilmektedir. Ali dinlendiği gün hiç çiçek süslememektedir. 𝑠𝑖 Ali'nin üst üste çalıştığı 𝑖. günde süsleyebileceği azami çiçek sayısı olsun. 𝑠1 ≥ 𝑠2≥…≥𝑠𝑛≥1 değerleri bize verilmiş olsun. Amacımız Ali’nin 𝑛 günde süsleyip satabileceği toplam çiçek sayısının alabileceği en büyük değeri bulmaktır. Ali’nin dinleneceği günleri bu değere ulaşacak şekilde seçen stratejiye optimal strateji diyoruz.
+Örnek: 𝑛 = 4, 𝑥 = {10, 1, 7, 7} ve 𝑠 = {8, 4, 2, 1} olsun. Bu durumda Ali'nin uygulayabileceği optimal strateji 2. gün dinlenmek ve diğer günler çalışmaktır. Bu strateji altında Ali 8 + 0 + 7 + 4 = 19 çiçek süsleyecektir. n = 179 için Ali optimal stratejiyi uygularsa en fazla kaç gün dinlenebilir?",
+            "secenekler": {
+                "A": "59",
+                "B": "60",
+                "C": "61",
+                "D": "89",
+                "E": "90"
+            },
+            "çözüm": "Ali optimal stratejide son gün dinlenemez, bu yüzden Ali 179. gün çalışacaktır. Aynı zamanda, Ali hiçbir zaman ardışık iki gün dinlenemez. Bu yüzden ilk 178 günün en fazla yarısında dinlenebilir. Bu da 89 güne karşılık gelmektedir. Bu yüzden cevap en fazla 89 olabilir. x = {10, 10, ..., 10} ve s = {10, 1, 1, ..., 1} için optimal stratejide Ali tek günler çalışacak ve çift günler dinlenecektir. Bu yüzden cevap en az 89'dur. Dolayısıyla doğru cevap 89'dur.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 26,
+            "soru": " Ali çiçek süsleyerek geçimini sağlamaktadır ve 𝑛 gün çalıştıktan sonra emekliye ayrılacaktır. Ali'nin süslediği çiçekleri satabilmesi piyasadaki süslenmiş çiçek talebine de bağlıdır. 𝑥1, 𝑥2, …, 𝑥𝑛 dizisi Ali'nin çiçeklerine önümüzdeki 𝑛 gündeki talebi göstermektedir. Yani 𝑥𝑖 Ali'nin 𝑖. gün sonra satabileceği (dolayısıyla süsleyebileceği) azami çiçek sayısını göstermektedir. Çiçekler süslendiği gün satılmak zorundadır. Ali artık yaşlandığı için dinlenmeden çalıştığı her gün bir önceki güne göre daha az çiçek süsleyebilmektedir. Ali dinlendiği gün hiç çiçek süslememektedir. 𝑠𝑖 Ali'nin üst üste çalıştığı 𝑖. günde süsleyebileceği azami çiçek sayısı olsun. 𝑠1 ≥ 𝑠2≥…≥𝑠𝑛≥1 değerleri bize verilmiş olsun. Amacımız Ali’nin 𝑛 günde süsleyip satabileceği toplam çiçek sayısının alabileceği en büyük değeri bulmaktır. Ali’nin dinleneceği günleri bu değere ulaşacak şekilde seçen stratejiye optimal strateji diyoruz.
+Örnek: 𝑛 = 4, 𝑥 = {10, 1, 7, 7} ve 𝑠 = {8, 4, 2, 1} olsun. Bu durumda Ali'nin uygulayabileceği optimal strateji 2. gün dinlenmek ve diğer günler çalışmaktır. Bu strateji altında Ali 8 + 0 + 7 + 4 = 19 çiçek süsleyecektir. n = 4, x = {10, 2, 9, 6}, ve s = {8, 8, 6, 3} için Ali optimal stratejiyi uyguladığında toplam kaç çiçek süslemiş olur?",
+            "secenekler": {
+                "A": "12",
+                "B": "16",
+                "C": "19",
+                "D": "22",
+                "E": "25"
+            },
+            "çözüm": "Optimal stratejide Ali 2. gün dinlenir kalan günler çalışır. Böylelikle 8 + 0 + 8 + 6 = 22 çiçek süsler.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 27,
+            "soru": " Ali çiçek süsleyerek geçimini sağlamaktadır ve 𝑛 gün çalıştıktan sonra emekliye ayrılacaktır. Ali'nin süslediği çiçekleri satabilmesi piyasadaki süslenmiş çiçek talebine de bağlıdır. 𝑥1, 𝑥2, …, 𝑥𝑛 dizisi Ali'nin çiçeklerine önümüzdeki 𝑛 gündeki talebi göstermektedir. Yani 𝑥𝑖 Ali'nin 𝑖. gün sonra satabileceği (dolayısıyla süsleyebileceği) azami çiçek sayısını göstermektedir. Çiçekler süslendiği gün satılmak zorundadır. Ali artık yaşlandığı için dinlenmeden çalıştığı her gün bir önceki güne göre daha az çiçek süsleyebilmektedir. Ali dinlendiği gün hiç çiçek süslememektedir. 𝑠𝑖 Ali'nin üst üste çalıştığı 𝑖. günde süsleyebileceği azami çiçek sayısı olsun. 𝑠1 ≥ 𝑠2≥…≥𝑠𝑛≥1 değerleri bize verilmiş olsun. Amacımız Ali’nin 𝑛 günde süsleyip satabileceği toplam çiçek sayısının alabileceği en büyük değeri bulmaktır. Ali’nin dinleneceği günleri bu değere ulaşacak şekilde seçen stratejiye optimal strateji diyoruz.
+Örnek: 𝑛 = 4, 𝑥 = {10, 1, 7, 7} ve 𝑠 = {8, 4, 2, 1} olsun. Bu durumda Ali'nin uygulayabileceği optimal strateji 2. gün dinlenmek ve diğer günler çalışmaktır. Bu strateji altında Ali 8 + 0 + 7 + 4 = 19 çiçek süsleyecektir. n = 5, x = {4, 6, 18, 2, 7}, ve s = {15, 9, 5, 3, 1} için Ali optimal stratejiyi uyguladığında toplam kaç çiçek süslemiş olur?",
+            "secenekler": {
+                "A": "18",
+                "B": "19",
+                "C": "20",
+                "D": "21",
+                "E": "26"
+            },
+            "çözüm": "Optimal stratejide Ali 2. Gün dinlenir kalan günler çalışır. Böylelikle 4 + 0 + 15 + 2 + 5 = 26 çiçek süslemiş olur.",
+            "cevap": "E"
+        },
+        {
+            "soruSirasi": 28,
+            "soru": " 23 Nisan Ulusal Egemenlik ve Çocuk Bayramı için dünyanın bir çok ülkesinden Türkiye'ye çocuklar gelecektir. x_1, x_2, ..., x_n dizisi Türkiye'ye gelecek olan n tane yabancı çocuğun yaşlarını göstermektedir.Türkiye’deki 𝑚 çocuk yurt dışından gelecek misafirleri ağırlamak için gönüllü olmuştur. y_1, y_2, ..., y_m dizisi Türk çocukların yaşlarını göstermektedir. Kurallar gereği bir Türk çocuğu en fazla bir yabancı çocuğu ağırlayabilir ve kendi ile misafir çocuğun yaşları farkının en fazla 1 olması gerekmektedir. Yani 13 yaşındaki bir Türk çocuğu 12, 13 veya 14 yaşındaki bir misafiri ağırlayabilir. Yabancı çocukların yaşları x = {7, 15, 11, 13, 9, 11, 17, 10, 17, 16} ve Türk çocukların yaşları y = {7, 7, 13, 17, 12, 16, 15, 16, 6, 15} ise en fazla kaç yabancı öğrenci misafir edilebilir?",
+            "secenekler": {
+                "A": "6",
+                "B": "7",
+                "C": "8",
+                "D": "9",
+                "E": "10"
+            },
+            "çözüm": "Sorunun çözümü için diziler küçükten büyüğe sıralanır ve açgözlü olarak eşleştirme sağlanır. Verilen diziler için sonuç 7'dir.",
+            "cevap": "B"
+        },
+        {
+            "soruSirasi": 29,
+            "soru": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı için dünyanın bir çok ülkesinden Türkiye'ye çocuklar gelecektir. x_1, x_2, ..., x_n dizisi Türkiye'ye gelecek olan n tane yabancı çocuğun yaşlarını göstermektedir.Türkiye’deki 𝑚 çocuk yurt dışından gelecek misafirleri ağırlamak için gönüllü olmuştur. y_1, y_2, ..., y_m dizisi Türk çocukların yaşlarını göstermektedir. Kurallar gereği bir Türk çocuğu en fazla bir yabancı çocuğu ağırlayabilir ve kendi ile misafir çocuğun yaşları farkının en fazla 1 olması gerekmektedir. Yani 13 yaşındaki bir Türk çocuğu 12, 13 veya 14 yaşındaki bir misafiri ağırlayabilir.Yabancı çocukların yaşları x = {17, 14, 10, 12, 5, 10, 13, 11, 12, 8, 14, 10, 8, 17, 9, 14, 7, 5, 8, 11} ve Türk çocukların yaşları y = {5, 15, 16, 11, 9, 12, 12, 15, 7, 7, 10, 10, 17, 16, 8} ise en fazla kaç yabancı öğrenci misafir edilebilir?",
+            "secenekler": {
+                "A": "10",
+                "B": "11",
+                "C": "12",
+                "D": "13",
+                "E": "14"
+            },
+            "çözüm": "Sorunun çözümü için diziler küçükten büyüğe sıralanır ve açgözlü olarak eşleştirme sağlanır. Verilen diziler için sonuç 14'tür.",
+            "cevap": "E"
+        }
+    ]
+}
