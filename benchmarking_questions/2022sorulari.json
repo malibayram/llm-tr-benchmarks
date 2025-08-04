@@ -1,0 +1,386 @@
+{
+    "Sorular": [
+        {
+            "soruSirasi": 1,
+            "soru": "Her biri birçok top içeren 9 ayrı torbadan 5 tanesinde kırmızı toplar bulunmaktadır. Kaç farklı şekilde 4 torba seçilebilir ki seçilen torbaların en az 2 tanesinde kırmızı top olsun?",
+            "secenekler": {
+                "A": "36",
+                "B": "60",
+                "C": "105",
+                "D": "126",
+                "E": "Hiçbiri"
+            },
+            "çözüm": "Seçilen 4 torbadan kırmızı içerenlerin sayısının tam olarak 2 olduğu durum sayısı 5'in 2'li kombinasyonu çarpı 4'ün 2'li kombinasyonu yani 10*6=60'tır. Benzer şekilde kırmızı içerenlerin sayısının tam olarak 3 olduğu durum sayısı 5'in 3'lü kombinasyonu çarpı 4'ün 1'li kombinasyonu yani 10*4=40'tır. Yine benzer şekilde kırmızı içerenlerin sayısının tam olarak 4 olduğu durum sayısı 5'in 4'lü kombinasyonu çarpı 4'ün O'lı kombinasyonu yani 5*1=5′tir. Tüm bu durumların toplamı 60+40+5 = 105 olur.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 2,
+            "soru": "Elimizde 300 tane birbirinin aynısı top ve 8 adet farklı kutu bulunmaktadır. C(n,k), n'nin k'lı kombinasyonunu göstermektedir. Her bir kutuda en az 10 tane top bulunacak şekilde topları kaç farklı şekilde kutulara dağıtabiliriz?",
+            "secenekler": {
+                "A": "C(300,8)",
+                "B": "C(220,8)",
+                "C": "C(220,8) – 8!",
+                "D": "2C(220,8)",
+                "E": "C(227,7)"
+            },
+            "çözüm": "En az her kutuda 10 tane top olacak şekilde 8 kutuya topları yerleştirdiğimizde 220 tane top kalır. Bu 220 topu da 8 kutuya kaç farklı şekilde yerleştirebileciğimiz C(220+8-1,8-1) = C(227,7) ile bulunabilir.",
+            "cevap": "E"
+        },
+        {
+            "soruSirasi": 3,
+            "soru": "5 kişilik bir arkadaş grubunun tamamı COVID pozitif çıkmıştır. Pazartesi, Salı ve Çarşamba günleri kimlerin kiminle temas içinde olduğu konusunda elimizde şu bilgiler vardır: Pazartesi: Birkan önce Ahmet ile karşılaşmış sonra da Deniz ile karşılaşmıştır. Ceren de Ezgi ile konuşmuştur. Salı: Ahmet önce Ceren, sonra Ezgi ve daha sonra da Deniz ile konuşmuştur. Çarşamba: Deniz önce Birkan sonra da Ezgi ile konuşmuştur. Eğer COVID'in bu grubun tamamına bir kişi tarafından bulaştırıldığı biliniyorsa, bu kişi aşağıdakilerden hangisi olamaz?",
+            "secenekler": {
+                "A": "Ahmet",
+                "B": "Birkan",
+                "C": "Ceren",
+                "D": "Deniz",
+                "E": "Ezgi"
+            },
+            "çözüm": "İlk COVID olan Ahmet olursa sırayla Birkan, Deniz, Ceren ve Ezgi'ye bulaşmış olurdu. Birkan'da olursa o zamanda Ahmet, Deniz, Ceren ve Ezgi'ye bulaşabilirdi. Ceren'de olsa Ezgi, Ahmet, Deniz ve Birkan'a bulaşırdı. Ercüment'te olsa Ceren, Ahmet, Deniz ve Birkan'a bulaşırdı. Fakat ilk olarak Deniz'de olsa Birkan, Ahmet ve Ezgi'ye bulaşabilirdi ama Ceren'e bulaşmamış olurdu. Yani Deniz virüsü ilk taşıyan kişi olamaz. Doğru cevap D şıkkıdır.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 4,
+            "soru": "Bir durgun su birikintisinde bulunan bakteri kolonisi 5 saatte bir gözlemlenmektedir ve bir önceki gözlemdeki miktara göre her bir gözlemde bakteri sayısında %20 artış olduğu belirlenmiştir. Bakteri sayısının ilk gözlemlenen değerin 3 katını geçmesi, ilk gözlemden kaç saat sonra gözlemlenecektir?",
+            "secenekler": {
+                "A": "15",
+                "B": "25",
+                "C": "30",
+                "D": "35",
+                "E": "İlk gözlemdeki bakteri sayısı bilinmeden bulunamaz"
+            },
+            "çözüm": "Her gözlemde artış şu şekildedir. 0. saatte x olsun. 5. saatte 1.2x, 10. saatte 1.44x, 15. saatte 1.728x. Her gözlemde 1.2 katına çıktığı için aradığımız değer 1.2*1.2*1.2*1.2*1.2*1.2*1.2 = 3.58'dir. Bu çarpımlardan 1 tane 1.2 çıkarttığımızda 3'ten küçük bir değer elde ederiz. 3.58 elde ettiğimiz değeri 7*5=35. saatte gözlemlemiş oluruz.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 5,
+            "soru": " Elimizde iki yüzü (A yüzü ve B yüzü) olan yeni bir taş var. Taşı yere bıraktığımızda bu iki yüzden herhangi biri yukarı bakacak şekilde dönüyor. Yapılan araştırmalarda, bırakılan taşın A yüzüne dönme ihtimalinin %60, B yüzüne dönme ihtimalinin de %40 olduğu anlaşılıyor. Ayrıca her dönme eyleminin önceki denemelerden bağımsız olduğu görülüyor. SORU 5: Taş üst üste 4 denemede A yüzüne döndüyse, 5. denemenin A yüzüne dönme ihtimali nedir?",
+            "secenekler": {
+                "A": "1/2",
+                "B": "1/3",
+                "C": "2/3",
+                "D": "3/5",
+                "E": "1/32"
+            },
+            "çözüm": "Taşın A yüzüne dönme ihtimali %60 = 6/10 = 3/5'tir. Dönme eylemi önceki denemelerden bağımsız olduğu için bir sonraki denemede taşın A yüzüne dönmesi yine 3/5 olacaktır.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 6,
+            "soru": " Elimizde iki yüzü (A yüzü ve B yüzü) olan yeni bir taş var. Taşı yere bıraktığımızda bu iki yüzden herhangi biri yukarı bakacak şekilde dönüyor. Yapılan araştırmalarda, bırakılan taşın A yüzüne dönme ihtimalinin %60, B yüzüne dönme ihtimalinin de %40 olduğu anlaşılıyor. Ayrıca her dönme eyleminin önceki denemelerden bağımsız olduğu görülüyor. SORU 6: Taş 3 kere yere bırakıldığında 2 kere A ve 1 kere B yüzüne dönme ihtimali nedir?",
+            "secenekler": {
+                "A": "3/8",
+                "B": "18/125",
+                "C": "12/125",
+                "D": "5/8",
+                "E": "54/125"
+            },
+            "çözüm": "Soruda verilen şartların sağlanabilmesi için AAB, ABA veya BAA olması gerekmektedir. Bu sıralamaların her biri için denk gelme olasılığı (3/5)*(3/5)*(2/5)=18/125 olacaktır. Şartları sağlayan durumlar 3 farklı şekilde ortaya çıktığı için 18/125+18/125+18/125 = 54/125 olacaktır.",
+            "cevap": "E"
+        },
+        {
+            "soruSirasi": 7,
+            "soru": " Elimizde iki yüzü (A yüzü ve B yüzü) olan yeni bir taş var. Taşı yere bıraktığımızda bu iki yüzden herhangi biri yukarı bakacak şekilde dönüyor. Yapılan araştırmalarda, bırakılan taşın A yüzüne dönme ihtimalinin %60, B yüzüne dönme ihtimalinin de %40 olduğu anlaşılıyor. Ayrıca her dönme eyleminin önceki denemelerden bağımsız olduğu görülüyor. SORU 7: Taş 3 kere yere bırakıldığında artarda iki denemenin sırasıyla AB gelmeme ihtimali nedir?",
+            "secenekler": {
+                "A": "4/8",
+                "B": "6/125",
+                "C": "65/125",
+                "D": "1/250",
+                "E": "10/250"
+            },
+            "çözüm": "Soru koşulları incelendiğinde A'dan sonra B gelmeyeceği belirtilmektedir. Başka bir deyişle A geldikten sonra yapılan tüm denemelerin A gelmesi gereklidir. Bu durumlar 4 tanedir BBB, BBA, BAA, AAA. Hepsinin olasılığının tek tek hesaplanması ve sonrasında toplam olasılığın toplanarak bulunması gerekmektedir. P(BBB)=(2/5)^3=8/125, P(BBA)=(2/5)^2*(3/5)=12/125, P(BAA)=(2/5)*(3/5)^2=18/125, P(AAA)=(3/5)^3=27/125 olacaktır. Bu nedenle doğru cevap 8/125+12/125+18/125+27/125=65/125 olmalıdır.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 8,
+            "soru": "Ali Ayşe'den aklından bir sayı tutmasını istiyor. Ayşe'nin tuttuğu sayının 3'e bölümünden kalan 2, 5'e bölümünden kalan 2 ve 7'ye bölümünden kalan 4 ise Ayşe'nin tuttuğu sayının (mod 105)'teki karşılığı nedir?",
+            "secenekler": {
+                "A": "16",
+                "B": "32",
+                "C": "44",
+                "D": "72",
+                "E": "80"
+            },
+            "çözüm": "Ayşe'nin tuttuğu sayı x olsun. x mod 3 = 2, x mod 5 = 2, ve x mod 7 = 4 olarak verilmiştir. 3, 5, ve 7 değerleri aralarında asal olduğu için, Çinli kalan teoremine göre x değeri bilinmese de x mod 105 değerinin tekil olması gerekmektedir. Verilen seçenekler arasında yer alan 32 değeri 3 ile bölündüğünde 2, 5 ile bölündüğünde 2 ve 7 ile bölündüğünde 4 kalanını vermektedir. Bu nedenle doğru cevap 32 olmalıdır.",
+            "cevap": "B"
+        },
+        {
+            "soruSirasi": 9,
+            "soru": " Genel mantık verilerine göre A ve B için 1 değeri ifadenin “Doğru” olduğunu 0 değeri ise “Yanlış” olduğunu ifade etmektedir. mantıksal veya (v), mantıksal ve (^), mantıksal ise (⇒) işlemlerinin sonuçları verilmiştir. Mantıksal değil (') ifadesi 1 değerini 0, 0 değerini 1 yapmaktadır. SORU 9: I. p⇒ q = p'∨ q, II. (p⇒ q)' = p ^ q', III. 1 ⇒ p = p, IV. p⇒ p' = p', V. p⇒p' = p' ⇒ p. Elimizde p ve q ifadeleri olsun. Bu durumda yukarıda verilenlerden kaç tanesi doğrudur?",
+            "secenekler": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4",
+                "E": "5"
+            },
+            "çözüm": "Mantıksal ise ifadesi p ⇒ q = p' ∨ q olarak tanımlanmıştır. Dolayısıyla I seçeneği doğrudur. Bunun değilinin alınması sonucu p ^ q' olacağı için II seçeneği de doğrudur. 1'in değili sıfır olacağı için 1 ⇒ p ifadesi p'ye bağlıdır. III ve IV seçenekleri de doğrudur. V seçeneği ise yanlış olarak verilmiştir.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 10,
+            "soru": " Genel mantık verilerine göre A ve B için 1 değeri ifadenin “Doğru” olduğunu 0 değeri ise “Yanlış” olduğunu ifade etmektedir. mantıksal veya (v), mantıksal ve (^), mantıksal ise (⇒) işlemlerinin sonuçları verilmiştir. Mantıksal değil (') ifadesi 1 değerini 0, 0 değerini 1 yapmaktadır. SORU 10: X ifadesi aşağıdakilerden hangisi olamaz?",
+            "secenekler": {
+                "A": "(p'^q) v (p^q)",
+                "B": "(p' v q) ^ (p < q')",
+                "C": "(pvq) ⇒ (p^q)",
+                "D": "(p^q) v (p' ^q)",
+                "E": "((pv q) v (p^q)')'"
+            },
+            "çözüm": "verilen X ifadesi mantıksal XOR ifadesinin değili hükmündedir. D seçeneğinde verilen ifade mantıksal XOR ifadesinin karşılığıdır. Diğer seçenekler X ifadesinin karşılığını sağlamaktadır. Bu soruda E şıkkı da doğru cevap olduğundan sorunun iki doğru cevabı vardır ve soru iptal edilmiştir.",
+            "cevap": "İPTAL"
+        },
+        {
+            "soruSirasi": 11,
+            "soru": " Ali, Bartu, Can ve Deniz top sektirme oyunu oynamışlar. Oyunun sonucunda bir tanesi birinci, bir tanesi ikinci, bir tanesi üçüncü, bir tanesi de dördüncü olmuş. Oyun bittikten sonra yanlarına gelen arkadaşları Enes oyunu kimin kaçıncı bitirdiğini merak etmiş. Ali, Bartu ve Can'ın herbiri Enes'e oyunun sonucu hakkında bir tanesi doğru ve bir tanesi yanlış olan iki bilgi vermiş. Ali, “Can birinci oldu, Bartu ikinci oldu” demiş. Bartu, “Can ikinci oldu, Deniz üçüncü oldu” demiş. Can, “Deniz dördüncü oldu, Ali ikinci oldu” demiş. Üç arkadaşının kendisine bir doğru ve bir yanlış bilgi verdiğini bilen Enes oyunu kimin kaçıncı sırada bitirdiğini bulmaya çalışmış. SORU 11: Oyun sonunda kim birinci olmuştur?",
+            "secenekler": {
+                "A": "Ali",
+                "B": "Bartu",
+                "C": "Can",
+                "D": "Deniz",
+                "E": "Kesin cevap vermek için yeterli veri yoktur"
+            },
+            "çözüm": "Ali'nin söylediği iki önermeyi sırasıyla a₁ ve a₂ olarak isimlendirelim. Benzer şekilde Bartu ve Can'ın söylediği önermeleri de b₁, b₂, c₁, c₂ olarak isimlendirelim. Bir önerme doğru ise değeri 1, yanlış ise değeri 0 olsun. Örneğin Can gerçekten birinci ise a₁ = 1 ve b₁ = 0 olacaktır. Aşağıdaki eşitiğin sol tarafı Ali'nin söylediği iki önermenin ikisinin de doğru yada ikisinin de yanlış olduğu durumlarda 0, iki önermenin bir tanesinin doğru ve bir tanesinin yanlış olduğu durumda ise 1 yapmaktadır. Ali'nin söylediği önermelerden bir tanesi doğru bir tanesi yanlış olduğuna göre bu eşitlik sağlanmaktadır. a₁ + a₂ - 2a₁a₂ = 1. Bartu ve Can'ın söylediği önermelerden bir tanesi doğru ve bir tanesi yanlış olduğundan aşağıdaki eşitlikler de sağlanır. b₁ + b₂ - 2b₁b₂ = 1, c₁ + c₂ - 2c₁c₂ = 1. Bunlara ek olarak a₁ ve b₁ birbiriyle çeliştiğinden a₁b₁ = 0 eşitliği, a₂ ve b₁ birbiriyle çeliştiğinden a₂b₁ = 0 eşitliği, b₂ ve c₁ birbiriyle çeliştiğinden b₂c₁ = 0 eşitliği, a₂ ve c₂ birbiriyle çeliştiğinden a₂c₂ = 0 eşitliği ve b₁ ve c₂ birbiriyle çeliştiğinden b₁c₂ = 0 eşitliği sağlanır. b₁ = 1 olduğunu (Can'ın ikinci olduğunu) varsayalım. Hem a₁b₁ = 0, hem de a₂b₁ = 0 olduğuna göre a₁ = a₂ = 0'dır. Ancak bu a₁ + a₂ − 2a₁a₂ = 1 eşitliğiyle çelişmektedir. Öyleyse b₁ = 0'dır. Bartu'nun söylediği önermelerden tam olarak bir tanesi doğru olduğundan b₂ = 1'dir yani Deniz üçüncü olmuştur. b₂c₁ = 0 eşitliğinin sağlandığı bilinmektedir. b₂ = 1 olduğu için c₁ = 0'dır ve dolayısıyla c₂ = 1'dir. Yani Ali ikinci olmuştur. a₂c₂ = 0 eşitliğinin sağlandığı bilinmektedir. c₂ = 1 olduğu için a₂ = 0'dır ve dolayısıyla a₁ = 1'dir. Yani Can birinci olmuştur. Can birinci, Ali ikinci, Deniz üçüncü olduğuna göre Bartu dördüncü olmuştur.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 12,
+            "soru": " Ali, Bartu, Can ve Deniz top sektirme oyunu oynamışlar. Oyunun sonucunda bir tanesi 
+birinci, bir tanesi ikinci, bir tanesi üçüncü, bir tanesi de dördüncü olmuş. Oyun bittikten 
+sonra yanlarına gelen arkadaşları Enes oyunu kimin kaçıncı bitirdiğini merak etmiş. Ali, 
+Bartu ve Can’ın herbiri Enes’e oyunun sonucu hakkında bir tanesi doğru ve bir tanesi yanlış 
+olan iki bilgi vermiş.
+Ali, “Can birinci oldu, Bartu ikinci oldu” demiş.
+Bartu, “Can ikinci oldu, Deniz üçüncü oldu” demiş.
+Can, “Deniz dördüncü oldu, Ali ikinci oldu” demiş.
+Üç arkadaşının kendisine bir doğru ve bir yanlış bilgi verdiğini bilen Enes oyunu kimin 
+kaçıncı sırada bitirdiğini bulmaya çalışmış. SORU 12: Oyun sonunda kim ikinci olmuştur?",
+            "secenekler": {
+                "A": "Ali",
+                "B": "Bartu",
+                "C": "Can",
+                "D": "Deniz",
+                "E": "Kesin cevap vermek için yeterli veri yoktur"
+            },
+            "çözüm": "Bir önceki sorunun çözümünden görülebileceği üzere Ali ikinci olmuştur.",
+            "cevap": "A"
+        },
+        {
+            "soruSirasi": 13,
+            "soru": " Ali, Bartu, Can ve Deniz top sektirme oyunu oynamışlar. Oyunun sonucunda bir tanesi 
+birinci, bir tanesi ikinci, bir tanesi üçüncü, bir tanesi de dördüncü olmuş. Oyun bittikten 
+sonra yanlarına gelen arkadaşları Enes oyunu kimin kaçıncı bitirdiğini merak etmiş. Ali, 
+Bartu ve Can’ın herbiri Enes’e oyunun sonucu hakkında bir tanesi doğru ve bir tanesi yanlış 
+olan iki bilgi vermiş.
+Ali, “Can birinci oldu, Bartu ikinci oldu” demiş.
+Bartu, “Can ikinci oldu, Deniz üçüncü oldu” demiş.
+Can, “Deniz dördüncü oldu, Ali ikinci oldu” demiş.
+Üç arkadaşının kendisine bir doğru ve bir yanlış bilgi verdiğini bilen Enes oyunu kimin 
+kaçıncı sırada bitirdiğini bulmaya çalışmış. SORU 13: Oyun sonunda kim dördüncü olmuştur?",
+            "secenekler": {
+                "A": "Ali",
+                "B": "Bartu",
+                "C": "Can",
+                "D": "Deniz",
+                "E": "Kesin cevap vermek için yeterli veri yoktur"
+            },
+            "çözüm": "İki önceki sorunun çözümünden görüleceği üzere Bartu dördüncü olmuştur.",
+            "cevap": "B"
+        },
+        {
+            "soruSirasi": 14,
+            "soru": " 9 satır ve 9 sütundan oluşan 9 × 9 = 81 kareli bir satranç tahtası verilmiş olsun. Bu satranç tahtasının her bir karesini x ∈ {0,1,2, ...,8} ve y ∈ {0,1,2, ...,8} olmak üzere bir (x, y) ikilisi ile gösteriyoruz. Satranç tahtası üzerinde verilen (x₁, y₁) ve (x₂, y₂) kareleri arasındaki Manhattan uzaklığını |x₁ - x₂| + |y₁ - y₂| olarak tanımlıyoruz. Örneğin, (3,1) ve (2,4) kareleri arasındaki Manhattan uzaklığı |3 – 2| + |1 – 4| = 4'tür. Satranç tahtası üzerinde bulunan bir at bir adımda bulunduğu kareden bir yönde (yukarı, aşağı, sağa veya sola) 2 birim ve o yöne dik bir yönde 1 birim uzaklıktaki bir kareye gidebilmektedir. Örneğin (4,6) karesinde bulunan bir at bir adımda (2, 5), (2, 7), (3, 4), (3, 8), (5, 4), (5, 8), (6, 5) ve (6,7) karelerinden herhangi birine gidebilir. (0,0) karesinde bulunan bir at ise sadece (1,2) ve (2,1) karelerine gidebilir. Satranç tahtası üzerinde sadece bir at olsun ve bu atın başlangıç karesi (2, 6) olsun. SORU 14: At başlangıç karesine Manhattan uzaklığı 1 olan bir kareye en az kaç adımda gidebilir?",
+            "secenekler": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4",
+                "E": "5"
+            },
+            "çözüm": "Başlangıç karesine Manhattan uzaklığı 1 olan 4 tane kare vardır ve bunlar başlangıç karesinin sağındaki, solundaki, altındaki ve üstündeki karelerdir. Bu soruda bu karelerden hiçbirine atın 2 adımda ulaşamadığının ancak başlangıç karesinin çaprazındaki her kareye 2 adımda ulaşabildiğinin gözlemlenmesi beklenmektedir. Bu noktalardan ulaşılmak istenen noktalara ise ilave bir adımla ulaşılabilir. Dolayısıyla başlangıç noktasına Manhattan uzaklığı 1 olan bütün noktalara 3 adımda ulaşılabilir.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 15,
+            "soru": " 9 satır ve 9 sütündan oluşan 9 × 9 = 81 kareli bir satranç tahtası verilmiş olsun. Bu satranç 
+tahtasının her bir karesini 𝑥 ∈ {0, 1,2, … ,8} ve 𝑦 ∈ {0, 1,2, … ,8} olmak üzere bir (𝑥, 𝑦)
+ikilisi ile gösteriyoruz.
+Satranç tahtası üzerinde verilen (𝑥1, 𝑦1
+) ve (𝑥2, 𝑦2
+) kareleri arasındaki Manhattan uzaklığını 
+|𝑥1 − 𝑥2| + |𝑦1 − 𝑦2| olarak tanımlıyoruz. Örneğin, (3,1) ve (2,4) kareleri arasındaki 
+Manhattan uzaklığı |3 − 2| + |1 − 4| = 4’tür.
+Satranç tahtası üzerinde bulunan bir at bir adımda bulunduğu kareden bir yönde (yukarı, 
+aşağı, sağa veya sola) 2 birim ve o yöne dik bir yönde 1 birim uzaklıktaki bir kareye 
+gidebilmektedir. Örneğin (4,6) karesinde bulunan bir at bir adımda 
+(2, 5), (2, 7), (3, 4), (3, 8), (5, 4), (5, 8), (6, 5) ve (6,7) karelerinden herhangi birine 
+gidebilir. (0, 0) karesinde bulunan bir at ise sadece (1,2) ve (2,1) karelerine gidebilir.
+Satranç tahtası üzerinde sadece bir at olsun ve bu atın başlangıç karesi (2, 6) olsun.At satranç tahtasının köşe karelerinden birine ((0, 0), (0, 8), (8, 0), (8, 8)) en az kaç adımda ulaşabilir?",
+            "secenekler": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4",
+                "E": "5"
+            },
+            "çözüm": "(0,0) ya da (8, 0) karelerine 3 adımda ulaşılabilmesi için her adımda aşağı yönde iki birim gidilmesi gerekmektedir. Bu durumda her adımda sola veya sağa bir birim gidilecektir. Her adımda sola ya da sağa bir birim giderek 3 adımda sola 2 birim ya da sağa 6 birim gitmek mümkün değildir. Bu yüzden bu karelere 3 adımda ulaşılamaz. (8,8) karesine 3 adımda gitmek için her adımda sağa 2 birim gitmek gerekmektedir. Bu durumda her adımda yukarı ve aşağı bir birim gidilecektir. Her adımda yukarı ya da aşağı bir birim giderek 3 adımda yukarı 2 birim gitmek mümkün değildir. Bu yüzden bu kareye 3 adımda ulaşılamaz. (0,8) karesine 1 adımda ulaşılabilecek 2 kare vardır ve bunlar (1, 6) ve (2,7) kareleridir. Bu iki karenin de başlangıç karesine Manhattan uzaklığı 1 olduğu için bu karelere en az 3 adımda ulaşılabileceğini iki önceki sorunun çözümünden biliyoruz. Öyleyse (0,8) karesine 4 adımda ulaşılabilir. Bu yüzden cevap 4'tür.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 16,
+            "soru": "Bir çember şeklinde dizilmiş N tane kutu bulunmaktadır ve bu kutular saat yönünde 0'dan N-1'e numaralandırılmışlardır. Her bir kutunun “üst” kutusu saat yönü tersi yönünde hemen yanındaki kutu olarak tanımlanmıştır. Her bir kutuda bir karakter (tek bir rakam ya da küçük ya da büyük bir harf) bulunmaktadır. Bu kutularda o anda var olan karakterlere göre bir kural kümesindeki kuralları tüm kutular için eş zamanlı uygulayarak kutulardaki karakterleri başka karakterler ile değiştirmemiz mümkün olmaktadır. Bu kuralların genel ifadesi şu şekildedir: Üt Kt → Kt+1. Burada Ü, üst kutudaki karakteri ve K de o kutudaki karakteri simgeleyen genel değişkenlerdir. Kuralın sol tarafı, t anında kutulardaki değerler ile eşleşiyorsa t+1 anında o kutudaki değer kuralın sağında gösterilen karaktere dönüşmüş olur. Örnek olarak {b* → b, a* → *} kural kümesi verildiğinde (*, herhangi bir karakter anlamına gelen joker semboldür), başlangıçta kutulardaki karakterlerin 0 numaralı kutudan 4 numaralı kutuya bbbaa olduğu 5 kutu içeren çemberde bir sonraki adımda kutulardaki değerler bbbba olacaktır ve sonra da bbbbb olup sonraki bütün adımlarda bu şekilde kalacaktır. SORU 16: 4 kutu içeren bir çember için {ba → b, bb → a, a* → *} kuralları verildiğinde ve başlangıç (t=0) anında kutulardaki karakterler baaa olduğunda, 5. adım sonunda yani t=5'te kutulardaki karakterler ne olur?",
+            "secenekler": {
+                "A": "baaa",
+                "B": "aaab",
+                "C": "bbbb",
+                "D": "aaaa",
+                "E": "baba"
+            },
+            "çözüm": "Sırayla kuralları uyguladığımızda baaa → bbaa → baba → bbbb → aaaa → aaaa elde ederiz. Doğru cevap D şıkkıdır.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 17,
+            "soru": " Bir çember şeklinde dizilmiş N tane kutu bulunmaktadır ve bu kutular saat yönünde 0'dan N-1'e numaralandırılmışlardır. Her bir kutunun “üst” kutusu saat yönü tersi yönünde hemen yanındaki kutu olarak tanımlanmıştır. Her bir kutuda bir karakter (tek bir rakam ya da küçük ya da büyük bir harf) bulunmaktadır. Bu kutularda o anda var olan karakterlere göre bir kural kümesindeki kuralları tüm kutular için eş zamanlı uygulayarak kutulardaki karakterleri başka karakterler ile değiştirmemiz mümkün olmaktadır. Bu kuralların genel ifadesi şu şekildedir: Üt Kt → Kt+1. Burada Ü, üst kutudaki karakteri ve K de o kutudaki karakteri simgeleyen genel değişkenlerdir. Kuralın sol tarafı, t anında kutulardaki değerler ile eşleşiyorsa t+1 anında o kutudaki değer kuralın sağında gösterilen karaktere dönüşmüş olur. Örnek olarak {b* → b, a* → *} kural kümesi verildiğinde (*, herhangi bir karakter anlamına gelen joker semboldür), başlangıçta kutulardaki karakterlerin 0 numaralı kutudan 4 numaralı kutuya bbbaa olduğu 5 kutu içeren çemberde bir sonraki adımda kutulardaki değerler bbbba olacaktır ve sonra da bbbbb olup sonraki bütün adımlarda bu şekilde kalacaktır. N kutu içeren bir çember için {a* → A, b* → B, *A → a, *B → b} kuralları verilmiş olsun. Sadece a ve b karakterlerinden oluşan bir başlangıç durumunun tekrarlanması için en çok kaç adım gerekir?",
+            "secenekler": {
+                "A": "N",
+                "B": "N+1",
+                "C": "2N – 1",
+                "D": "2N",
+                "E": "Hiçbiri"
+            },
+            "çözüm": "Kuralları incelediğimizde küçük harflerin saat yönünde bir kaydırılıp büyük harfe dönüştürüldüğü, büyük harflerin ise küçük harflere dönüştürüldüğü görülmektedir. Yani her 2 adımda bir küçük harf olarak başlangıç durumu bir kaydırılmış olmaktadır. N tane karakter içeren bir dizinin başlangıç durumuna gelmesi için N kere kayması gerekmektedir ve 2 adımda 1 kayma işlemi olduğundan toplam gereken adım sayısı 2N'dir. Doğru cevap D şıkkıdır.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 18,
+            "soru": " Bir çember şeklinde dizilmiş N tane kutu bulunmaktadır ve bu kutular saat yönünde 0'dan N-1'e numaralandırılmışlardır. Her bir kutunun “üst” kutusu saat yönü tersi yönünde hemen yanındaki kutu olarak tanımlanmıştır. Her bir kutuda bir karakter (tek bir rakam ya da küçük ya da büyük bir harf) bulunmaktadır. Bu kutularda o anda var olan karakterlere göre bir kural kümesindeki kuralları tüm kutular için eş zamanlı uygulayarak kutulardaki karakterleri başka karakterler ile değiştirmemiz mümkün olmaktadır. Bu kuralların genel ifadesi şu şekildedir: Üt Kt → Kt+1. Burada Ü, üst kutudaki karakteri ve K de o kutudaki karakteri simgeleyen genel değişkenlerdir. Kuralın sol tarafı, t anında kutulardaki değerler ile eşleşiyorsa t+1 anında o kutudaki değer kuralın sağında gösterilen karaktere dönüşmüş olur. Örnek olarak {b* → b, a* → *} kural kümesi verildiğinde (*, herhangi bir karakter anlamına gelen joker semboldür), başlangıçta kutulardaki karakterlerin 0 numaralı kutudan 4 numaralı kutuya bbbaa olduğu 5 kutu içeren çemberde bir sonraki adımda kutulardaki değerler bbbba olacaktır ve sonra da bbbbb olup sonraki bütün adımlarda bu şekilde kalacaktır.5 kutu içeren bir çemberin kutularında yalnızca 0 ve 1 karakterleri bulunduğunu varsayalım. Verilen kural kümesi {00 → 0, 01 → 1, 10 → 1, 11 → 0} ise aşağıda verilen başlangıç durumlarından hangisi değişmeyen bir durumda kalınmasına neden olur?",
+            "secenekler": {
+                "A": "01010",
+                "B": "10011",
+                "C": "11010",
+                "D": "10111",
+                "E": "11111"
+            },
+            "çözüm": "Kutularda 1 ve 0 var ise sürekli değişim olacaktır. Ancak 00000 durumunda hiçbir değişikli olmadan kalınacaktır. Bu duruma başlangıç durumu 11111 ise 1 adımda erişilecektir. Doğru cevap E şıkkıdır.",
+            "cevap": "E"
+        },
+        {
+            "soruSirasi": 19,
+            "soru": "Bir çember şeklinde dizilmiş N tane kutu bulunmaktadır ve bu kutular saat yönünde 0'dan N-1'e numaralandırılmışlardır. Her bir kutunun “üst” kutusu saat yönü tersi yönünde hemen yanındaki kutu olarak tanımlanmıştır. Her bir kutuda bir karakter (tek bir rakam ya da küçük ya da büyük bir harf) bulunmaktadır. Bu kutularda o anda var olan karakterlere göre bir kural kümesindeki kuralları tüm kutular için eş zamanlı uygulayarak kutulardaki karakterleri başka karakterler ile değiştirmemiz mümkün olmaktadır. Bu kuralların genel ifadesi şu şekildedir: Üt Kt → Kt+1. Burada Ü, üst kutudaki karakteri ve K de o kutudaki karakteri simgeleyen genel değişkenlerdir. Kuralın sol tarafı, t anında kutulardaki değerler ile eşleşiyorsa t+1 anında o kutudaki değer kuralın sağında gösterilen karaktere dönüşmüş olur. Örnek olarak {b* → b, a* → *} kural kümesi verildiğinde (*, herhangi bir karakter anlamına gelen joker semboldür), başlangıçta kutulardaki karakterlerin 0 numaralı kutudan 4 numaralı kutuya bbbaa olduğu 5 kutu içeren çemberde bir sonraki adımda kutulardaki değerler bbbba olacaktır ve sonra da bbbbb olup sonraki bütün adımlarda bu şekilde kalacaktır. 6 kutu içeren bir çemberde bulunabilen karakterler a, b, ve c karakterleri olsun. 1000 adım sonrasındaki durum için aşağıdakilerden hangisi söylenebilir?",
+            "secenekler": {
+                "A": "Başlangıç durumu ile aynıdır",
+                "B": "Başlangıç durumunun 1000 mod 6 kez saat yönünde dönmüş halidir",
+                "C": "Değişmez bir durumdur",
+                "D": "Daha önceki bir adımda oluşmuş bir durumdur",
+                "E": "Hiçbiri"
+            },
+            "çözüm": "6 kutu içeren bir çember için her kutuya en fazla 3 karakter gerebildiğinden 3*3*3*3*3*3 = 729 farklı başlangıç durumu mümkündür ve değişmez bir durumla karşılaşılmadı ise t=1000 anındaki durum daha önce mutlaka karşılaşılmış olmak zorundadır. Eğer değişmez bir durumla karşılaşıldı ise de yine t=1000 anındaki durum t=999 anındaki durum ile aynıdır ve D şıkkındaki ifade yine doğrudur.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 20,
+            "soru": "Bir çember şeklinde dizilmiş N tane kutu bulunmaktadır ve bu kutular saat yönünde 0'dan N-1'e numaralandırılmışlardır. Her bir kutunun “üst” kutusu saat yönü tersi yönünde hemen yanındaki kutu olarak tanımlanmıştır. Her bir kutuda bir karakter (tek bir rakam ya da küçük ya da büyük bir harf) bulunmaktadır. Bu kutularda o anda var olan karakterlere göre bir kural kümesindeki kuralları tüm kutular için eş zamanlı uygulayarak kutulardaki karakterleri başka karakterler ile değiştirmemiz mümkün olmaktadır. Bu kuralların genel ifadesi şu şekildedir: Üt Kt → Kt+1. Burada Ü, üst kutudaki karakteri ve K de o kutudaki karakteri simgeleyen genel değişkenlerdir. Kuralın sol tarafı, t anında kutulardaki değerler ile eşleşiyorsa t+1 anında o kutudaki değer kuralın sağında gösterilen karaktere dönüşmüş olur. Örnek olarak {b* → b, a* → *} kural kümesi verildiğinde (*, herhangi bir karakter anlamına gelen joker semboldür), başlangıçta kutulardaki karakterlerin 0 numaralı kutudan 4 numaralı kutuya bbbaa olduğu 5 kutu içeren çemberde bir sonraki adımda kutulardaki değerler bbbba olacaktır ve sonra da bbbbb olup sonraki bütün adımlarda bu şekilde kalacaktır. 5 kutu içeren bir çember için {00 → 1, 01 → 1, 10 → 0, 11 → 1} kuralları verilmiş olsun. Aşağıdaki durumlardan hangisi başlangıç durumu dışında hiçbir zaman karşılaşılamayacak bir durumdur?",
+            "secenekler": {
+                "A": "01111",
+                "B": "11111",
+                "C": "01010",
+                "D": "10101",
+                "E": "11110"
+            },
+            "çözüm": "Kuralları incelediğimizde üst kutuda eğer 0 karakteri varsa o kutudaki karakterin 1 karakterine dönüştürüldüğünü, üst kutuda 1 varsa da kutudaki karakterin değişmediğini görürüz. Yani art arda iki tane 1 karakteri içermeyen bir durum kurallar uygulanması sonucu ulaşılamaz. D şıkkında sanki art arda 1 yokmuş gibi görünse de çember üzerinde ilk kutu ve son kutu ardışıktır ve ikisi de 1 içermektedir yani kurallar sonucu elde edilmiş olabilir. Ama C şıkkındaki durum ardışık 1 karakteri içermemektedir ve bir kural sonucu elde edilmesi mümkün değildir. C şıkkındaki durum ancak başlangıç durumunda karşılaşılabilir.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 21,
+            "soru": "Genetik çalışmalar yürüten bir ekip DNA kodlamasının dilbilimi ile araştırılmasına yönelik hazırlık yapmaya başlıyor. Bildiğiniz üzere DNA'da alfabe olarak A, T, C, ve G bulunmaktadır. Araştırmayı yürüten ekip birbirini tekrar eden bazı dizilimler buluyor. Bunları ifade edebilmek için de kendi aralarında yeni bir dil formülü geliştiriyorlar. Buna göre; Her bir harf A, T, G, C’den birini ifade ediyor, (): parantez içinde yer alan dizi tek bir harfmiş gibi davranır, * : kendinden önceki harf/dizi 0 veya çok defa tekrar edilebilir, + : kendinden önceki harf/dizi en az bir defa veya çok defa tekrar edilebilir, ? : kendinden önceki harf/dizi 0 veya 1 defa tekrar edilebilir, . : bu karakterin olduğu yere alfabede yer alan herhangi bir harf gelebilir. Örneğin, çıkarılan dil formülü A*(T.)+ olarak verilmişse, bazı geçerli diziler şunlardır: ATG → A bir defa tekrar etmiş sonrasında (T.) ifadesi en az bir defa tekrar etmiş, AATCTC → A iki defa tekrarlamış, . yerine C gelmiş ve iki defa tekrar etmiş, TG → A sıfır defa tekrarlamış, . yerine G gelmiş ve bir defa tekrar etmiş. Fakat A dizisi geçerli bir dizi değildir, çünkü (T.) ifadesi en az bir defa yer almamaktadır. ATCC dizisi de ATC'den sonra T gelmeden C geldiği için geçerli değildir. SORU 21: T+G(A+T)* dil formülü verildiyse, aşağıdaki ifadelerden hangisi geçerli bir diziyi belirtmemektedir?",
+            "secenekler": {
+                "A": "TGAAAAAT",
+                "B": "TGAAT",
+                "C": "TTGTGA",
+                "D": "TTGATAT",
+                "E": "TG"
+            },
+            "çözüm": "Verilen dil formülünde en başta en az bir tane T olmak zorundadır. Onu takip eden bir G bulunması mecburdur. Sonrasın (A+T) ifadesinden sıfır veya çok tane olması gerekir. Eğer bu ifadeden olacaksa A ile başlamalı ve T ile bitmelidir.",
+            "cevap": "C"
+        },
+        {
+            "soruSirasi": 22,
+            "soru": " Genetik çalışmalar yürüten bir ekip DNA kodlamasının dilbilimi ile araştırılmasına yönelik hazırlık yapmaya başlıyor. Bildiğiniz üzere DNA'da alfabe olarak A, T, C, ve G bulunmaktadır. Araştırmayı yürüten ekip birbirini tekrar eden bazı dizilimler buluyor. Bunları ifade edebilmek için de kendi aralarında yeni bir dil formülü geliştiriyorlar. Buna göre; Her bir harf A, T, G, C’den birini ifade ediyor, (): parantez içinde yer alan dizi tek bir harfmiş gibi davranır, * : kendinden önceki harf/dizi 0 veya çok defa tekrar edilebilir, + : kendinden önceki harf/dizi en az bir defa veya çok defa tekrar edilebilir, ? : kendinden önceki harf/dizi 0 veya 1 defa tekrar edilebilir, . : bu karakterin olduğu yere alfabede yer alan herhangi bir harf gelebilir. Örneğin, çıkarılan dil formülü A*(T.)+ olarak verilmişse, bazı geçerli diziler şunlardır: ATG → A bir defa tekrar etmiş sonrasında (T.) ifadesi en az bir defa tekrar etmiş, AATCTC → A iki defa tekrarlamış, . yerine C gelmiş ve iki defa tekrar etmiş, TG → A sıfır defa tekrarlamış, . yerine G gelmiş ve bir defa tekrar etmiş. Fakat A dizisi geçerli bir dizi değildir, çünkü (T.) ifadesi en az bir defa yer almamaktadır. ATCC dizisi de ATC'den sonra T gelmeden C geldiği için geçerli değildir. I. ACAAACGT II. T III. AACTACСТ. İfadelerinin hepsi uygun bir dizi olarak nitelendirilmişse, dil formülü aşağıda verilenlerden hangisi olabilir?",
+            "secenekler": {
+                "A": "(AC)*T(AC)*",
+                "B": "A?(AC)*G+T",
+                "C": "T+(AC)*",
+                "D": "(A+C.)*T",
+                "E": "A+CA*GT"
+            },
+            "çözüm": "Başlangıç harfinin A veya T olduğunu görüyoruz. Dolayısıyla B ve C seçenekleri doğru cevap değildir. Başlangıçta yer alan A'yı takip eden C I numarada verilmiş olsa da III numaralı ifade de A değerinin birden çok tekrar edebildiği görüldüğünden A seçeneği de doğru cevap değildir. E seçeneği incelendiğinde dizinin bitişinin AGT olması gerektiği görülmektedir, ancak I numaralı ifadede CGT şeklinde bitiş olduğu için E seçeneği de doğru cevap olamaz. D seçeneği incelendiğinde tekrarlayan A harflerinin ardından C ve herhangi bir harf geldiği ve bitişin T ile yapıldığı görülecektir. Bu ifade I, II, ve III için geçerlidir. Doğru cevap D seçeneğidir.",
+            "cevap": "İPTAL"
+        },
+        {
+            "soruSirasi": 23,
+            "soru": " Genetik çalışmalar yürüten bir ekip DNA kodlamasının dilbilimi ile araştırılmasına yönelik hazırlık yapmaya başlıyor. Bildiğiniz üzere DNA'da alfabe olarak A, T, C, ve G bulunmaktadır. Araştırmayı yürüten ekip birbirini tekrar eden bazı dizilimler buluyor. Bunları ifade edebilmek için de kendi aralarında yeni bir dil formülü geliştiriyorlar. Buna göre; Her bir harf A, T, G, C’den birini ifade ediyor, (): parantez içinde yer alan dizi tek bir harfmiş gibi davranır, * : kendinden önceki harf/dizi 0 veya çok defa tekrar edilebilir, + : kendinden önceki harf/dizi en az bir defa veya çok defa tekrar edilebilir, ? : kendinden önceki harf/dizi 0 veya 1 defa tekrar edilebilir, . : bu karakterin olduğu yere alfabede yer alan herhangi bir harf gelebilir. Örneğin, çıkarılan dil formülü A*(T.)+ olarak verilmişse, bazı geçerli diziler şunlardır: ATG → A bir defa tekrar etmiş sonrasında (T.) ifadesi en az bir defa tekrar etmiş, AATCTC → A iki defa tekrarlamış, . yerine C gelmiş ve iki defa tekrar etmiş, TG → A sıfır defa tekrarlamış, . yerine G gelmiş ve bir defa tekrar etmiş. Fakat A dizisi geçerli bir dizi değildir, çünkü (T.) ifadesi en az bir defa yer almamaktadır. ATCC dizisi de ATC'den sonra T gelmeden C geldiği için geçerli değildir.  I. A* ile A?A+ aynı dil formülüdür. II. (T.)+C formülünün ürettiği dizilerin tamamı tek sayıda harf içerecektir. III. (A*T)+GC* formülünün ürettiği diziler A ile başlayıp C ile bitmek zorundadır. Yukarıda verilen ifadeler için aşağıdakilerden hangisi doğrudur?",
+            "secenekler": {
+                "A": "I ve II yanlıştır",
+                "B": "Sadece III doğrudur",
+                "C": "I ve II doğrudur",
+                "D": "Hepsi yanlıştır",
+                "E": "I ve III yanlıştır"
+            },
+            "çözüm": "I ifadesinde A* boş küme olabilecekken A?A+ boş küme içeremeyecektir. II ifadesinde yer alan (T.) her zaman iki harf içermek zorundadır ve bu tekrarlı yapıda olsa da her seferinde çift sayıda harf içermiş olacaktır. C ile bitmesi nedeniyle de ürettiği tüm diziler tek sayıda harf içermelidir. III ifadesinde yer alan A ile başlama zorunluluğu doğru değildir, dizi T ile de başlayabilir. Doğru cevap E seçeneğidir.",
+            "cevap": "E"
+        },
+        {
+            "soruSirasi": 24,
+            "soru": " Yuvarlak bir masa etrafında 1 ve n arasındaki tamsayılarla sıralı bir şekilde numaralandırılmış n kişi oturmaktadır ve yemek beklemektedir. Bu masaya hizmet eden garson n defa mutfağa gidip gelecek ve her geldiğinde bir kişiye yemek servisi yapacaktır. Garson ilk gelişinde 3 numaralı kişiye, sonraki her gelişinde ise en son servis yaptığı kişiden başlayarak henüz yemek almamış üçüncü kişiye yemek servisi yapacaktır. Örnek: n = 8 olduğu durumda yemek servisi şu sırayla yapılır: 3, 6, 1, 5, 2, 8, 4, 7. n = 16 olduğu durumda yemek servisi en son kaç numaralı kişiye yapılmıştır?",
+            "secenekler": {
+                "A": "14",
+                "B": "11",
+                "C": "1",
+                "D": "4",
+                "E": "8"
+            },
+            "çözüm": "Bu soru verilen algoritma elle gerçeklenerek çözülebilir. n = 16 olduğu durumda yemek servisi şu sırayla yapılır: 3, 6, 9, 12, 15, 2, 7, 11, 16, 5, 13, 4, 14, 10, 1, 8. Bu yüzden doğru cevap 8'dir.",
+            "cevap": "E"
+        },
+        {
+            "soruSirasi": 25,
+            "soru": "Yuvarlak bir masa etrafında 1 ve n arasındaki tamsayılarla sıralı bir şekilde numaralandırılmış n kişi oturmaktadır ve yemek beklemektedir. Bu masaya hizmet eden garson n defa mutfağa gidip gelecek ve her geldiğinde bir kişiye yemek servisi yapacaktır. Garson ilk gelişinde 3 numaralı kişiye, sonraki her gelişinde ise en son servis yaptığı kişiden başlayarak henüz yemek almamış üçüncü kişiye yemek servisi yapacaktır. Örnek: n = 8 olduğu durumda yemek servisi şu sırayla yapılır: 3, 6, 1, 5, 2, 8, 4, 7. n = 81 olduğu durumda yemek servisi en son kaç numaralı kişiye yapılmıştır?",
+            "secenekler": {
+                "A": "16",
+                "B": "23",
+                "C": "32",
+                "D": "34",
+                "E": "37"
+            },
+            "çözüm": "Masada n kişi varken en son yemek servisi yapılan kişinin numarasını f(n) ile gösterelim. n'in 3'ün tam katı olduğu durumlarda aşağıdaki özyinelemeli denklem sonuca ulaşmakta kullanılabilir. f(3k) = f(2k) + [ f(2k)/2 ] – 1. Bir önceki sorunun çözümünden f(16) = 8 olduğu bilinmektedir. Yukarıdaki denklem kullanılarak f(24) = 8 + 4 − 1 = 11 sonucu elde edilir. Bu sonuç yukarıdaki denklem ile beraber kullanıldığında f(36) = 11 + 6 − 1 = 16 sonucu elde edilir. Bu sonuç yukarıdaki denklem ile beraber kullanıldığında f(54) = 16 + 8 − 1 = 23 sonucu elde edilir. Bu sonuç yukarıdaki denklem ile beraber kullanıldığında ise f(81) = 23 + 12 – 1 = 34 sonucu elde edilir.",
+            "cevap": "D"
+        },
+        {
+            "soruSirasi": 26,
+            "soru": " Yuvarlak bir masa etrafında 1 ve n arasındaki tamsayılarla sıralı bir şekilde numaralandırılmış n kişi oturmaktadır ve yemek beklemektedir. Bu masaya hizmet eden garson n defa mutfağa gidip gelecek ve her geldiğinde bir kişiye yemek servisi yapacaktır. Garson ilk gelişinde 3 numaralı kişiye, sonraki her gelişinde ise en son servis yaptığı kişiden başlayarak henüz yemek almamış üçüncü kişiye yemek servisi yapacaktır. Örnek: n = 8 olduğu durumda yemek servisi şu sırayla yapılır: 3, 6, 1, 5, 2, 8, 4, 7. n = 82 olduğu durumda yemek servisi en son kaç numaralı kişiye yapılmıştır?",
+            "secenekler": {
+                "A": "16",
+                "B": "23",
+                "C": "32",
+                "D": "34",
+                "E": "37"
+            },
+            "çözüm": "Masada n kişi varken en son yemek servisi yapılan kişinin numarasını f(n) ile gösterelim. Bir k tamsayısı için f(2k) + [ f(2k)/2 ] + 2 ifadesinin değeri 3k + 1'den büyük değilse f(3k + 1)'in değeri bu ifadenin değerine eşittir. Aksi taktirde f(3k + 1) = 1'dir. Bir önceki sorunun çözümünden f(54) = 23 olduğu bilinmektedir. Öyleyse, f(82) = 23 + 12 + 2 = 37'dir.",
+            "cevap": "E"
+        },
+        {
+            "soruSirasi": 27,
+            "soru": " Yuvarlak bir masa etrafında 1 ve n arasındaki tamsayılarla sıralı bir şekilde numaralandırılmış n kişi oturmaktadır ve yemek beklemektedir. Bu masaya hizmet eden garson n defa mutfağa gidip gelecek ve her geldiğinde bir kişiye yemek servisi yapacaktır. Garson ilk gelişinde 3 numaralı kişiye, sonraki her gelişinde ise en son servis yaptığı kişiden başlayarak henüz yemek almamış üçüncü kişiye yemek servisi yapacaktır. Örnek: n = 8 olduğu durumda yemek servisi şu sırayla yapılır: 3, 6, 1, 5, 2, 8, 4, 7. n = 123 olduğu durumda yemek servisi en son kaç numaralı kişiye yapılmıştır?",
+            "secenekler": {
+                "A": "55",
+                "B": "62",
+                "C": "82",
+                "D": "95",
+                "E": "116"
+            },
+            "çözüm": "Masada n kişi varken en son yemek servisi yapılan kişinin numarasını f(n) ile gösterelim. İki önceki sorunun çözümünden f(123) = f(82) + [ f(82)/2 ] – 1 olduğunu biliyoruz. Bir önceki sorunun çözümünden ise f(82) = 37 olduğunu biliyoruz. Öyleyse, f(123) = 37 + 19 – 1 = 55'tir.",
+            "cevap": "A"
+        }
+    ]
+}

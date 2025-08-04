@@ -1,0 +1,1444 @@
+{
+    "sorular": [
+        {
+            "soruSirasi": 1,
+            "soru": "Türkiye Büyük Millet Meclisi Genel Kurulu, bir ilçenin başka bir ile bağlanmasına ilişkin kanun teklifini görüşmek üzere 175 milletvekiliyle toplanır. Toplantıya katılan milletvekillerinin tamamı Kanun'un kabul edilmesi yönünde oy kullanır. 1982 Anayasası'na göre olayla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+            "secenekler": {
+                "A": "Toplantı ve karar yeter sayıları sağlanmış olduğundan Kanun kabul edilmiş olur.",
+                "B": "Toplantı ve karar yeter sayıları sağlanamamış olduğundan Kanun Anayasa'ya aykırıdır.",
+                "C": "Toplantı yeter sayısı sağlanmış olsa da karar yeter sayısı sağlanamamış olduğundan Kanun Anayasa'ya aykırıdır.",
+                "D": "Karar yeter sayısı sağlanmış olsa da toplantı yeter sayısı sağlanamamış olduğundan Kanun Anayasa'ya aykırıdır.",
+                "E": "Bu konuda bir kanun teklifi verilemeyeceğinden Kanun kabul edilmiş olsa da yok hükmünde olup Anayasa Mahkemesince resen iptal edilir."
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 2,
+            "soru": "Bakan B hakkında meclis soruşturması açılır ve kendisi hakkında Yüce Divan'a sevk kararı alınır. 1982 Anayasası'na göre olayla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Yüce Divan'a en az 400 üyenin oyuyla sevk edilmiştir.",
+                "B": "Yüce Divan, yargılamasını ek süre dâhil olmak üzere kural olarak en fazla 6 ay içinde tamamlamak zorundadır.",
+                "C": "Yüce Divan'a sevk kararı üzerine B'nin bakanlık görevi sona ermiştir.",
+                "D": "Meclis soruşturması en az 360 üyenin oyuyla açılmıştır.",
+                "E": "Soruşturma kural olarak 15 kişilik komisyon tarafından yapılmıştır."
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 3,
+            "soru": "Genel seçimlere 16 ay kala bir ilin Türkiye Büyük Millet Meclisinde kalan son üyesi vefat eder. 1982 Anayasası'na göre milletvekilinin vefatı üzerine kural olarak üyelikten boşalmayı takip eden kaç günden sonraki ilk pazar günü ara seçim yapılmalıdır?",
+            "secenekler": {
+                "A": "30",
+                "B": "45",
+                "C": "60",
+                "D": "75",
+                "E": "90"
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 4,
+            "soru": "Millî Güvenlik Kurulunun gündemi düzenlenirken aşağıdakilerden hangisinin önerilerinin dikkate alınacağı 1982 Anayasası'nda açıkça düzenlenmiştir?",
+            "secenekler": {
+                "A": "İçişleri Bakanı",
+                "B": "Milli İstihbarat Teşkilatı Başkanı",
+                "C": "Cumhurbaşkanı yardımcısı",
+                "D": "Millî Savunma Bakanı",
+                "E": "Dışişleri Bakanı"
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 5,
+            "soru": "Ankara idare mahkemesi, önüne gelen bir iptal davasında uygulanacak bir kanun hükmünün anayasa'ya aykırı olduğu iddiasını ciddi bularak Anayasa Mahkemesi'ne başvuruda bulunur ve bu başvurunun üzerinden 4 ay geçer. Anayasa Mahkemesi ise henüz bu konuda bir karar vermemiştir. 1982 Anayasası'na göre Ankara idare mahkemesinin bu aşamadan sonra yapması gereken işlem aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Davayı 1 ay süreyle daha geriye bıraktıktan sonra Anayasa Mahkemesi hâlâ karar vermemişse yürürlükteki mevcut düzenlemeye göre karar verir.",
+                "B": "Davayı 1 ay süreyle daha geriye bıraktıktan sonra Anayasa Mahkemesi hâlâ karar vermemişse davanın açılmamış sayılmasına karar verir.",
+                "C": "Davayı 2 ay süreyle daha geriye bıraktıktan sonra Anayasa Mahkemesi hâlâ karar vermemişse yürürlükteki mevcut düzenlemeye göre karar verir.",
+                "D": "Davayı 2 ay süreyle daha geriye bıraktıktan sonra Anayasa Mahkemesi hâlâ karar vermemişse dosyanın işlemden kaldırılmasına karar verir.",
+                "E": "Anayasa'ya göre verilen süre dolduğu için yürürlükteki mevcut düzenlemeye göre karar verir."
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 6,
+            "soru": "1982 Anayasası'na göre mahalli idarelerin hesap ve işlemlerinin denetimi ve kesin hükme bağlanması aşağıdakilerin hangisi tarafından yapılır?",
+            "secenekler": {
+                "A": "Sayıştay",
+                "B": "İçişleri Bakanlığı",
+                "C": "Adalet Bakanlığı",
+                "D": "Yargıtay",
+                "E": "Uyuşmazlık Mahkemesi"
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 7,
+            "soru": "Serbest avukat olan Betül, Anayasa Mahkemesi üyesi olmak ister ve adaylık başvurusunda bulunur. 1982 Anayasası'na göre üyelik için diğer şartları sağlayan Betül, aşağıdaki hangi süreçten geçerek Anayasa Mahkemesi üyesi olabilir?",
+            "secenekler": {
+                "A": "Baro başkanlarının yapacağı seçimde en çok oy alan ilk 3 aday arasına girdikten sonra TBMM Genel Kurulu tarafından seçilerek",
+                "B": "Türkiye Barolar Birliği tarafından aday gösterilen 3 avukat arasına girdikten sonra TBMM Genel Kurulu tarafından seçilerek",
+                "C": "Baro başkanlarının yapacağı seçimde en çok oy alan ilk 3 aday arasına girdikten sonra Cumhurbaşkanı tarafından seçilerek",
+                "D": "Türkiye Barolar Birliği tarafından aday gösterilen 3 avukat arasına girdikten sonra Cumhurbaşkanı tarafından seçilerek",
+                "E": "TBMM Genel Kurulu tarafından aday gösterilen 3 avukat arasına girdikten sonra Cumhurbaşkanı tarafından seçilerek"
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 8,
+            "soru": "6216 sayılı Anayasa Mahkemesinin Kuruluşu ve Yargılama Usulleri Hakkında Kanun'a göre Anayasa Mahkemesine yapılan bireysel başvuru neticesinde Mahkemenin esas hakkındaki incelemesiyle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+            "secenekler": {
+                "A": "Yeniden yargılama yapılmasında hukuki yarar bulunmayan hâllerde başvurucu lehine tazminata hükmedilebilir.",
+                "B": "Bölümler, esas inceleme aşamasında başvurucunun temel haklarının korunması için zorunlu gördükleri tedbirlere sadece başvurucunun talebi üzerine karar verebilir.",
+                "C": "Tedbire karar verildiğinde esas hakkındaki kararın en geç 3 ay içinde verilmemesi durumunda tedbir kararı kendiliğinden kalkar.",
+                "D": "Esas inceleme sonunda, tespit edilen ihlal bir mahkeme kararından kaynaklanmışsa ihlali ve sonuçlarını ortadan kaldırmak için Anayasa Mahkemesi yeniden yargılama yapabilir.",
+                "E": "Bireysel başvuruda duruşma yapılması Kanun'da öngörülmediği için Anayasa Mahkemesi esas hakkındaki incelemesini sadece dosya üzerinden yapabilir."
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 9,
+            "soru": "6216 sayılı Anayasa Mahkemesinin Kuruluşu ve Yargılama Usulleri Hakkında Kanun'a göre kanunların esas yönünden Anayasa'ya aykırılığı iddiasıyla doğrudan doğruya iptal davası açma hakkı, Resmî Gazete'de yayımlanmasından başlayarak kural olarak kaç gün sonra düşer?",
+            "secenekler": {
+                "A": "10",
+                "B": "15",
+                "C": "30",
+                "D": "45",
+                "E": "60"
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 10,
+            "soru": "\"... kamu düzenini ve idarede bütünlüğü sağlamak için kamu yararı amacıyla kanunların verdiği yetkiye dayanarak merkezî idarenin, yerel yönetimin organları ve bunların bazı işlemleri ile harcamaları üzerinde kamu hizmetinin gereklerine uygun olarak kullanılan bir denetim şeklidir. Merkezî idareye verilen bu yetki ile kamu düzeni bakımından ülkede genelliği ve bütünlüğü sağlama amacı güdülmüştür.\" Bir Danıştay kararından alınan bu ifadede aşağıdaki kavramlardan hangisi vurgulanmaktadır?",
+            "secenekler": {
+                "A": "Hiyerarşi",
+                "B": "İdari vesayet",
+                "C": "İdarenin kanuniliği",
+                "D": "Yetki devri",
+                "E": "İmza devri"
+            },
+            "cevap anahtarı": "B"
+        },
+        {
+            "soruSirasi": 11,
+            "soru": "Aşağıdakilerden hangisi 1982 Anayasası'nın idare hukukuyla ilgili hükümleri arasında yer almaz?",
+            "secenekler": {
+                "A": "İdari işlemlere karşı açılacak davalarda süre, yazılı bildirim tarihinden başlar.",
+                "B": "İdare, kendi eylem ve işlemlerinden doğan zararı ödemekle yükümlüdür.",
+                "C": "İdarenin kuruluş ve görevleri, merkezden yönetim ve yerinden yönetim esaslarına dayanır.",
+                "D": "İdarenin takdir yetkisine istinaden tesis ettiği işlemler yargı denetimi dışındadır.",
+                "E": "Kamu tüzel kişiliği, kanunla veya Cumhurbaşkanlığı kararnamesiyle kurulur."
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 12,
+            "soru": "Osmaniye Cumhuriyet Başsavcısı, il merkezinde görev yapan memur A'nın görevi sebebiyle bir suç işlediğini öğrenir. İvedilikle toplanması gerekli ve kaybolma ihtimali bulunan delilleri tespit ettikten sonra elindeki evrakın bir örneğini de göndermek suretiyle Osmaniye valisinden soruşturma izni ister. Kanuni süre içinde Osmaniye valisi tarafından soruşturma izni verilmez ve bu karar ilgililere bildirilir. 4483 sayılı Memurlar ve Diğer Kamu Görevlilerinin Yargılanması Hakkında Kanun'a göre I. Şikâyetçi, II. Osmaniye Cumhuriyet Başsavcılığı, III. Memur A sayılanlardan hangileri soruşturma izni verilmemesi kararına karşı itiraz yoluna gidebilir?",
+            "secenekler": {
+                "A": "Yalnız I",
+                "B": "Yalnız II",
+                "C": "Yalnız III",
+                "D": "I ve II",
+                "E": "I ve III"
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 13,
+            "soru": "Aday memur A uyarma cezası, A'nın kurumdaki arkadaşı aday memur B ise aylıktan kesme cezası almıştır. A ve B'nin, disiplin amirinin kararı ile memuriyetle ilişikleri kesilmiştir. 657 sayılı Devlet Memurları Kanunu'na göre olayla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+            "secenekler": {
+                "A": "Sadece B'nin memuriyetle ilişiğinin kesilmesi gerekir ve bu karar, disiplin amirinin teklifi ve atamaya yetkili amirinin onayıyla verilir.",
+                "B": "A ve B'nin memuriyetle ilişiğinin kesilmesi için atamaya yetkili amirin doğrudan bu kararı vermesi yeterlidir.",
+                "C": "A ve B beş yıl süre ile Devlet memurluğuna alınmazlar.",
+                "D": "Memuriyetle ilişiği kesme kararını sadece Danıştay verebilir.",
+                "E": "Görevden uzaklaştırma kararı verilmeden memuriyetle ilişikleri kesilemez."
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 14,
+            "soru": "6328 sayılı Kamu Denetçiliği Kurumu Kanunu'na göre Kamu Denetçiliği Kurumuna yapılacak başvurular ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+            "secenekler": {
+                "A": "Elektronik ortamda başvuru yapılabilmesi mümkündür.",
+                "B": "Kuruma yapılan başvurular, işlemeye başlamış olan dava açma süresini durdurmaz.",
+                "C": "Kuruma başvuruda belirli miktarda başvuru ücreti alınır.",
+                "D": "Kuruma yurt içinde noterlikler, yurt dışında Türk konsoloslukları aracılığıyla başvurulabilir.",
+                "E": "Kuruma sadece gerçek kişiler başvurabilir."
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 15,
+            "soru": "Hâkim H'ye, Adalet Bakanı tarafından meslekten çıkarma cezası verilir. Bu idari işleme karşı iptal davası açan H, dava dilekçesinde I. kendisine ancak Hâkimler ve Savcılar Kurulunun disiplin cezası verebileceğini, II. ceza verilmeden önce savunmasının alınmadığını, III. kendisine meslekten çıkarma cezası değil yer değiştirme cezası uygulanması gerektiğini iddia eder. H'nin iddiaları, sırasıyla dava konusu idari işlemin hangi unsurlarına ilişkindir?",
+            "secenekler": {
+                "A": "I - Şekil, II - Amaç, III - Sebep",
+                "B": "I - Yetki, II - Şekil, III - Konu",
+                "C": "I - Sebep, II - Şekil, III - Şekil",
+                "D": "I - Sebep, II - Yetki, III - Yetki",
+                "E": "I - Yetki, II - Konu, III - Amaç"
+            },
+            "cevap anahtarı": "B"
+        },
+        {
+            "soruSirasi": 16,
+            "soru": "2575 sayılı Danıştay Kanunu'na göre Danıştay üyelerinin hangi dairede görev yapacağını belirleme yetkisi aşağıdakilerden hangisine aittir?",
+            "secenekler": {
+                "A": "Danıştay Başkanı",
+                "B": "Danıştay Başkanlık Kurulu",
+                "C": "Danıştay Başkanlar Kurulu",
+                "D": "Danıştay Dava Daireleri Kurulları",
+                "E": "Danıştay Genel Kurulu"
+            },
+            "cevap anahtarı": "B"
+        },
+        {
+            "soruSirasi": 17,
+            "soru": "Şüheda, ülke çapında uygulanma kabiliyetine sahip bir yönetmelik hükmünün iptali talebini içeren dava dilekçesini Danıştaya teslim eder. Danıştay Genel Sekreterliği, dava dilekçesini Danıştay 5. Dairesine havale eder. 2577 sayılı İdari Yargılama Usulü Kanunu'na göre Şüheda'nın dilekçesi üzerinde ilk inceleme, kural olarak aşağıdakilerin hangisi tarafından yapılır?",
+            "secenekler": {
+                "A": "Danıştay Başsavcısı'nın görevlendireceği savcı",
+                "B": "Danıştay Genel Sekreteri'nin görevlendireceği savcı",
+                "C": "Danıştay 5. Dairesi Başkanı'nın görevlendireceği tetkik hâkimi",
+                "D": "Danıştay Başkanlar Kurulunun görevlendireceği tetkik hâkimi",
+                "E": "Danıştay Başkanı'nın görevlendireceği tetkik hâkimi"
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 18,
+            "soru": "2577 sayılı İdari Yargılama Usulü Kanunu'na göre ivedi yargılama usulüyle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+            "secenekler": {
+                "A": "İdari işlemin yürütmesinin durdurulması talep edilemez.",
+                "B": "İstinaf yoluna başvurma süresi, olağan yargılama usulünden farklıdır.",
+                "C": "İlk inceleme süresi on beş gündür.",
+                "D": "Savunmaya cevap ve idarenin ikinci savunması aşamaları söz konusu olmaksızın dosya tekemmül eder.",
+                "E": "Temyiz dilekçelerine cevap verme süresi otuz gündür."
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 19,
+            "soru": "4721 sayılı Türk Medeni Kanunu'na göre aşağıdakilerden hangisi derneğin kendiliğinden sona erdiği hâllerden biri değildir?",
+            "secenekler": {
+                "A": "Tüzük gereğince derneğin yönetim kurulunun oluşturulmasının olanaksız hâle gelmesi",
+                "B": "Derneğin amacının gerçekleşmesinin olanaksız hâle gelmesi",
+                "C": "Derneğin amacının ahlaka aykırı hâle gelmesi",
+                "D": "Derneğin borç ödemede acze düşmüş olması",
+                "E": "Derneğin olağan genel kurul toplantısının iki defa üst üste yapılamaması"
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 20,
+            "soru": "Türk medeni hukukuna göre aşağıdaki kişilerden hangisi fiil ehliyeti bakımından tam ehliyetsizdir?",
+            "secenekler": {
+                "A": "Ayırt etme gücüne sahip küçük",
+                "B": "İsteği üzerine kendisine yönetim kayyımı atanan kişi",
+                "C": "Ayırt etme gücü bulunmayan ergin akıl hastası",
+                "D": "Kendisine yasal danışman atanan kişi",
+                "E": "Ayırt etme gücüne sahip, savurganlığı nedeniyle kısıtlanmış olan kişi"
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 21,
+            "soru": "4721 sayılı Türk Medeni Kanunu'na göre bir konfederasyon kural olarak en az kaç federasyonun amaçlarını gerçekleştirmek üzere üye sıfatıyla bir araya gelmeleri suretiyle kurulur?",
+            "secenekler": {
+                "A": "2",
+                "B": "3",
+                "C": "5",
+                "D": "7",
+                "E": "15"
+            },
+            "cevap anahtarı": "B"
+        },
+        {
+            "soruSirasi": 22,
+            "soru": "Eşler, evlilik birliğinin temelden sarsılması ve bu durumun kendileri açısından ortak hayatın devamının beklenemez hâle gelmesi durumunda anlaşma yoluyla boşanabilirler. Aşağıdakilerden hangisi 4721 sayılı Türk Medeni Kanunu'na göre hâkimin eşlerin evlilik birliğinin temelden sarsılması nedeniyle boşanması yönünde karar verebilmesi için gereken şartlardan biri değildir?",
+            "secenekler": {
+                "A": "Evliliğin en az 1 yıl sürmüş olması",
+                "B": "Eşlerin mahkemeye birlikte başvurması ya da bir eşin diğerinin davasını kabul etmesi",
+                "C": "Hâkimin eşleri bizzat dinleyerek iradelerinin serbestçe açıklandığına kanaat getirmesi",
+                "D": "Tarafların daha önce karşılıklı anlaşma yoluyla boşanma için mahkemeye başvurmuş olup taleplerinin reddedilmemiş olması",
+                "E": "Hâkimin boşanmanın mali sonuçlarıyla çocukların durumu hususunda taraflarca kabul edilecek düzenlemeyi uygun bulması"
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 23,
+            "soru": "4721 sayılı Türk Medeni Kanunu'na göre aşağıdaki durumların hangisinde eşler arasında geçerli olan mal ortaklığı kendiliğinden mal ayrılığına dönüşür?",
+            "secenekler": {
+                "A": "Eşlerden birinin ayırt etme gücünden sürekli olarak yoksun olması",
+                "B": "Eşlerden birinin iflasına karar verilmiş olması",
+                "C": "Eşlerden birinin ortaklığın malları üzerinde bir tasarruf işleminin yapılması için gereken rızasını haklı bir sebep olmadan esirgemesi",
+                "D": "Eşlerden birinin ortaklığın menfaatlerini tehlikeye düşürmüş olması",
+                "E": "Eşlerden birinin ortaklıktaki payının haczedilmiş olması"
+            },
+            "cevap anahtarı": "B"
+        },
+        {
+            "soruSirasi": 24,
+            "soru": "4721 sayılı Türk Medeni Kanunu'na göre boşanmanın mali sonuçlarıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Taraflar arasında kusursuz veya daha az kusurlu olan tarafa maddi tazminat ödenmesine hâkim resen karar verir.",
+                "B": "Manevi tazminatın irat biçiminde ödenmesine karar verilemez.",
+                "C": "Boşanmayla arasında illiyet bağı olmayan menfaat kayıpları maddi tazminat kapsamında yer almaz.",
+                "D": "Boşanmaya sebep olan olaylar yüzünden kişilik hakkı saldırıya uğrayan taraf, kusurlu olan diğer taraftan manevi tazminat olarak uygun miktarda bir para ödenmesini isteyebilir.",
+                "E": "İrat biçiminde ödenmesine karar verilen maddi tazminat, alacaklı tarafın evlenme olmaksızın fiilen evliymiş gibi yaşaması hâlinde mahkeme kararıyla kaldırılır."
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 25,
+            "soru": "Yardım edilmediği takdirde yoksulluğa düşecek olan üst soy ve alt soy ile kardeşlere verilen nafaka, yardım nafakası olarak adlandırılır. 4721 sayılı Türk Medeni Kanunu'na göre yardım nafakasıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Yardım nafakası davası, mirasçılıktaki sıra göz önünde tutularak açılır.",
+                "B": "Kardeşlerin nafaka yükümlülükleri refah içinde bulunmalarına bağlıdır.",
+                "C": "Hâkim, nafakanın yükümlülerin bir veya birkaçından istenmesi hakkaniyete aykırı olması durumunda onların nafaka yükümlülüğünü azaltabilir veya kaldırabilir.",
+                "D": "Nafaka talep hakkı, sahibinin ölümü hâlinde mirasçılarına geçer.",
+                "E": "Nafaka davası, nafaka alacaklısına bakmakta olan resmî veya kamuya yararlı kurumlar tarafından açılabilir."
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 26,
+            "soru": "A ile B, 01.06.2021 tarihinde evlenir. A, 01.04.2023 tarihinde küçük düşürücü nitelikte bir suç işler. B ise bu sebebe dayanarak boşanma davası açmayı düşünmeye başlar. 4721 sayılı Türk Medeni Kanunu'na göre olayla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+            "secenekler": {
+                "A": "Hâkimin boşanmaya karar verebilmesi için işlediği küçük düşürücü suçtan dolayı A hakkında mahkûmiyet kararı verilmiş olması gerekir.",
+                "B": "B, bu davayı A'nın fiili işlediği tarihten itibaren 5 yıl içinde açabilir.",
+                "C": "B, suç fiilinin işlenmesinden sonra A ile evlilik birliğini devam ettirdiği takdirde bu sebebe dayanarak dava açma hakkını kaybeder.",
+                "D": "Hâkimin boşanmaya karar verebilmesi için A'nın suç fiilini işlemiş olması yeterlidir.",
+                "E": "A'nın işlediği suçtan dolayı eşiyle birlikte yaşaması B'den beklenemezse boşanma davası bu sebebe dayanarak her zaman açılabilir."
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 27,
+            "soru": "4721 sayılı Türk Medeni Kanunu'na göre aşağıdakilerden hangisi anapara ipoteğinin alacaklıya sağladığı güvencenin kapsamında değildir?",
+            "secenekler": {
+                "A": "Alacaklının rehinli taşınmazı korumak maksadıyla yaptığı zorunlu masraflar",
+                "B": "Alacağı tahsil etmek için rehnin paraya çevrilmesi yoluyla takibe başvurulması hâlinde takip giderleri",
+                "C": "Tapu kütüğünde belirtilmesi koşuluyla tarafların belirlediği gecikme tazminatı",
+                "D": "Borcun ödenmemesi hâlinde rehinli taşınmazın mülkiyetinin alacaklıya geçmesi",
+                "E": "Rehnin paraya çevrilmesinin istendiği tarihe kadar muaccel olmuş 3 yıllık faizle son vadeden başlayarak işleyen faiz"
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 28,
+            "soru": "Kaybedilmiş bir şeyi bulan kimse; malın sahibine, sahibini bilmiyorsa kolluk kuvvetlerine, köylerde muhtara bildirmek veya araştırma yapmak ve gerektiğinde ilân etmek zorundadır. 4721 sayılı Türk Medeni Kanunu'na göre bulunan şeyin maliki; ilân veya kolluk kuvvetlerine ya da muhtara bildirme tarihinden başlayarak kural olarak kaç yıl içinde ortaya çıkmazsa bulan kimse, yükümlülüklerini yerine getirmiş olmak koşuluyla o şeyin mülkiyetini kazanır?",
+            "secenekler": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4",
+                "E": "5"
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 29,
+            "soru": "Gözde ve Damla arasında yapılan bir sözleşmeye istinaden Gözde, bir bölümünü kendisinin kullandığı ve mülkiyeti kendisine ait olan binanın bir bölümü üzerinde Damla'nın şahsına oturma hakkı tanır. Sözleşmede bu haktan Damla'nın ailesinin yararlanabileceğine dair bir karar alınmaz. 4721 sayılı Türk Medeni Kanunu'na göre olayla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+            "secenekler": {
+                "A": "Tanınan hak, başkasına devredilemez ve mirasçılara geçmez.",
+                "B": "Binanın bakım ve onarım giderlerinden kural olarak Gözde sorumlu değildir.",
+                "C": "Sözleşmede belirtilmemiş olsa bile oturma hakkından Damla'nın ailesi kural olarak yararlanabilir.",
+                "D": "Binanın ortaklaşa kullanımına özgülenen yerlerinden Damla'nın yararlanabilmesi için sözleşmede açıkça bu hakkın tanınmış olması gerekir.",
+                "E": "Damla, binanın kendisinin kullanımına ayrılan bölümlerinden kullanmadığı kısımları bir başkasına kiraya verebilir."
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 30,
+            "soru": "4721 sayılı Türk Medeni Kanunu'na göre resmî vasiyetnameyle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "İçeriğinin tanıklara bildirilmesi zorunlu değildir.",
+                "B": "Noterler tarafından düzenlenebilir.",
+                "C": "Mirasın kardeşinin eşi, düzenlenmesine memur olarak katılamaz.",
+                "D": "Düzenlenmesine katılan tanıkların üst soy ve alt soy kan hısımlarına o vasiyetname ile kazandırmada bulunulamaz.",
+                "E": "Okur yazar olmayanlar düzenlenmesine tanık olarak katılabilirler."
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 31,
+            "soru": "M; öldüğünde geride annesi A, kardeşi B ve kendisinden önce ölen kardeşi C'nin kızı D kalmıştır. 4721 sayılı Türk Medeni Kanunu'na göre D'nin yasal miras payı aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "1/2",
+                "B": "1/4",
+                "C": "3/4",
+                "D": "3/8",
+                "E": "3/16"
+            },
+            "cevap anahtarı": "B"
+        },
+        {
+            "soruSirasi": 32,
+            "soru": "Aşağıdakilerden hangisi 4721 sayılı Türk Medeni Kanunu'nda ölüme bağlı tasarrufların iptali için dava açabilme sebepleri arasında sayılmamıştır?",
+            "secenekler": {
+                "A": "Tasarruf, miras bırakanın tasarruf ehliyeti bulunmadığı bir sırada yapılmışsa",
+                "B": "Tasarruf, yanılma, aldatma, korkutma veya zorlama sonucunda yapılmışsa",
+                "C": "Tasarrufun içeriği, bağlandığı koşullar veya yüklemeler hukuka veya ahlaka aykırıysa",
+                "D": "Tasarruf kanunda öngörülen şekillere uyulmadan yapılmışsa",
+                "E": "Tasarruf konusu edim tasarruf yapıldığı sırada terekede bulunmuyorsa"
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 33,
+            "soru": "4721 sayılı Türk Medeni Kanunu'na göre mirasın reddi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Yasal ve atanmış mirasçılar mirası reddedebilir.",
+                "B": "Mirasın reddi kural olarak sulh mahkemesine sözlü veya yazılı beyanda bulunarak yapılır.",
+                "C": "Tereke mallarını gizleyen mirasçı, mirası reddedemez.",
+                "D": "Miras, diğer mirasçıların da mirası reddetmesi şartıyla reddedilebilir.",
+                "E": "Mirası reddetmeden ölen mirasçının ret hakkı kendi mirasçılarına geçer."
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 34,
+            "soru": "B ve C; A'dan almış oldukları 200.000 TL tutarındaki borcun tamamından sorumlu olmayı kabul ettiklerini A'ya bildirir. 6098 sayılı Türk Borçlar Kanunu'na göre olayla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "B ve C arasında müteselsil borçluluk vardır.",
+                "B": "A, borcun tamamının ifasını B'den isteyebilir.",
+                "C": "B, A'ya karşı A ile C arasındaki kişisel ilişkilerden doğan defi ve itirazları ileri süremez.",
+                "D": "B, A'ya karşı ortak defi ve itirazları ileri sürmezse C'ye karşı sorumlu olur.",
+                "E": "Zaman aşımı, B'ye karşı kesilince C'ye karşı kesilmiş olmaz."
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 35,
+            "soru": "6098 sayılı Türk Borçlar Kanunu'na göre sözleşmeden doğan borç ilişkilerinde meydana gelen irade bozukluklarıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Sözleşmenin kurulmasına yönelik iradenin haberci gibi bir aracı ya da bir araç tarafından yanlış iletilmiş olması hâlinde yanılma hükümleri uygulanır.",
+                "B": "Korkutmadan dolayı bağlayıcılığı olmayan bir sözleşmenin onanmış sayılması tazminat hakkını ortadan kaldırır.",
+                "C": "Yanılmada kusurlu olan taraf, diğer taraf yanılmayı biliyor veya bilmesi gerekiyorsa sözleşmenin hükümsüzlüğünden doğan zararı gidermekle yükümlü değildir.",
+                "D": "Taraflardan biri, diğerinin aldatması sonucu bir sözleşme yapmışsa yanılması esaslı olmasa bile sözleşmeyle bağlı değildir.",
+                "E": "Korkutan bir üçüncü kişi olup da diğer taraf korkutmayı bilmiyorsa veya bilecek durumda değilse sözleşmeyle bağlı kalmak istemeyen korkutulan, hakkaniyet gerektiriyorsa diğer tarafa tazminat ödemekle yükümlüdür."
+            },
+            "cevap anahtarı": "B"
+        },
+        {
+            "soruSirasi": 36,
+            "soru": "6098 sayılı Türk Borçlar Kanunu'na göre haksız fiilden doğan borç ilişkilerinde sorumlulukla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Zarar verici fiili yasaklayan bir hukuk kuralı bulunmasa bile ahlaka aykırı bir fiille başkasına kasten zarar veren kişi sebep olduğu zararı gidermekle yükümlüdür.",
+                "B": "Hâkim, uğranılan zararın miktarı tam olarak ispat edilemediğinde zarar görenin alması gerektiği önlemleri de göz önünde tutarak zararın miktarını hakkaniyete uygun olarak belirler.",
+                "C": "Hâkim, zarara ağır kusuruyla sebep olan tazminat yükümlüsünün tazminatı ödediğinde yoksulluğa düşecek olması hâlinde tazminatı resen indirir.",
+                "D": "Tazminatın irat biçiminde ödenmesine hükmedilirse borçlu, güvence göstermekle yükümlü olur.",
+                "E": "Zararı ve zarar verenin kusurunu ispat yükü kural olarak zarar görene aittir."
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 37,
+            "soru": "Taraflar arasında yapılan ticari olmayan tüketim ödüncü sözleşmesi uyarınca Erdem, arkadaşı Kaan'a 200.000 TL borç para verir. Taraflar, Kaan'ın aldığı ödüncü 3 ay sonra iade edeceği hususunda anlaşır. Sözleşmede Kaan'ın borcunun ifa yerine ve faiz ödenmesi gerektiğine dair herhangi bir düzenleme bulunmaz. 6098 sayılı Türk Borçlar Kanunu'na göre olayla ilgili I. Kaan, Erdem'in faiz talebini karşılamakla yükümlü değildir. II. Sözleşmenin geçerliliği, yazılı şekilde yapılmasına bağlıdır. III. Kaan, borcunu kural olarak Erdem'in ödeme zamanındaki yerleşim yerinde ifa ederek borçtan kurtulur. ifadelerinden hangileri doğrudur?",
+            "secenekler": {
+                "A": "Yalnız I",
+                "B": "Yalnız III",
+                "C": "I ve II",
+                "D": "I ve III",
+                "E": "II ve III"
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 38,
+            "soru": "6098 sayılı Türk Borçlar Kanunu'na göre alacağın devriyle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+            "secenekler": {
+                "A": "Alacağın devri sözü vermenin geçerliliği yazılı şekilde yapılmış olmasına bağlıdır.",
+                "B": "Borçlu, devri öğrendiği sırada devredene karşı sahip olduğu savunmaları devralana karşı da ileri süremez.",
+                "C": "Borçlu, devir yasağı içermeyen yazılı bir borç tanımasına güvenerek alacağı devralmış olan üçüncü kişiye karşı alacağın devredilemeyeceğinin kararlaştırılmış bulunduğu savunmasını ileri sürebilir.",
+                "D": "Alacak, bir edim karşılığında devredilmişse devreden, devir sırasında alacağın varlığını ve borçlunun ödeme gücüne sahip olduğunu garanti etmiş olmaz.",
+                "E": "Alacağın devriyle devredenin kişiliğine özgü olanlar dışındaki öncelik hakları ve bağlı haklar da devralana geçer."
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 39,
+            "soru": "Trafik kazasına karışan otomobilini satmak isteyen A, satım işlemleri sırasında aracın muayenesini yapan B ile önceden anlaşarak aracın kaza geçirmediğini bildiren bir rapor yazması yönünde anlaşır. C ise bu rapora güvenerek 04.02.2025 tarihinde satış sözleşmesi imzalayarak aracı satın alır ve aynı gün aracın mülkiyetini kazanır. C, aracın daha önce kazaya karışmadığı konusunda aldatıldığını 03.06.2025 tarihinde öğrenir. 6098 sayılı Türk Borçlar Kanunu'na göre C, en geç hangi tarihe kadar sözleşmeyle bağlı olmadığını bildirmez veya ödediği parayı geri istemezse satım sözleşmesini onamış sayılır?",
+            "secenekler": {
+                "A": "04.08.2025",
+                "B": "03.09.2025",
+                "C": "03.12.2025",
+                "D": "04.02.2026",
+                "E": "03.06.2026"
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 40,
+            "soru": "Yerleşim yeri Nevşehir olan Özlem, yerleşim yeri Tokat olan Defne'nin uzun zamandır aradığı el yazması eseri gezme amacıyla gittiği Balıkesir'de bulur ve satın alır. Özlem, eseri Ankara'ya ailesinin yanına getirip burada bırakır. Özlem ile Defne, bir hafta sürecek bir iş için İstanbul'da bir araya geldiklerinde satış sözleşmesi kurulur. Taraflar, kararlaştırılan bedelin Özlem'in banka hesabına yatırıldığı günden itibaren bir ay içinde eserin teslim edileceği konusunda anlaşır. Fakat eserin ifa yeri hakkında herhangi bir anlaşma da yapılmaz. 6098 sayılı Türk Borçlar Kanunu'na göre Özlem ile Defne'nin ifa yeri hakkında anlaşmazlık yaşaması hâlinde el yazması eserin ifa yeri kural olarak aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Nevşehir",
+                "B": "Tokat",
+                "C": "Balıkesir",
+                "D": "Ankara",
+                "E": "İstanbul"
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 41,
+            "soru": "6098 sayılı Türk Borçlar Kanunu'na göre ceza koşuluyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Ceza koşulunun geçersiz olması asıl borcun geçerliliğini etkilemez.",
+                "B": "Hâkim, aşırı gördüğü ceza koşulunu ancak borçlunun istemi hâlinde indirebilir.",
+                "C": "Alacaklının uğradığı zarar kararlaştırılan ceza tutarını aşıyorsa alacaklı, borçlunun kusuru bulunduğunu ispat etmedikçe aşan miktarı isteyemez.",
+                "D": "Alacaklı hiçbir zarara uğramamış olsa bile kararlaştırılan cezanın ifası gerekir.",
+                "E": "Ceza, borcun belirlenen yerde ifa edilmemesi durumu için kararlaştırılmışsa alacaklı, ifayı çekincesiz olarak kabul etmiş olmadıkça asıl borçla birlikte cezanın ifasını da isteyebilir."
+            },
+            "cevap anahtarı": "B"
+        },
+        {
+            "soruSirasi": 42,
+            "soru": "6098 sayılı Türk Borçlar Kanunu'na göre konut ve çatılı iş yeri kiralarında kiraya veren; gereksinim amacıyla kiralananın boşaltılmasını sağladığında haklı sebep olmaksızın kiralananı, kural olarak en az kaç yıl geçmedikçe eski kiracısından başkasına kiralayamaz?",
+            "secenekler": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4",
+                "E": "5"
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 43,
+            "soru": "Aşağıdakilerden hangisi 6098 sayılı Türk Borçlar Kanunu'nda kullanım ödüncü sözleşmesinde, kullanım için bir süre kararlaştırılmış olsa dahi ödünç verenin ödünç konusunu bu sürenin sona ermesinden daha önce geri isteyebileceği durumlar arasında sayılmamıştır?",
+            "secenekler": {
+                "A": "Ödünç alanın ödünç konusunu sözleşmeye aykırı olarak kullanması",
+                "B": "Ödünç alanın kusurlu bir hareketi sonucunda ödünç konusunun bozulması",
+                "C": "Ödünç alanın ödünç konusunu kullanması için başka bir kimseye vermesi",
+                "D": "Ödünç konusunun ödünç alanın olağan kullanımından doğan eskime sebebiyle ekonomik değerinin düşmesi",
+                "E": "Ödünç verenin önceden bilinmeyen bir durum yüzünden ivedi gereksiniminin ortaya çıkması"
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 44,
+            "soru": "6098 sayılı Türk Borçlar Kanunu'na göre taşınır satış sözleşmesinde ayıptan sorumlulukla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Satıcı, alıcıya karşı herhangi bir surette bildirdiği niteliklerin satılanda bulunmaması sebebiyle sorumludur.",
+                "B": "Satıcı, kullanım amacı bakımından satılanın değerini ve alıcının ondan beklediği faydaları ortadan kaldıran ayıplardan sorumludur.",
+                "C": "Hayvan satışında satıcı, yazılı olarak üstlenmedikçe veya ağır kusuru olmadıkça ayıptan sorumlu olmaz.",
+                "D": "Satıcı, satılandaki ayıbın varlığını bilmediği takdirde ayıptan sorumlu olmaz.",
+                "E": "Satıcı, satılanı ayıplı olarak devretmekte ağır kusurluysa ayıptan sorumluluğunu kaldıran veya sınırlayan her anlaşma kesin olarak hükümsüzdür."
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 45,
+            "soru": "6098 sayılı Türk Borçlar Kanunu'na göre aşağıdakilerden hangisi tarafların kira sözleşmesini kural olarak herhangi bir yasal bildirim süresine uymaksızın hemen feshedebileceği durumlardan biridir?",
+            "secenekler": {
+                "A": "Taraflardan biri için kira ilişkisinin devamını çekilmez hâle getiren önemli sebeplerin var olması",
+                "B": "Kiralananın tesliminden sonra iflas eden kiracıya ve iflas masasına, kiraya veren tarafından usulüne uygun olarak verilen süre içinde güvence verilmemesi",
+                "C": "Kiracının ölmesi durumunda mirasçıların sözleşmeyi feshetmek istemesi",
+                "D": "Belirsiz süreli kira sözleşmesinde taraflardan her birinin sözleşmeyi feshetmek istemesi",
+                "E": "Belirli süreli olarak kurulan kira sözleşmesinde tarafların açık bir anlaşma olmaksızın kira ilişkisini sürdürmelerinden belli bir süre sonra taraflardan birinin sözleşmeyi feshetmek istemesi"
+            },
+            "cevap anahtarı": "B"
+        },
+        {
+            "soruSirasi": 46,
+            "soru": "Ticaret siciline tescilin etkisiyle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+            "secenekler": {
+                "A": "Şirketlerin tür değiştirmesinde tescil bildirici niteliktedir.",
+                "B": "Şirketlerin bölünmesinde tescil bildirici niteliktedir.",
+                "C": "Gerçek kişilerin tacir sıfatını kazanmasında ticari işletmenin tescili kurucu etkiye sahiptir.",
+                "D": "Anonim şirketin tüzel kişilik kazanmasında tescil bildirici niteliktedir.",
+                "E": "İşletme adının, Türk Ticaret Kanunu'ndaki işletme adının korunmasına ilişkin hükümlere göre korunmasında sicile tescil kurucu etkiye sahiptir."
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 47,
+            "soru": "6102 sayılı Türk Ticaret Kanunu'na göre haksız rekabet hâlinde açılabilecek davalarla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+            "secenekler": {
+                "A": "Haksız rekabet fiili, işlerini gördükleri sırada işçiler tarafından işlenmiş olursa çalıştırana karşı sadece maddi ve manevi tazminat davası açılabilir.",
+                "B": "Manevi tazminat davası koşulların varlığı hâlinde müşteriler tarafından da açılabilir.",
+                "C": "Maddi ve manevi tazminat davalarını esnaf odaları da açabilir.",
+                "D": "Hukuka aykırı durumun ortadan kaldırılması davasının açılabilmesi için failin kusurlu olması gerekir.",
+                "E": "Tüketicilerin ekonomik menfaatlerini koruyan sivil toplum kuruluşları tarafından açılan davaların sonucu hâkim tarafından resen ilan edilir."
+            },
+            "cevap anahtarı": "B"
+        },
+        {
+            "soruSirasi": 48,
+            "soru": "6102 sayılı Türk Ticaret Kanunu'na göre belirsiz süre için yapılmış acentelik sözleşmelerinde fesih için ihbarda bulunma süresi kural olarak kaç aydır?",
+            "secenekler": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "6",
+                "E": "9"
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 49,
+            "soru": "Merkezi Türkiye'de bulunan işletmelerde şube olmaya bağlanan sonuçlarla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Merkezin ticaret ünvanına \"şube\" ibaresi eklenerek kullanılması gerekir.",
+                "B": "Bulunduğu yer ticaret siciline tescil edilmesi gerekir.",
+                "C": "Atanan ticari temsilcinin yetkisinin şube işleri ile sınırlandırılması mümkündür.",
+                "D": "İflas davalarının merkezin bulunduğu yer mahkemesinde açılması gerekir.",
+                "E": "Şubeye ayrı sermaye tahsisi zorunludur."
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 50,
+            "soru": "6102 sayılı Türk Ticaret Kanunu'na göre limited ortaklıkta esas sermaye payının I. miras, II. mevcut ortaklar arasındaki devir, III. eşler arasındaki mal rejimi, IV. icra yoluyla devri hâllerinin hangilerinde payın mülkiyetinin geçmesi için kural olarak genel kurulun onayı gerekir?",
+            "secenekler": {
+                "A": "Yalnız II",
+                "B": "Yalnız IV",
+                "C": "I ve II",
+                "D": "I, III ve IV",
+                "E": "I, II, III ve IV"
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 51,
+            "soru": "6102 sayılı Türk Ticaret Kanunu'na göre anonim şirket esas sözleşmesinde I. şirketin işletme konusunun tamamen değiştirilmesi, II. nama yazılı payların devrinin sınırlandırılması, III. sermayenin artırılması ve kayıtlı sermaye tavanının yükseltilmesi değişikliklerinden hangileri sermayenin en az yüzde yetmiş beşini oluşturan payların sahiplerinin veya temsilcilerinin olumlu oylarını gerektirir?",
+            "secenekler": {
+                "A": "Yalnız I",
+                "B": "Yalnız III",
+                "C": "I ve II",
+                "D": "II ve III",
+                "E": "I, II ve III"
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 52,
+            "soru": "Z Anonim Şirketi'nin esas sermayesi 5.000.000 TL'dir. Pay sahibi A'nın paylarının itibari değeri toplamı 125.000 TL'dir. A şirket işleri hakkında özel denetim talebinde bulunmak istemektedir. 6102 sayılı Türk Ticaret Kanunu'na göre olayla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+            "secenekler": {
+                "A": "A, daha önce bilgi alma veya inceleme hakkını kullanmaksızın da özel denetim talebinde bulunabilir.",
+                "B": "A'nın özel denetim talebinde bulunabilmesi için bu hususun genel kurul gündeminde yer alması gerekir.",
+                "C": "A'nın usulüne uygun özel denetim talebi genel kurulda reddedilirse A, mahkemeye başvurarak özel denetçi atanmasını talep edemez.",
+                "D": "A'nın özel denetim talebi kabul edilirse özel denetçi de şirket genel kurulunca atanır.",
+                "E": "Özel denetim tamamlandıktan sonra özel denetim raporu sadece yönetim kurulu üyelerine sunulur, pay sahipleriyle paylaşılamaz."
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 53,
+            "soru": "Bir adi ortaklıkta yönetim hak ve görevi şirket sözleşmesiyle ortaklardan A'ya verilir. Buna göre haklı bir sebebin varlığı hâlinde A'nın yönetim yetkisinin kaldırılmasıyla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+            "secenekler": {
+                "A": "Herhangi bir ortak, yönetim yetkisini kaldırabilir.",
+                "B": "Herhangi bir ortağın başvurusu üzerine ancak mahkeme kararıyla mümkün olabilir.",
+                "C": "Mutlaka şirket sözleşmesinde değişiklik yapılmasıyla mümkündür.",
+                "D": "Diğer tüm ortakların yönetici ortağa bildirimde bulunması şarttır.",
+                "E": "Diğer tüm ortakların mahkemeye başvurması ve mahkemenin bu yönde karar alması gerekir."
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 54,
+            "soru": "6102 sayılı Türk Ticaret Kanunu'na göre poliçede araya girmek suretiyle ödemede bulunan kişi, sorumluluğunun doğmaması için lehine araya girdiği borçluya durumu kaç iş günü içinde ihbar etmelidir?",
+            "secenekler": {
+                "A": "2",
+                "B": "3",
+                "C": "5",
+                "D": "7",
+                "E": "10"
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 55,
+            "soru": "I. Konişmento, II. Bono, III. Çek Yukarıdakilerden hangileri kambiyo senetleridir?",
+            "secenekler": {
+                "A": "Yalnız I",
+                "B": "Yalnız II",
+                "C": "Yalnız III",
+                "D": "II ve III",
+                "E": "I, II ve III"
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 56,
+            "soru": "I. Görüldüğünde ödenecek, II. Görüldükten belirli süre sonra ödenecek, III. Belirli bir günde ödenecek, IV. Düzenlenme gününden belirli bir süre sonra ödenecek. 6102 sayılı Türk Ticaret Kanunu'na göre yukarıda belirtilen vadelerden hangilerini taşıyan poliçelerde anapara faizi şartı yazılabilir?",
+            "secenekler": {
+                "A": "I ve II",
+                "B": "II ve III",
+                "C": "II ve IV",
+                "D": "III ve IV",
+                "E": "I, III ve IV"
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 57,
+            "soru": "6102 sayılı Türk Ticaret Kanunu'nda aşağıdakilerden hangisi poliçenin ödenmemesi durumunda hamilin başvuru hakkının kapsamı dâhilinde sayılmamıştır?",
+            "secenekler": {
+                "A": "Poliçenin ödenmemiş olan bedeli",
+                "B": "Keşide tarihiyle kabul etmeme veya ödememe protestosunun çekildiği tarihler arasındaki dönem için hesaplanacak temerrüt faizi",
+                "C": "Protesto masrafları",
+                "D": "Hamil tarafından yapılan ihbarların giderleri",
+                "E": "Komisyon ücreti"
+            },
+            "cevap anahtarı": "B"
+        },
+        {
+            "soruSirasi": 58,
+            "soru": "6100 sayılı Hukuk Muhakemeleri Kanunu'na göre isticvap ile ilgili I. Mahkeme, kendiliğinden tarafların isticvabına karar veremez. II. İsticvap esnasında karşı taraf ve taraf vekilleri hazır bulunamaz. III. İsticvap olunan taraf, mahkemenin izni olmadıkça yazılı notlar kullanamaz. ifadelerinden hangileri doğrudur?",
+            "secenekler": {
+                "A": "Yalnız I",
+                "B": "Yalnız II",
+                "C": "Yalnız III",
+                "D": "II ve III",
+                "E": "I, II ve III"
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 59,
+            "soru": "6100 sayılı Hukuk Muhakemeleri Kanunu'na göre vekilin I. tahkim anlaşması yapma, II. davanın tamamını ıslah etme, III. yargılamanın iadesi yoluna başvurma işlemlerinden hangilerini yapabilmesi için özel olarak yetkilendirilmesi gerekir?",
+            "secenekler": {
+                "A": "Yalnız I",
+                "B": "Yalnız II",
+                "C": "Yalnız III",
+                "D": "II ve III",
+                "E": "I, II ve III"
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 60,
+            "soru": "6100 sayılı Hukuk Muhakemeleri Kanunu'na göre mahkemede veya mahkeme dışında hâkim huzuruyla yapılacak bütün işlemlerde kural olarak aşağıdakilerden hangisinin bulunması zorunludur?",
+            "secenekler": {
+                "A": "Zabıt kâtibi",
+                "B": "Taraf",
+                "C": "Taraf vekili",
+                "D": "Bilirkişi",
+                "E": "Tanık"
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 61,
+            "soru": "6100 sayılı Hukuk Muhakemeleri Kanunu'na göre hâkimin hukuki sorumluluğuna yönelik açılacak olan tazminat davası ile ilgili I. Devlet aleyhine açılması gerekir. II. Dilekçesinde vakıaların yazılması yeterli olup hangi sorumluluk sebebine dayanıldığının yazılması gerekmez. III. Davanın ilgili hâkime ihbar edilip edilmeyeceğini mahkeme takdir eder. ifadelerinden hangileri doğrudur?",
+            "secenekler": {
+                "A": "Yalnız I",
+                "B": "Yalnız II",
+                "C": "Yalnız III",
+                "D": "I ve II",
+                "E": "II ve III"
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 62,
+            "soru": "I. Taşınır ve taşınmazların paylaştırılmasına ve ortaklığın giderilmesine ilişkin uyuşmazlıklar II. 634 sayılı Kat Mülkiyeti Kanunu'ndan kaynaklanan uyuşmazlıklar III. Komşu hakkından kaynaklanan uyuşmazlıklar Yukarıdakilerin hangilerinde dava açılmadan önce arabulucuya başvurulmuş olması dava şartı olarak düzenlenmiştir?",
+            "secenekler": {
+                "A": "Yalnız I",
+                "B": "Yalnız II",
+                "C": "Yalnız III",
+                "D": "I ve II",
+                "E": "I, II ve III"
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 63,
+            "soru": "6100 sayılı Hukuk Muhakemeleri Kanunu'na göre tanık delili ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Hukuki işlemlere ve senetlere karşı üçüncü kişilerin muvazaa iddiaları tanıkla ispat edilebilir.",
+                "B": "Tanık, dinlendiği sırada on sekiz yaşını bitirmemiş olması hâlinde yeminsiz dinlenir.",
+                "C": "Tanık davetiye ile çağrılır ve kural olarak davetiyenin duruşma gününden en az bir hafta önce tebliğ edilmiş olması gerekir.",
+                "D": "Davada taraf olmayan kişiler tanık olarak gösterilebilir.",
+                "E": "İki taraftan birinin nişanlısı tanıklıktan çekinebilir."
+            },
+            "cevap anahtarı": "B"
+        },
+        {
+            "soruSirasi": 64,
+            "soru": "6100 sayılı Hukuk Muhakemeleri Kanunu'na göre davanın ihbarı ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Taraflardan biri davayı kaybettiği takdirde üçüncü kişiye veya üçüncü kişinin kendisine rücu edeceğini düşünüyorsa tahkikat sonuçlanıncaya kadar davayı üçüncü kişiye ihbar edebilir.",
+                "B": "Dava kendisine ihbar edilen kişinin aynı şartlarda bir başkasına ihbarda bulunması mümkün değildir.",
+                "C": "İhbar yazılı olarak yapılır; ihbar sebebinin gerekçeleriyle birlikte açıklanması ve yargılamanın hangi aşamada bulunduğunun belirtilmesi gerekir.",
+                "D": "Davanın ihbarı sebebiyle yargılama bir başka güne bırakılamaz.",
+                "E": "Dava kendisine ihbar edilen kişi, davayı kazanmasında hukuki yararı olan taraf yanında davaya katılabilir."
+            },
+            "cevap anahtarı": "B"
+        },
+        {
+            "soruSirasi": 65,
+            "soru": "6100 sayılı Hukuk Muhakemeleri Kanunu'na göre delil sözleşmesi ile ilgili I. Sadece noter tarafından onaylanan ya da düzenlenen delil sözleşmeleri geçerlidir. II. Taraflar, delil sözleşmesinde belirli delillerle ispatı öngörülmeyen vakıaların sadece belirli delil veya delillerle ispatını kabul edebilirler. III. Taraflardan birinin ispat hakkının kullanımını fevkalade güçleştiren delil sözleşmeleri geçersizdir. ifadelerinden hangileri doğrudur?",
+            "secenekler": {
+                "A": "Yalnız I",
+                "B": "Yalnız II",
+                "C": "Yalnız III",
+                "D": "I ve II",
+                "E": "II ve III"
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 66,
+            "soru": "6100 sayılı Hukuk Muhakemeleri Kanunu'na göre aşağıdakilerden hangisi ilk itiraz olarak ileri sürülebilmelidir?",
+            "secenekler": {
+                "A": "Uyuşmazlığın tahkim yoluyla çözümlenmesi gerektiği iddiası",
+                "B": "Yetkinin kesin olduğu hâllerde mahkemenin yetkili olmadığı iddiası",
+                "C": "Aynı davanın, daha önceden kesin hükme bağlandığı iddiası",
+                "D": "Davacının, dava açmakta hukuki yararının bulunmadığı iddiası",
+                "E": "Aynı davanın, daha önceden açıldığı ve hâlen görülmekte olduğu iddiası"
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 67,
+            "soru": "6100 sayılı Hukuk Muhakemeleri Kanunu'na göre bilirkişi incelemesi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Bilirkişi, görev alanı veya sınırları hakkında tereddüde düşerse bu tereddüdünün giderilmesini her zaman mahkemeden isteyebilir.",
+                "B": "Bilirkişinin aynı dava veya işte daha önceden tanık olarak dinlenmiş bulunması bir ret sebebi teşkil eder.",
+                "C": "Bilirkişi, incelemesini gerçekleştirirken ihtiyaç duyarsa mahkemenin de uygun bulması kaydıyla kural olarak tarafların bilgisine başvurabilir.",
+                "D": "Bilirkişinin oy ve görüşünü açıklayabilmesi için bir şey üzerinde inceleme yapması zorunlu ise mahkeme kararı ile gerekli incelemeyi yapabilir.",
+                "E": "Bilirkişinin, nişanlısının davasında görev alması yasaklılık sebebidir."
+            },
+            "cevap anahtarı": "B"
+        },
+        {
+            "soruSirasi": 68,
+            "soru": "6100 sayılı Hukuk Muhakemeleri Kanunu'na göre teminat ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Mecburi dava ve takip arkadaşlığında teminat gösterme yükümlülüğü, bu yükümlülüğün tüm davacılar bakımından mevcut olması hâlinde doğar.",
+                "B": "Hâkim, teminat kararı vermeden önce tarafları veya müdahale talebinde bulunan kişiyi dinleyebilir.",
+                "C": "Tarafların teminatın şeklini sözleşmeyle kararlaştırmaları hâlinde teminat ona göre belirlenir.",
+                "D": "Hâkim tarafından belirlenen kesin süre içinde teminat gösterilmezse dava usulden reddedilir.",
+                "E": "Teminatı gerektiren durum ve koşullarda değişiklik olması hâlinde hâkim teminatın artırılmasına karar veremez."
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 69,
+            "soru": "Davacı Batuhan dava dilekçesinde açık bir şekilde talep sonucunu belirtmemiştir. Hâkim Tunahan eksikliğin tamamlanması için bir haftalık kesin süre vermiştir. Batuhan bu süre içinde eksikliği tamamlamamıştır. 6100 sayılı Hukuk Muhakemeleri Kanunu'na göre olayla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+            "secenekler": {
+                "A": "Davanın açılmamış sayılmasına karar verilmelidir.",
+                "B": "Dosyanın işlemden kaldırılmasına karar verilmelidir.",
+                "C": "Davanın usulden reddine karar verilmelidir.",
+                "D": "Sürenin bitiminden başlayarak 1 hafta ek süre verilmelidir.",
+                "E": "Davanın esastan reddine karar verilmelidir."
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 70,
+            "soru": "2004 sayılı İcra ve İflas Kanunu'na göre icra mahkemesine yapılacak şikâyet ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Bir hakkın yerine getirilmemesinden dolayı her zaman şikâyet olunabilir.",
+                "B": "Duruşma yapılmayan işlerde icra mahkemesi, işin kendisine geldiği tarihten itibaren kural olarak en geç on gün içinde kararını verir.",
+                "C": "Şikâyet sonucunda icra memurunun işlemi sebepsiz geciktirdiği sonucuna varılırsa icra hâkimi geciktirilen işlemin yapılmasını emreder.",
+                "D": "İcra mahkemesi duruşma yapılmasını uygun gördüğü takdirde ilgilileri en kısa zamanda duruşmaya çağırır ve gelmemeleri hâlinde dosyayı işlemden kaldırır.",
+                "E": "Aksine hüküm bulunmayan hâllerde icra mahkemesi, şikâyet konusu işlemi yapan icra dairesinin açıklama yapmasına gerek olup olmadığını takdir eder."
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 71,
+            "soru": "Berkay, İsmail'e karşı ilamlı icra takibi başlatır. İlama karşı istinaf yoluna başvuran İsmail, icra dairesine buna ilişkin belgeyi sunar ve yeterli nakit teminatı yatırır. İcra müdürü, İsmail'e icranın geri bırakılması kararı alması için süre verir. 2004 sayılı İcra ve İflas Kanunu'na göre İsmail'in icranın geri bırakılması kararını alabilmesi için başvurabileceği hukuki yolla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+            "secenekler": {
+                "A": "Takibin yapıldığı yer icra mahkemesine başvurmalıdır.",
+                "B": "İlamlı icra takibi olduğundan herhangi bir icra mahkemesine başvurması yeterlidir.",
+                "C": "Takibe konu olan ilam, istinafta olduğu için istinaf merciine başvurmalıdır.",
+                "D": "İlamlı icra takibi olduğundan ilamı aldığı ilk derece mahkemesine başvurmalıdır.",
+                "E": "Takibin yapıldığı yerdeki genel mahkemelere başvurması yeterlidir."
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 72,
+            "soru": "Mehmet, Burak aleyhine genel haciz yolu ile takip başlatır. Burak'a ödeme emri tebliğ edilir. Burak, ödeme emrine itiraz etmez ve takip kesinleşir. Mehmet, kanuni süre içinde haciz talebinde bulunmaz. 2004 sayılı İcra ve İflas Kanunu'na göre takibin durumu yönünden aşağıdakilerden hangisi doğrudur?",
+            "secenekler": {
+                "A": "Takibin geri bırakılmasına karar verilir.",
+                "B": "Takibin durdurulmasına karar verilir.",
+                "C": "Takibin feragat ile kapatılmasına karar verilir.",
+                "D": "Takip dosyasının işlemden kaldırılmasına karar verilir.",
+                "E": "Takibin yetkisizlikle kapatılmasına karar verilir."
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 73,
+            "soru": "Borçlu Berk aleyhine yürütülen takipte, haciz mahallinde haciz işlemlerinin gerçekleştirilmesi esnasında borçlunun kardeşi Cenk tarafından Berk adına takip konusu borç kısmen ödenmek istenir. 2004 sayılı İcra ve İflas Kanunu'na göre olayla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+            "secenekler": {
+                "A": "İcra dairelerinde yürütülen takiplere ilişkin ödemelerin icra dairesinin banka hesabı üzerinden yapılması zorunlu olup icra memurunun fiziki olarak ödeme alması mümkün olmadığından haciz işlemlerine devam edilir.",
+                "B": "Haciz esnasında takip konusu borca ilişkin ödemeler ancak borçlu tarafından yapılabileceğinden Cenk tarafından yapılan ödeme geçersizdir.",
+                "C": "Haciz esnasında takip konusu borca ilişkin Cenk tarafından yapılan kısmi ödeme ancak alacaklı tarafından kabul edilmek kaydıyla geçerli olacağından ödeme haciz tutanağına geçirilir fakat borcun tamamına yönelik haciz işlemlerine devam edilir.",
+                "D": "Cenk tarafından yapılan ödeme, icra memuru tarafından kabul edilmek zorundadır ve icra memuru, en geç haczin yapıldığı günü takip eden beş iş günü içinde ilgili ödemeyi doğrudan alacaklının takip talebinde belirttiği hesaba yatırmalıdır.",
+                "E": "Cenk tarafından takip konusu borca ilişkin ödeme kısmi olsa da icra memuru tarafından kabul edilir, haciz işlemlerine ancak kalan borca yönelik olarak devam edilebilir."
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 74,
+            "soru": "İflas davası ile ilgili I. İflas davasında mahkemenin yetkisi kesindir. II. İflas davasının iflas ödeme emrinin tebliğinden itibaren bir yıl içinde açılması gerekir ve bu süre hak düşürücü niteliktedir. III. İflas davasında yazılı yargılama usulü geçerlidir. ifadelerinden hangileri doğrudur?",
+            "secenekler": {
+                "A": "Yalnız I",
+                "B": "Yalnız II",
+                "C": "Yalnız III",
+                "D": "I ve II",
+                "E": "I, II ve III"
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 75,
+            "soru": "A İnşaat Anonim Şirketi'nin konkordato talebini kabul eden mahkeme, şirkete bir yıllık kesin mühlet veriyor. Kesin mühlet içinde, konkordato komiserinin işlemlerinin kanuna aykırı olduğunu düşünen şirket alacaklısı Fatma, komiserin işlemlerine karşı şikâyet başvurusunda bulunarak bu işlemlerin iptalini istemeyi düşünüyor. 2004 sayılı İcra ve İflas Kanunu'na göre Fatma, şikâyet başvurusunu aşağıdaki mercilerin hangisinde ileri sürmelidir?",
+            "secenekler": {
+                "A": "İcra dairesi",
+                "B": "İcra mahkemesi",
+                "C": "Asliye ticaret mahkemesi",
+                "D": "Alacaklılar kurulu",
+                "E": "Asliye hukuk mahkemesi"
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 76,
+            "soru": "Zincirleme suçla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Bir suçun temel şekli ile daha ağır veya daha az cezayı gerektiren nitelikli şekilleri zincirleme suç bakımından aynı suç sayılır.",
+                "B": "Zincirleme suçu oluşturan suçlardan takibi şikâyete bağlı olanlar varsa şikâyet şartı gerçekleşmedikçe zincirleme suç bakımından dikkate alınmaz.",
+                "C": "Zincirleme suç hükümleri mağduru belli bir kişi olmayan suçlarda da uygulanır.",
+                "D": "Zincirleme suçta zaman aşımı süresi ilk suçun işlendiği günden itibaren işlemeye başlar.",
+                "E": "Zincirleme suçta, işlenen suçlardan dolayı tek cezaya hükmedilir ancak bu ceza belli oranlarda artırılır."
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 77,
+            "soru": "5237 sayılı Türk Ceza Kanunu'na göre müsadereyle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Suçun işlenmesinde kullanılmak üzere hazırlanan eşya ancak suçun tamamlanması hâlinde müsadere edilebilir.",
+                "B": "Birden fazla kişinin paydaş olduğu eşyada sadece suça iştirak eden kişinin payı müsadere edilir.",
+                "C": "Taksirle işlenen suçlarda müsadere kararı verilemez.",
+                "D": "Suçta kullanılan eşyanın müsaderesinin işlenen suça nazaran daha ağır sonuçlar doğuracağı ve bu nedenle müsadere edilmesinin hakkaniyete aykırı olacağı anlaşılırsa müsadere edilmesine hükmedilmeyebilir.",
+                "E": "Kazanç müsaderesine karar verilebilmesi için maddi menfaatin suçun mağduruna iade edilememesi gerekir."
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 78,
+            "soru": "Aşağıdakilerden hangisi Türk ceza hukukunun doğrudan kaynaklarından biri değildir?",
+            "secenekler": {
+                "A": "Türkiye Cumhuriyeti Anayasası",
+                "B": "Kaçakçılıkla Mücadele Kanunu",
+                "C": "Terörle Mücadele Kanunu",
+                "D": "Suçluların İadesine Dair Avrupa Sözleşmesi",
+                "E": "Yargıtay Ceza Genel Kurulu kararları"
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 79,
+            "soru": "Kızını evlendiren A, düğün sırasında müziğin sesini çok açtığı için komşuları tarafından şikâyet edilir. Bunun üzerine A hakkında yürütülen soruşturma sonucunda fiilinin hem Türk Ceza Kanunu uyarınca Gürültüye Neden Olma suçunu hem de Kabahatler Kanunu uyarınca Gürültü kabahatini oluşturduğu anlaşılır. Buna göre A'nın sorumluluğuyla ilgili I. İlgili suçtan dolayı yaptırım uygulanabiliyorsa ayrıca kabahatten dolayı yaptırım uygulanmaz. II. Hem suçtan hem de kabahatten dolayı yaptırım uygulanır. III. İlgili suç için Kanun'da adli para cezası ile hapis cezası seçimlik olarak öngörülmüşse fiil aynı zamanda kabahat teşkil ettiği için ancak hapis cezası uygulanabilir. ifadelerinden hangileri doğrudur?",
+            "secenekler": {
+                "A": "Yalnız I",
+                "B": "Yalnız II",
+                "C": "Yalnız III",
+                "D": "I ve III",
+                "E": "II ve III"
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 80,
+            "soru": "5237 sayılı Türk Ceza Kanunu'nun 42. maddesine göre \"Biri diğerinin unsurunu veya ağırlaştırıcı nedenini oluşturması dolayısıyla tek fiil sayılan suça bileşik suç denir. Bu tür suçlarda --- hükümleri uygulanmaz.\" Bu cümlede boş bırakılan yere aşağıdakilerden hangisi gelmelidir?",
+            "secenekler": {
+                "A": "İçtima",
+                "B": "İştirak",
+                "C": "Suça teşebbüs",
+                "D": "Gönüllü vazgeçme",
+                "E": "Hata"
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 81,
+            "soru": "Temel cezanın belirlenmesinde 5237 sayılı Türk Ceza Kanunu'nda sayılan hususların yanı sıra cezanın unsurunu ya da daha ağır veya daha az cezalandırılmasını gerektiren nitelikli hâlini oluşturduğu durumlarda bunlar temel cezanın belirlenmesinde ayrıca göz önünde bulundurulmaz. Buna çifte değerlendirme yasağı denir. Buna göre aşağıdakilerden hangisi temel cezanın belirlenmesinde göz önünde bulundurulabilir?",
+            "secenekler": {
+                "A": "Kasten öldürme suçunda failin töre saikiyle hareket etmiş olması",
+                "B": "Kasten yaralama suçunun silahla işlenmiş olması",
+                "C": "Çocukların cinsel istismarı suçunun 12 yaşını doldurmamış çocuğa karşı işlenmiş olması",
+                "D": "Cinsel saldırı suçu neticesinde mağdurun psikolojik rahatsızlık yaşaması",
+                "E": "Hırsızlık suçunda malın değerinin az olması"
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 82,
+            "soru": "11 yaşındaki B intihar ederek hayatını kaybeder. Yapılan araştırmada, B'nin amcası olan A'nın; kendisiyle ilgili sır olarak sakladığı bir hususu öğrenen B'yi, bu nedenle cebir ve tehdit kullanmak suretiyle intihara mecbur ettiği ortaya çıkar. 5237 sayılı Türk Ceza Kanunu'na göre A'nın, B'nin ölümü nedeniyle ceza sorumluluğuyla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+            "secenekler": {
+                "A": "Kasten öldürme suçundan sorumludur.",
+                "B": "Kasten öldürme suçuna azmettirmeden sorumludur.",
+                "C": "İntihara yönlendirme suçundan sorumludur.",
+                "D": "İntihara yönlendirme suçuna azmettirmeden sorumludur.",
+                "E": "Neticesi sebebiyle ağırlaşmış yaralama suçunun faili sıfatıyla sorumludur."
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 83,
+            "soru": "5237 sayılı Türk Ceza Kanunu'na göre göçmen kaçakçılığı suçuyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Seçimlik hareketli bir suçtur.",
+                "B": "Suç, teşebbüs aşamasında kalmış olsa dahi tamamlanmış gibi cezaya hükmolunur.",
+                "C": "Failin, doğrudan doğruya veya dolaylı olarak maddi menfaat elde etmek maksadıyla hareket etmesi gerekir.",
+                "D": "Suçun birden fazla kişi tarafından birlikte işlenmesi cezanın ağırlaştırılmasını gerektiren nitelikli bir hâldir.",
+                "E": "Bu suçtan dolayı zaman aşımı işlemez."
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 84,
+            "soru": "A, kendisine yan baktığını düşündüğü B'ye yumruk atarak kısa süreli baygınlık geçirmesine sebep olur. A'dan habersiz olarak yoldan geçmekte olan C, bilinçsiz olarak yerde yatan B'nin kol saatini alır. Buna göre A ve C'nin ceza sorumluluğuyla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+            "secenekler": {
+                "A": "Yağma suçundan müşterek fail olarak sorumludurlar.",
+                "B": "Kasten yaralama ve yağma suçlarından müşterek fail olarak sorumludurlar.",
+                "C": "A kasten yaralama; C ise yağma suçundan sorumludur.",
+                "D": "A kasten yaralama; C ise nitelikli hırsızlık suçundan sorumludur.",
+                "E": "Nitelikli hırsızlık suçundan müşterek fail olarak sorumludurlar."
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 85,
+            "soru": "5271 sayılı Ceza Muhakemesi Kanunu'na göre gözlem altına alınmayla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Soruşturma evresinde gecikmesinde sakınca bulunan hâllerde Cumhuriyet savcısı tarafından verilen kararlar 24 saat içinde onaylanmazsa hükümsüz kalır.",
+                "B": "Gözlem altına alma kararı ancak uzman hekim önerisi üzerine verilebilir.",
+                "C": "Gözlem altına alma işlemi sırasında şüpheli veya sanığın müdafii yoksa hâkim veya mahkemenin istemi üzerine baro tarafından bir müdafi görevlendirilir.",
+                "D": "Gözlem süresi 3 hafta için verilir, bu sürenin yetmeyeceği anlaşılırsa resmî sağlık kurulunun önerisi üzerine her seferinde 3 haftayı geçmemek üzere ek süre verilebilir; ancak sürelerin toplamı 3 ayı geçemez.",
+                "E": "Gözlem altına alınma kararına karşı itiraz yoluna gidilebilir; itiraz, kararın yerine getirilmesini durdurur."
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 86,
+            "soru": "İstanbul'da ikamet eden D, internet bankacılığını kullanarak Ankara'da ikamet eden A'nın hesabındaki paraları hukuka aykırı olarak kendi hesabına geçirmiştir. Kendi hesabına geçirdiği bu paraları İstanbul'daki bir bankamatikten çektikten iki gün sonra kendi aracıyla Antalya'ya gitmek için yola çıkmıştır. D, aracıyla Bursa il sınırları içerisindeyken kolluk çevirmesine takılmış, dur ihtarına uymayınca ancak Manisa il sınırları içerisinde yakalanabilmiştir. Buna göre D'nin A'ya karşı işlediği suçta aşağıdaki mahkemelerden hangisi yetkilidir?",
+            "secenekler": {
+                "A": "İstanbul ve Ankara",
+                "B": "Sadece İstanbul",
+                "C": "Sadece Bursa",
+                "D": "Sadece Manisa",
+                "E": "İstanbul ve Manisa"
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 87,
+            "soru": "5271 sayılı Ceza Muhakemesi Kanunu'na göre bilgisayarlarda, bilgisayar programlarında ve kütüklerinde arama, kopyalama ve elkoyma ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Tedbirin uygulanabileceği suçlar bakımından Kanun'da bir sınırlama getirilmemiştir.",
+                "B": "Ancak kovuşturma evresinde başvurulabilir.",
+                "C": "Bilgisayar veya bilgisayar kütüklerine elkoyma işlemi sırasında sistemdeki bütün verilerin yedeklemesinin yapılması zorunludur.",
+                "D": "Başvurulabilmesi için somut delillere dayanan kuvvetli şüphe sebeplerinin varlığı ve başka surette delil elde etme imkânının bulunmaması gerekir.",
+                "E": "Gecikmesinde sakınca bulunan hâllerde Cumhuriyet savcısı tarafından da karar verilebilir."
+            },
+            "cevap anahtarı": "B"
+        },
+        {
+            "soruSirasi": 88,
+            "soru": "5271 sayılı Ceza Muhakemesi Kanunu'na göre devlet sırrı niteliğindeki bilgilerle ilgili tanıklık hakkında aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Kural olarak bir suç olgusuna ilişkin bilgiler, Devlet sırrı olarak mahkemeye karşı gizli tutulamaz.",
+                "B": "Açıklanması, Devletin dış ilişkilerine, millî savunmasına ve millî güvenliğine zarar verebilecek; anayasal düzeni ve dış ilişkilerinde tehlike yaratabilecek nitelikteki bilgiler, Devlet sırrı sayılır.",
+                "C": "Tanıklık konusu bilgilerin Devlet sırrı niteliğini taşıması hâlinde tanık, sadece mahkeme hâkimi ve cumhuriyet savcısı tarafından zabıt kâtibi dahi olmaksızın dinlenir.",
+                "D": "Cumhurbaşkanının tanıklığı söz konusu olduğunda sırrın niteliğini ve mahkemeye bildirilmesi hususunu kendisi takdir eder.",
+                "E": "Bu özel tanıklık hükmü hapis cezasının alt sınırı beş yıl veya daha fazla olan suçlarla ilgili olarak uygulanır."
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 89,
+            "soru": "5271 sayılı Ceza Muhakemesi Kanunu'na göre duruşmaların açıklığıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Duruşmalar kural olarak herkese açık olarak gerçekleştirilir.",
+                "B": "Genel ahlakın veya kamu güvenliğinin kesin olarak gerekli kıldığı hâllerde duruşmanın bir kısmının veya tamamının kapalı yapılmasına mahkemece karar verilebilir.",
+                "C": "Sanık 18 yaşını doldurmamışsa duruşma kapalı yapılır ancak hüküm açık duruşmada açıklanır.",
+                "D": "Kapalı duruşmada mahkeme bazı kişilerin hazır bulunmasına izin verebilir.",
+                "E": "Sanığa ve mağdura ait kişisel verilerin yer aldığı belgelerin, açıkça istemeleri hâlinde kapalı oturumda anlatılmasına mahkemece karar verilebilir."
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 90,
+            "soru": "5271 sayılı Ceza Muhakemesi Kanunu'na göre hükümden önce son söz duruşmada hazır bulunması durumunda aşağıdakilerden hangisine verilir?",
+            "secenekler": {
+                "A": "Cumhuriyet savcısı",
+                "B": "Zorunlu müdafi",
+                "C": "Sanık",
+                "D": "Katılan",
+                "E": "Katılan vekili"
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 91,
+            "soru": "İş güvencesinin kapsamındaki işçi Berat'ın iş sözleşmesi bildiriminde geçerli bir sebep gösterilmeksizin bildirim süresi verilerek feshedilir. Mahkemece, feshin usule uygun olarak yapılmadığı tespit edilerek feshin geçersizliğine karar verilir. Fakat işveren, Berat'ın başvurusu üzerine kendisini 1 ay içinde işe başlatmaz. 4857 sayılı İş Kanunu'na göre işe iade kararı veren mahkeme, usulüne uygun başvurusuna rağmen süresinde işçiyi işe başlatmayan işvereni kural olarak en az kaç aylık ücreti tutarında iş güvencesi tazminatı ödemekle yükümlü kılabilir?",
+            "secenekler": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4",
+                "E": "6"
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 92,
+            "soru": "4857 sayılı İş Kanunu'na göre engelli işçi çalıştırma zorunluluğuyla ilgili I. Yer altı ve su altı işlerinde engelli işçi çalıştırılamaz. II. Bir iş yerinde çalıştırılacak engelli işçi sayısının tespitinde sadece belirsiz süreli iş sözleşmesine göre çalıştırılan işçiler esas alınır. III. İş yerinin işçisiyken engelli hâle gelenlere öncelik tanınır. ifadelerinden hangileri doğrudur?",
+            "secenekler": {
+                "A": "Yalnız I",
+                "B": "Yalnız II",
+                "C": "Yalnız III",
+                "D": "I ve III",
+                "E": "II ve III"
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 93,
+            "soru": "İlkay, 15 işçinin çalıştığı bir gerçek kişiye ait olan iş yerinde 2 yıldan beri lojistik uzmanı sıfatıyla işçi olarak çalışmaktadır. İşveren, farklı bir ülkede yaşama gerekçesiyle iş yerini başka bir gerçek kişiye devreder. İlkay'ın devirden önceki çalışmaları nedeniyle hak ettiği fakat ödeme günü gelmiş olmasına rağmen henüz ödenmemiş fazla çalışma alacağı mevcuttur. 4857 sayılı İş Kanunu'na göre olayla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Devir tarihinde 15 işçinin iş sözleşmeleri bütün hak ve borçlarıyla birlikte devralan işverene geçer.",
+                "B": "Devralan işveren, İlkay'ın hizmet süresinin esas alındığı haklarda İlkay'ın devreden işveren yanında işe başladığı tarihe göre işlem yapmakla yükümlüdür.",
+                "C": "İlkay sadece iş yerinin devrini gerekçe göstererek iş sözleşmesini haklı nedenle derhâl feshedebilir.",
+                "D": "Devralan işveren, işçilerin iş sözleşmelerini sırf iş yerinin devrinden dolayı feshedemez.",
+                "E": "İlkay'ın fazla çalışma alacağından devreden ve devralan işveren devir tarihinden itibaren 2 yıl süreyle birlikte sorumludurlar."
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 94,
+            "soru": "İşveren, iş sözleşmesiyle veya iş sözleşmesinin eki niteliğindeki personel yönetmeliği ve benzeri kaynaklar ya da iş yeri uygulamasıyla oluşan çalışma koşullarında esaslı bir değişikliği ancak durumu işçiye yazılı olarak bildirmek suretiyle yapabilir. 4857 sayılı İş Kanunu'na göre yukarıdaki şekle uygun olarak yapılan çalışma koşullarındaki değişiklik bildirimini, işçi tarafından kural olarak kaç iş günü içinde yazılı olarak kabul edilmezse değişiklikler işçiyi bağlamaz?",
+            "secenekler": {
+                "A": "3",
+                "B": "4",
+                "C": "5",
+                "D": "6",
+                "E": "7"
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 95,
+            "soru": "4447 sayılı İşsizlik Sigortası Kanunu'na göre hizmet akdinin sona ermesinden önceki son 120 gün hizmet akdine tabi olanlardan, son 3 yıl içinde 600 gün sigortalı olarak çalışıp işsizlik sigortası primi ödemiş olan sigortalı işsizlere kural olarak kaç gün süre ile işsizlik ödeneği verilir?",
+            "secenekler": {
+                "A": "120",
+                "B": "150",
+                "C": "180",
+                "D": "240",
+                "E": "360"
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 96,
+            "soru": "5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu'na göre sigortalının iş kazası veya meslek hastalığına uğraması, hastalanması, tedavi süresinin uzaması veya iş göremezliğinin artması sonucunu doğuran I. ceza sorumluluğu olmayanlarla kabul edilebilir bir mazereti olanlar hariç, sigortalının iş kazası nedeniyle hekimin bildirdiği tedbir ve tavsiyelere uymaması sonucu tedavi süresinin uzaması, II. sigortalının Kurumun yazılı bildirimine rağmen teklif edilen tedaviyi kabul etmemesi, III. sigortalının kasıtlı bir hareketi yüzünden iş kazasına uğraması durumlarından hangilerinde sigortalıya ödenecek geçici iş göremezlik ödeneği veya sürekli iş göremezlik gelirinde kesinti yapılır?",
+            "secenekler": {
+                "A": "Yalnız I",
+                "B": "Yalnız III",
+                "C": "I ve III",
+                "D": "II ve III",
+                "E": "I, II ve III"
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 97,
+            "soru": "213 sayılı Vergi Usul Kanunu'na göre yetkili memurlar tarafından gerçekleştirilen aşağıdaki işlemlerden hangisi yoklamanın kapsamında değildir?",
+            "secenekler": {
+                "A": "Özel yetki verilmiş olmak kaydıyla günlük hasılatı tespit etmek",
+                "B": "Günü gününe kayıt yapılması zorunlu defterlere usulüne göre kayıt yapılıp yapılmadığını tespit etmek",
+                "C": "Vergi matrahlarının doğruluğunu araştırarak varsa matrah farkını tespit etmek",
+                "D": "Nakil vasıtalarında taşıma irsaliyesi, sevk irsaliyesi ve faturanın taşıtta bulunmaması hâlinde belgelerin ibrazına kadar nakil vasıtalarını trafikten alıkoymak",
+                "E": "Ödeme kaydedici cihazların usulüne uygun kullanılıp kullanılmadığını tespit etmek"
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 98,
+            "soru": "213 sayılı Vergi Usul Kanunu'na göre I. uzlaşma, II. pişmanlık ve ıslah, III. yanılma hâllerinin hangilerinden yararlanılması durumunda vergi ziyaı cezası kesilmez?",
+            "secenekler": {
+                "A": "Yalnız I",
+                "B": "Yalnız III",
+                "C": "I ve II",
+                "D": "II ve III",
+                "E": "I, II ve III"
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 99,
+            "soru": "213 sayılı Vergi Usul Kanunu'na göre izaha davet kapsamında mükelleflerce yapılan izahın yeterli bulunmaması durumunda Kanun'da belirlenen şartlara uyulduğu takdirde vergi ziyaı cezası, ziyaa uğratılan verginin yüzde kaçı oranında kesilir?",
+            "secenekler": {
+                "A": "20",
+                "B": "30",
+                "C": "40",
+                "D": "45",
+                "E": "50"
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 100,
+            "soru": "193 sayılı Gelir Vergisi Kanunu'na göre hizmet sözleşmesi sona erdikten sonra; karşılıklı sonlandırma sözleşmesi veya ikale sözleşmesi kapsamında ödenen tazminatlar, iş kaybı tazminatları, iş sonu tazminatları, iş güvencesi tazminatları gibi çeşitli adlar altında yapılan ödemeler ve yardımlar aşağıdaki gelir unsurlarından hangisi kapsamında yer alır?",
+            "secenekler": {
+                "A": "Ücret",
+                "B": "Serbest meslek kazancı",
+                "C": "Ticari kazanç",
+                "D": "Diğer kazanç ve irat",
+                "E": "Menkul sermaye iradı"
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 101,
+            "soru": "3065 sayılı Katma Değer Vergisi Kanunu'na göre aşağıdakilerden hangisi matraha dâhil olan unsurlardan değildir?",
+            "secenekler": {
+                "A": "Ambalaj giderleri, sigorta, komisyon ve benzeri gider karşılıkları",
+                "B": "Teslim alanın gösterdiği yere kadar satıcı tarafından yapılan taşıma giderleri",
+                "C": "Resim, harç, pay ve fon karşılığı gibi unsurlar",
+                "D": "Faturada gösterilen ticari teamüllere uygun miktarda yapılan iskontolar",
+                "E": "Vade farkı, kur farkı, faiz, prim gibi çeşitli gelirler"
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 102,
+            "soru": "193 sayılı Gelir Vergisi Kanunu'na göre aşağıdakilerden hangisinde ticari kazanç, bir hesap dönemi içinde elde edilen hasılat ile giderler arasındaki müspet fark olarak tanımlanmıştır?",
+            "secenekler": {
+                "A": "İşletme hesabı esası",
+                "B": "Bilanço hesabı esası",
+                "C": "Götürü gider usulü",
+                "D": "Götürü gelir usulü",
+                "E": "Hasılat esası"
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 103,
+            "soru": "I. Gazete ve dergi sahipliği, II. Tasfiye memurluğu, III. Sigorta prodüktörlüğü. 1136 sayılı Avukatlık Kanunu'na göre yukarıdakilerden hangileri avukatlıkla birleşebilen işlerdir?",
+            "secenekler": {
+                "A": "Yalnız I",
+                "B": "Yalnız II",
+                "C": "Yalnız III",
+                "D": "I ve II",
+                "E": "II ve III"
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 104,
+            "soru": "1136 sayılı Avukatlık Kanunu'na göre avukat, aşağıdaki durumların hangisinde işi reddetmek zorunda değildir?",
+            "secenekler": {
+                "A": "Aynı işte menfaati zıt bir tarafa avukatlık etmiş veya mütalaa vermiş olursa",
+                "B": "Evvelce hâkim, hakem, Cumhuriyet savcısı, bilirkişi veya memur olarak o işte görev yapmış olursa",
+                "C": "Kendisinin düzenlediği bir senet veya sözleşmenin hükümsüzlüğünü ileri sürmek durumu ortaya çıkmışsa",
+                "D": "Görmesi istenilen iş, Türkiye Barolar Birliği tarafından tespit edilen mesleki dayanışma ve düzen gereklerine uygun değilse",
+                "E": "İkinci derece dâhil hısımlarının taraf olduğu iş olursa"
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 105,
+            "soru": "I. Sulh hukuk mahkemeleri, II. İcra mahkemeleri, III. Ağır ceza mahkemeleri. 1136 sayılı Avukatlık Kanunu'na göre avukat stajyerleri, avukat yanında staja başladıktan sonra avukatın yazılı muvafakati ile onun gözetimi ve sorumluluğu altında yukarıdakilerin hangilerinde kural olarak avukatın takip ettiği dava ve işlerle ilgili duruşmalara girebilir?",
+            "secenekler": {
+                "A": "Yalnız I",
+                "B": "Yalnız II",
+                "C": "Yalnız III",
+                "D": "I ve II",
+                "E": "II ve III"
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 106,
+            "soru": "Modern sosyolojinin kurucusu olarak sayılan, Toplumsal İşbölümü adlı eserinde hukuka tanıdığı ayrıksı önemle hukuku toplumsal dayanışmanın sembolü olarak gören düşünür aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Adam Smith",
+                "B": "Max Weber",
+                "C": "Emile Durkheim",
+                "D": "Eugen Ehrlich",
+                "E": "Carl Von Savigny"
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 107,
+            "soru": "İnsanların tabiat durumunda ilkesel olarak hür ve eşit olsalar da sahip oldukları güç dengesizliğinden mücadele hâlinde olmaları nedeniyle aklın insana bu güvensiz durumdan kurtulmayı emrettiğini böylece devlet ve hukukun ortaya çıktığını ileri süren ve fikirlerini Leviathan adlı eserde toplayan düşünür aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Thomas Hobbes",
+                "B": "Immanuel Kant",
+                "C": "John Locke",
+                "D": "John Stuart Mill",
+                "E": "Jean Bodin"
+            },
+            "cevap anahtarı": "A"
+        },
+        {
+            "soruSirasi": 108,
+            "soru": "Hukuksal realizm akımı, Oliver Wendel Holmes Jr. öncülüğünde ortaya çıkmıştır. Holmes'un \"Hukuk yaşamı, mantık değil deneyimdir.\" biçimindeki sözü düşüncelerinin özeti niteliğindedir. Buna göre aşağıdakilerden hangisi hukuksal realizm akımını benimseyen kişilerin düşüncelerinden biri olamaz?",
+            "secenekler": {
+                "A": "Hukuk, yaşamın içinde ve dinamik bir yapıya sahiptir.",
+                "B": "Hukuk, sadece metinlerde yazılan kurallar olmayıp hâkimin yarattığı kurallarla da şekillenir.",
+                "C": "Hukukla ilgili çalışmalar, salt kavramcılık ya da bilimcilik çabası içinde gerçekleştirilmemelidir.",
+                "D": "Hukuk, kapalı bir sistem biçiminde ve toplumsal değişkenler dışlanarak incelenmelidir.",
+                "E": "Toplumsal amaçlar gerçekleştirilirken tecrübe edilen olgular, hukuk kurallarının oluşmasına katkı sağlar."
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 109,
+            "soru": "Osmanlı mahkemelerine ve mahkeme kararlarına ait en kapsamlı kayıtlar aşağıdaki kaynakların hangisinde yer alır?",
+            "secenekler": {
+                "A": "Fetva mecmuaları",
+                "B": "Usul-i fıkıh kitapları",
+                "C": "Padişah fermanları",
+                "D": "Şer'iyye sicil defterleri",
+                "E": "Kanunnameler"
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 110,
+            "soru": "• Hemen karara bağlanması gerekli, çok ivedi ve önemli bir durumla karşılaşıldığında toplanır. • Genellikle olağanüstü hâllerde ve padişahın başkanlığında toplanır. • Verilen kararlar hemen uygulamaya konulur. Osmanlı Devleti'ndeki bu divan aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Galebe Divanı",
+                "B": "Çarşamba Divanı",
+                "C": "Ayak Divanı",
+                "D": "İkindi Divanı",
+                "E": "Cuma Divanı"
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 111,
+            "soru": "Osmanlı devlet teşkilatında ferman, berat gibi resmî devlet evrakının baş tarafına padişahın imzası olan tuğra çekme görevini üstlenen ve “tuğraî” olarak da bilinen görevli aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Defterdar",
+                "B": "Rumeli Beylerbeyi",
+                "C": "Sadrazam",
+                "D": "Kazasker",
+                "E": "Nişancı"
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 112,
+            "soru": "1982 Anayasası'na göre onaylanmadan önce uygun bulunması gereken milletlerarası andlaşmalarda uygun bulma yetkisi aşağıdakilerden hangisine aittir?",
+            "secenekler": {
+                "A": "Dışişleri Bakanı",
+                "B": "Türkiye Büyük Millet Meclisi",
+                "C": "Cumhurbaşkanı",
+                "D": "Adalet Bakanı",
+                "E": "İçişleri Bakanı"
+            },
+            "cevap anahtarı": "B"
+        },
+        {
+            "soruSirasi": 113,
+            "soru": "Hiçbir devlete ait olmayan ve hiçbir devletin egemenlik sahasına girmeyen uluslararası deniz alanları aşağıdakilerden hangisiyle adlandırılır?",
+            "secenekler": {
+                "A": "Münhasır ekonomik bölge",
+                "B": "İç sular",
+                "C": "Açık deniz",
+                "D": "Karasuları",
+                "E": "Takımada suları"
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 114,
+            "soru": "Birleşmiş Milletler Genel Kuruluyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Birleşmiş Milletlere üye tüm devletlerden oluşur.",
+                "B": "Her üyenin Genel Kurulda en çok 3 temsilcisi bulunur.",
+                "C": "Örgütün bütçesini inceler ve kabul eder.",
+                "D": "Oylamalarda her üyenin 1 oyu vardır.",
+                "E": "Önemli sorunlar konusundaki kararlar, hazır bulunan ve oy veren üyelerin üçte iki çoğunluğu ile alınır."
+            },
+            "cevap anahtarı": "B"
+        },
+        {
+            "soruSirasi": 115,
+            "soru": "Fransa vatandaşı A'nın Türkiye'ye bilimsel alanda olağanüstü hizmetinin geçeceğinin düşünülmesi üzerine Sanayi ve Teknoloji Bakanlığınca hakkında Türk vatandaşlığı kazanması yönünde gerekçeli teklif verilir. Ancak yapılan arşiv araştırmasının sonucunda A'nın millî güvenlik ve kamu düzeni bakımından engel teşkil edecek bir hâli olduğu tespit edilir. 5901 sayılı Türk Vatandaşlığı Kanunu'na göre A'nın Türk vatandaşlığını kazanması yönündeki teklif kural olarak aşağıdaki mercilerin hangisi tarafından reddedilir?",
+            "secenekler": {
+                "A": "Cumhurbaşkanı",
+                "B": "Cumhurbaşkanlığı Güvenlik ve Dış Politikalar Kurulu",
+                "C": "Uluslararası Güvenlik Genel Müdürlüğü",
+                "D": "İçişleri Bakanlığı",
+                "E": "İstihbarat ve Güvenlik İşleri Genel Müdürlüğü"
+            },
+            "cevap anahtarı": "D"
+        },
+        {
+            "soruSirasi": 116,
+            "soru": "Birbirleriyle evli olan Japonya vatandaşı A ile Brezilya vatandaşı B, Türkiye'ye çalışmak için gelinler ve bir süre sonra ortak birikimleriyle şartlara uygun şekilde Türkiye'den bir taşınmaz satın alırlar. Taşınmaz üzerindeki mülkiyet hakkı da A'nın üzerindedir. A'nın, İsviçre'ye gittiği bir dönemde burada geçirdiği kaza sonucu hayatını kaybetmesi üzerine Türkiye'deki taşınmaz terekenin taksimi konusunda B ile A'nın Fransa vatandaşı olan annesi C arasında uyuşmazlık çıkar ve taraflar yetkili Türk mahkemesinde dava açar. 5718 sayılı Milletlerarası Özel Hukuk ve Usul Hukuku Hakkında Kanun'a göre olaydaki taşınmazla ilgili uyuşmazlık için kural olarak yetkili olan devletin hukuku aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Japonya",
+                "B": "Brezilya",
+                "C": "Türkiye",
+                "D": "Fransa",
+                "E": "İsviçre"
+            },
+            "cevap anahtarı": "C"
+        },
+        {
+            "soruSirasi": 117,
+            "soru": "6458 sayılı Yabancılar ve Uluslararası Koruma Kanunu'na göre Vatansız Kişi Kimlik Belgesi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Başka ülkeler tarafından vatansız kişi işlemi görenler, Türkiye'de Belge alma hakkından yararlanamaz.",
+                "B": "Belge'ye sahip olarak Türkiye'de geçirilen süreler, ikamet sürelerinin toplanmasında hesaba katılmaz.",
+                "C": "Geçerliliği, bu Belge'ye sahip kişinin herhangi bir devletin vatandaşlığını kazanmasıyla birlikte sona erer.",
+                "D": "İkamet izni yerine geçer.",
+                "E": "Kural olarak 2 yılda bir valiliklerce yenilenir."
+            },
+            "cevap anahtarı": "B"
+        },
+        {
+            "soruSirasi": 118,
+            "soru": "Avrupa İnsan Hakları Sözleşmesi'ne göre Avrupa İnsan Hakları Mahkemesine başvuru süresi iç hukuk yollarının tüketilmesinden itibaren en fazla ne kadardır?",
+            "secenekler": {
+                "A": "3 ay",
+                "B": "4 ay",
+                "C": "6 ay",
+                "D": "1 yıl",
+                "E": "10 yıl"
+            },
+            "cevap anahtarı": "B"
+        },
+        {
+            "soruSirasi": 119,
+            "soru": "Jellinek'in sınıflandırmasına göre negatif statü hakları, kişinin devlet tarafından aşılamayacak ve dokunulamayacak özel alanının sınırlarını çizen hürriyetlerdir. Söz konusu haklar devlete negatif bir tutum ve karışmama ödevi yükler. Buna göre aşağıdakilerden hangisi negatif statü haklarından biri değildir?",
+            "secenekler": {
+                "A": "Özel hayata saygı hakkı",
+                "B": "Vicdan hürriyeti",
+                "C": "Kişi özgürlüğü ve güvenliği",
+                "D": "Düşünce hürriyeti",
+                "E": "Sosyal güvenlik hakkı"
+            },
+            "cevap anahtarı": "E"
+        },
+        {
+            "soruSirasi": 120,
+            "soru": "Aşağıdaki hususlardan hangisi Avrupa İnsan Hakları Sözleşmesi'nde açıkça düzenlenmemiştir?",
+            "secenekler": {
+                "A": "Dostane çözüm",
+                "B": "Bireysel başvuru",
+                "C": "Yargıçların seçimi",
+                "D": "Geçici tedbir",
+                "E": "Hakları kötüye kullanma yasağı"
+            },
+            "cevap anahtarı": "D"
+        }
+    ]
+}
